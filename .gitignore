@@ -1,0 +1,4 @@
+# Personal contact details and anything with phone numbers stay local
+private/
+*.pdf
+.DS_Store
