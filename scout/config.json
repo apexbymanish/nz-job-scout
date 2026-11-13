@@ -3,23 +3,48 @@
   "pages_per_query": 2,
   "page_size": 30,
   "ict_classification": "6281",
+  "categories": {
+    "mobile":  "\\bios\\b|swift|flutter|mobile|android|react native|kotlin",
+    "server":  "back ?end|\\.net\\b|c#|\\bjava\\b|node\\.?js|golang|\\bgo\\b|python|\\bapi\\b|server|microservice|full ?stack|platform engineer|devops|\\bsre\\b|cloud engineer",
+    "uiux":    "\\bux\\b|\\bui\\b|user experience|user interface|product design|interaction design|service design|figma",
+    "product": "product (manager|owner|lead|director)|head of product",
+    "fintech": "fintech|payment|remit|bank|financial|lending|\\bfx\\b|foreign exchange|kyc|aml|insurance|wealth|invest"
+  },
   "queries": [
     {"keywords": "iOS Swift", "category": "mobile"},
     {"keywords": "Flutter", "category": "mobile"},
     {"keywords": "mobile engineer", "category": "mobile"},
     {"keywords": "mobile developer", "category": "mobile"},
-    {"keywords": ".NET", "category": "dotnet"},
-    {"keywords": "C# developer", "category": "dotnet"},
+    {"keywords": "Android Kotlin", "category": "mobile"},
+    {"keywords": "React Native", "category": "mobile"},
+
+    {"keywords": "backend engineer", "category": "server"},
+    {"keywords": ".NET", "category": "server"},
+    {"keywords": "C# developer", "category": "server"},
+    {"keywords": "Java developer", "category": "server"},
+    {"keywords": "Node.js", "category": "server"},
+    {"keywords": "Golang", "category": "server"},
+    {"keywords": "full stack developer", "category": "server"},
+
+    {"keywords": "UX designer", "category": "uiux", "any_classification": true, "title_regex": "\\bux\\b|\\bui\\b|user experience|product designer|interaction|service designer|design lead|digital designer"},
+    {"keywords": "UI designer", "category": "uiux", "any_classification": true, "title_regex": "\\bux\\b|\\bui\\b|user experience|product designer|interaction|digital designer"},
+    {"keywords": "product designer", "category": "uiux", "any_classification": true, "title_regex": "product designer|\\bux\\b|\\bui\\b|design lead"},
+
+    {"keywords": "product manager", "category": "product", "any_classification": true, "title_regex": "product (manager|owner|lead|director)|head of product"},
+    {"keywords": "product owner", "category": "product", "any_classification": true, "title_regex": "product (manager|owner|lead|director)"},
+
     {"keywords": "fintech", "category": "fintech"},
-    {"keywords": "payments engineer", "category": "fintech"},
+    {"keywords": "payments", "category": "fintech"},
     {"keywords": "remittance", "category": "fintech", "any_classification": true},
-    {"keywords": "banking software engineer", "category": "fintech"},
+    {"keywords": "banking", "category": "fintech"},
+    {"keywords": "financial services developer", "category": "fintech"},
+
     {"keywords": "visa sponsorship", "category": null, "visa_signal": true},
     {"keywords": "accredited employer", "category": null, "visa_signal": true},
     {"keywords": "relocation", "category": null, "visa_signal": true}
   ],
-  "title_must_match": "engineer|developer|architect|programmer|software|lead|ios|android|mobile|flutter|\\.net|c#|full ?stack|back ?end|front ?end|devops|sre|platform",
-  "exclude_title": "graduate|intern|junior|electrician|civil|mechanical|electrical|electronics|hardware|site engineer|project engineer|sales|recruiter|product (lead|manager|owner)|analyst|support (engineer|technician)|dynamics|salesforce|workday",
+  "title_must_match": "engineer|developer|architect|programmer|software|lead|ios|android|mobile|flutter|\\.net|c#|full ?stack|back ?end|front ?end|devops|sre|platform|designer|\\bux\\b|\\bui\\b|product (manager|owner|lead|director)|head of",
+  "exclude_title": "graduate|intern|junior|electrician|civil|mechanical|electrical|electronics|hardware|site engineer|project engineer|sales|recruiter|analyst|support (engineer|technician)|dynamics|salesforce|workday|graphic|interior|landscape|fashion|kitchen|architectural|structural|geotech|building",
   "employer_aliases": {
     "SBS Bank": "Southland Building Society"
   }

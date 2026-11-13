@@ -3,133 +3,121 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>NZ Job Scout</title>
-<meta name="description" content="Live NZ mobile, .NET and fintech job listings with INZ accreditation flags. Refreshed every 15 minutes.">
+<title>nz-job-scout.txt</title>
+<meta name="description" content="NZ mobile, server, UI/UX, product and fintech jobs. Plain text. Refreshed every 15 minutes.">
 <style>
-:root{
-  --bg:#f6f5f2;--card:#fff;--ink:#1c1c1a;--muted:#6b6a65;--line:#e3e1db;
-  --accent:#0b6e4f;--accent-ink:#fff;--warn:#9a5b00;--warn-bg:#fff3dd;
-  --ok-bg:#e3f4ec;--ok:#0b6e4f;--no-bg:#f4e4e4;--no:#8a2b2b;--chip:#efede7;--new:#c2410c;
-}
-@media (prefers-color-scheme:dark){:root{
-  --bg:#141413;--card:#1e1e1c;--ink:#ecebe6;--muted:#a19f97;--line:#33322e;
-  --accent:#4fbf94;--accent-ink:#0d1f18;--warn:#f0b45a;--warn-bg:#3a2c12;
-  --ok-bg:#163126;--ok:#6fd3aa;--no-bg:#3a1d1d;--no:#f0a3a3;--chip:#2a2926;--new:#fb923c;
-}}
+:root{--paper:#fbf9f1;--rule:#dfe7f2;--margin:#e8a0a0;--ink:#222;--dim:#777;--link:#1a0dab;--visited:#5a2a8a;--hit:#fff3a0;--ok:#0a6b2a;--bad:#a11}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}
-.wrap{max-width:960px;margin:0 auto;padding:24px 16px 64px}
-h1{font-size:1.5rem;margin:0 0 4px}
-.sub{color:var(--muted);margin:0 0 20px;font-size:.9rem}
-.controls{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:12px}
-.chips{display:flex;flex-wrap:wrap;gap:6px}
-.chip{border:1px solid var(--line);background:var(--chip);color:var(--ink);border-radius:999px;padding:5px 12px;font:inherit;font-size:.85rem;cursor:pointer}
-.chip[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
-input[type=search]{flex:1 1 220px;min-width:0;padding:8px 12px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);font:inherit}
-.toggles{display:flex;flex-wrap:wrap;gap:14px;margin-bottom:16px;font-size:.88rem;color:var(--muted)}
-.toggles label{display:flex;gap:6px;align-items:center;cursor:pointer}
-.count{font-size:.85rem;color:var(--muted);margin-bottom:10px}
-.job{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin-bottom:10px}
-.top{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
-.title{font-weight:600;font-size:1.02rem;color:var(--ink);text-decoration:none}
-.title:hover{text-decoration:underline}
-.co{color:var(--muted);font-size:.9rem;margin-top:2px}
-.when{color:var(--muted);font-size:.8rem;white-space:nowrap}
-.meta{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
-.tag{font-size:.75rem;padding:2px 8px;border-radius:6px;background:var(--chip);color:var(--muted)}
-.tag.ok{background:var(--ok-bg);color:var(--ok);font-weight:600}
-.tag.no{background:var(--no-bg);color:var(--no)}
-.tag.visa{background:var(--warn-bg);color:var(--warn);font-weight:600}
-.tag.new{background:transparent;color:var(--new);border:1px solid var(--new);font-weight:700}
-.teaser{margin:8px 0 0;font-size:.9rem}
-ul.b{margin:6px 0 0;padding-left:18px;color:var(--muted);font-size:.85rem}
-.empty{color:var(--muted);text-align:center;padding:40px 0}
-footer{margin-top:28px;color:var(--muted);font-size:.8rem}
-footer a{color:inherit}
+html{background:var(--paper)}
+body{margin:0;color:var(--ink);font:15px/24px "Courier New",Courier,ui-monospace,monospace;
+  background:var(--paper) repeating-linear-gradient(to bottom,transparent 0 23px,var(--rule) 23px 24px);background-attachment:local;min-height:100vh}
+.page{max-width:860px;margin:0 auto;padding:24px 16px 72px 56px;position:relative;border-left:2px solid var(--margin);min-height:100vh}
+@media (max-width:600px){.page{padding-left:24px}}
+h1,h2{font-size:15px;margin:0;font-weight:bold}
+pre{margin:0;font:inherit;white-space:pre-wrap;word-break:break-word}
+a{color:var(--link)}a:visited{color:var(--visited)}
+.dim{color:var(--dim)}
+.btn{background:none;border:0;padding:0;font:inherit;color:var(--link);text-decoration:underline;cursor:pointer}
+.btn.on{color:var(--ink);text-decoration:none;font-weight:bold}
+.btn.on::before{content:"["}.btn.on::after{content:"]"}
+.row{margin:0 0 24px}
+input[type=text]{font:inherit;background:transparent;border:0;border-bottom:1px dashed var(--ink);color:var(--ink);width:22ch;max-width:100%;padding:0;outline:none}
+label{cursor:pointer;white-space:nowrap}
+input[type=checkbox]{display:none}
+input[type=checkbox]+span::before{content:"[ ] "}
+input[type=checkbox]:checked+span::before{content:"[x] "}
+ol{list-style:none;margin:0;padding:0}
+li{margin:0 0 24px}
+li .t{font-weight:bold}
+li .t:hover{background:var(--hit)}
+.ok{color:var(--ok);font-weight:bold}.bad{color:var(--bad)}
+.new{background:var(--ink);color:var(--paper);padding:0 3px}
+.pager{margin-top:24px}
+.pager .btn[disabled]{color:var(--dim);text-decoration:none;cursor:default}
+.kv{display:grid;grid-template-columns:13ch 1fr;column-gap:1ch}
+@media (max-width:600px){.kv{grid-template-columns:1fr}.kv dt{font-weight:bold}}
+dl{margin:0}dd{margin:0;word-break:break-word}
 </style>
 </head>
 <body>
-<div class="wrap">
-  <h1>NZ Job Scout</h1>
-  <p class="sub" id="sub">Loading…</p>
-
-  <div class="controls">
-    <div class="chips" role="group" aria-label="Category">
-      <button class="chip" data-cat="all" aria-pressed="true">All</button>
-      <button class="chip" data-cat="mobile" aria-pressed="false">iOS / Mobile</button>
-      <button class="chip" data-cat="dotnet" aria-pressed="false">.NET / C#</button>
-      <button class="chip" data-cat="fintech" aria-pressed="false">Fintech / Payments</button>
-    </div>
-    <input type="search" id="q" placeholder="Search title, company, location…" aria-label="Search">
-  </div>
-  <div class="toggles">
-    <label><input type="checkbox" id="acc"> INZ accredited only</label>
-    <label><input type="checkbox" id="visa"> Mentions visa / sponsorship / relocation</label>
-    <label><input type="checkbox" id="fresh"> New in last 24h</label>
-  </div>
-
-  <div class="count" id="count"></div>
-  <div id="list"></div>
-
-  <footer>
-    Source: Seek NZ search API, refreshed every 15 minutes by GitHub Actions (GitHub may delay scheduled runs).
-    "INZ accredited" comes from manual checks in <code>data/accredited-employer-checks.csv</code>; "unchecked" means nobody has looked yet.
-    "Mentions visa" means the ad matched Seek's search for those words. It may say <em>no</em> sponsorship, so read the ad.
-    <a href="https://www.immigration.govt.nz/work/requirements-for-work-visas/approved-employers/accredited-employer-list">Check the INZ register</a>.
-  </footer>
+<div class="page">
+<pre class="row"><h1>NZ-JOB-SCOUT.TXT</h1>=================
+<span id="stat" class="dim">loading...</span></pre>
+<main id="view"></main>
+<pre class="row dim" style="margin-top:48px">--
+source  : seek nz search api, checked every 15 min (github may run late)
+inz     : from data/accredited-employer-checks.csv (manual checks).
+          "unchecked" = nobody looked yet. <a href="https://www.immigration.govt.nz/work/requirements-for-work-visas/approved-employers/accredited-employer-list">check the register</a>
+visa    : ad matched a seek search for visa/sponsorship/relocation.
+          it may say NO sponsorship. read the ad.
+repo    : <a href="https://github.com/apexbymanish/nz-job-scout">github.com/apexbymanish/nz-job-scout</a></pre>
 </div>
 <script>
-const state={cat:"all",q:"",acc:false,visa:false,fresh:false};
-let data={jobs:[]};
+const PER=25;
+const CATS=[["all","all"],["mobile","mobile"],["server","server"],["uiux","ui/ux"],["product","product"],["fintech","fintech"]];
+const S={cat:"all",q:"",acc:false,visa:false,fresh:false,page:1};
+let D={jobs:[]};
 const $=s=>document.querySelector(s);
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-function ago(iso){
-  if(!iso)return"";const m=(Date.now()-new Date(iso))/6e4;
-  if(m<60)return Math.max(1,Math.round(m))+"m ago";const h=m/60;if(h<24)return Math.round(h)+"h ago";
-  return Math.round(h/24)+"d ago";
+const pad=(n,w)=>String(n).padStart(w,"0");
+function ago(iso){if(!iso)return"?";const m=(Date.now()-new Date(iso))/6e4;if(m<60)return Math.max(1,Math.round(m))+"m";const h=m/60;return h<24?Math.round(h)+"h":Math.round(h/24)+"d"}
+const isNew=j=>new Date(j.first_seen)>Date.now()-864e5;
+function inz(j){return j.inz==="accredited"?'<span class="ok">INZ:ACCREDITED</span>':j.inz==="not found"?'<span class="bad">INZ:NOT-FOUND</span>':'<span class="dim">INZ:'+esc((j.inz||"unchecked").toUpperCase().replace(" ","-"))+'</span>'}
+function filtered(){
+  const q=S.q.toLowerCase();
+  return D.jobs.filter(j=>(S.cat==="all"||j.categories.includes(S.cat))&&(!S.acc||j.inz==="accredited")&&(!S.visa||j.visa_mention)&&(!S.fresh||isNew(j))&&
+    (!q||(j.title+" "+j.company+" "+j.location+" "+j.teaser+" "+(j.bullets||[]).join(" ")).toLowerCase().includes(q)));
 }
-const catName={mobile:"iOS/Mobile",dotnet:".NET/C#",fintech:"Fintech",other:"Other"};
-function inzTag(j){
-  if(j.inz==="accredited")return`<span class="tag ok" title="${esc(j.inz_name)}">INZ accredited</span>`;
-  if(j.inz==="not found")return`<span class="tag no">Not on INZ register</span>`;
-  return`<span class="tag">INZ ${esc(j.inz||"unchecked")}</span>`;
+function list(){
+  const rows=filtered(),pages=Math.max(1,Math.ceil(rows.length/PER));S.page=Math.min(S.page,pages);
+  const start=(S.page-1)*PER,slice=rows.slice(start,start+PER),w=String(rows.length).length<3?3:String(rows.length).length;
+  const cats=CATS.map(([k,l])=>`<button class="btn${S.cat===k?" on":""}" data-cat="${k}">${l}</button>`).join(" ");
+  const nums=[];for(let p=1;p<=pages;p++){if(p===1||p===pages||Math.abs(p-S.page)<=2)nums.push(p);else if(nums[nums.length-1]!=="..")nums.push("..")}
+  const pager=`<pre class="pager"><button class="btn" data-p="${S.page-1}" ${S.page<=1?"disabled":""}>&lt;&lt; prev</button> | ${nums.map(p=>p===".."?"..":`<button class="btn${p===S.page?" on":""}" data-p="${p}">${p}</button>`).join(" ")} | <button class="btn" data-p="${S.page+1}" ${S.page>=pages?"disabled":""}>next &gt;&gt;</button></pre>`;
+  $("#view").innerHTML=`<pre class="row">cat  : ${cats}
+grep : <input type="text" id="q" value="${esc(S.q)}" placeholder="type to filter" aria-label="filter">
+only : <label><input type="checkbox" id="acc" ${S.acc?"checked":""}><span>inz-accredited</span></label>  <label><input type="checkbox" id="visa" ${S.visa?"checked":""}><span>visa-mention</span></label>  <label><input type="checkbox" id="fresh" ${S.fresh?"checked":""}><span>new-24h</span></label>
+--
+${rows.length} result(s). page ${S.page}/${pages}. showing ${rows.length?start+1:0}-${start+slice.length}.</pre>
+<ol>${slice.map((j,i)=>`<li><pre>${pad(start+i+1,w)}. <a class="t" href="#/job/${j.id}">${esc(j.title)}</a>${isNew(j)?' <span class="new">NEW</span>':""}
+${" ".repeat(w+2)}${esc(j.company)} / ${esc(j.location)} / ${ago(j.listed)} ago
+${" ".repeat(w+2)}${inz(j)}${j.visa_mention?" VISA?":""} ${j.categories.map(c=>"#"+c).join(" ")}${j.salary?" / "+esc(j.salary):""}</pre></li>`).join("")||"<li><pre>(nothing matches. loosen the filters.)</pre></li>"}</ol>${pager}`;
+  $("#view").querySelectorAll("[data-cat]").forEach(b=>b.onclick=()=>{S.cat=b.dataset.cat;S.page=1;list()});
+  $("#view").querySelectorAll("[data-p]").forEach(b=>b.onclick=()=>{if(b.disabled)return;S.page=+b.dataset.p;list();scrollTo(0,0)});
+  const q=$("#q");q.oninput=()=>{S.q=q.value;S.page=1;const pos=q.selectionStart;list();const n=$("#q");n.focus();n.setSelectionRange(pos,pos)};
+  ["acc","visa","fresh"].forEach(id=>$("#"+id).onchange=e=>{S[id]=e.target.checked;S.page=1;list()});
 }
-function render(){
-  const q=state.q.toLowerCase();const dayAgo=Date.now()-864e5;
-  const rows=data.jobs.filter(j=>
-    (state.cat==="all"||j.categories.includes(state.cat))&&
-    (!state.acc||j.inz==="accredited")&&
-    (!state.visa||j.visa_mention)&&
-    (!state.fresh||new Date(j.first_seen)>dayAgo)&&
-    (!q||(j.title+" "+j.company+" "+j.location+" "+j.teaser).toLowerCase().includes(q)));
-  $("#count").textContent=`${rows.length} of ${data.jobs.length} jobs`;
-  $("#list").innerHTML=rows.length?rows.map(j=>{
-    const isNew=new Date(j.first_seen)>dayAgo;
-    return`<article class="job">
-      <div class="top"><div>
-        <a class="title" href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a>
-        <div class="co">${esc(j.company)} · ${esc(j.location)}${j.arrangement?" · "+esc(j.arrangement):""}${j.salary?" · "+esc(j.salary):""}</div>
-      </div><div class="when">${ago(j.listed)}</div></div>
-      <div class="meta">
-        ${isNew?'<span class="tag new">NEW</span>':""}
-        ${inzTag(j)}
-        ${j.visa_mention?'<span class="tag visa">Mentions visa/relocation</span>':""}
-        ${j.categories.map(c=>`<span class="tag">${esc(catName[c]||c)}</span>`).join("")}
-        ${j.work_type?`<span class="tag">${esc(j.work_type)}</span>`:""}
-      </div>
-      ${j.teaser?`<p class="teaser">${esc(j.teaser)}</p>`:""}
-      ${j.bullets&&j.bullets.length?`<ul class="b">${j.bullets.map(b=>`<li>${esc(b)}</li>`).join("")}</ul>`:""}
-    </article>`}).join(""):'<div class="empty">No jobs match these filters.</div>';
+function detail(id){
+  const j=D.jobs.find(x=>x.id===id);
+  if(!j){$("#view").innerHTML=`<pre><a href="#/">&lt;&lt; back</a>\n\njob ${esc(id)} is no longer in the list (expired or filled).</pre>`;return}
+  const kv=(k,v)=>v?`<dt>${k}</dt><dd>: ${v}</dd>`:"";
+  $("#view").innerHTML=`<pre class="row"><a href="#/">&lt;&lt; back to list</a></pre>
+<pre class="row"><h2>${esc(j.title.toUpperCase())}</h2>${"=".repeat(Math.min(j.title.length,60))}</pre>
+<dl class="kv row">
+${kv("company",esc(j.company))}${kv("location",esc(j.location))}${kv("arrangement",esc(j.arrangement))}${kv("work type",esc(j.work_type))}
+${kv("salary",esc(j.salary)||'<span class="dim">not stated</span>')}${kv("listed",esc((j.listed||"").slice(0,10))+" ("+ago(j.listed)+" ago)")}
+${kv("first seen",esc(j.first_seen))}${kv("seek class",esc(j.classification))}${kv("tags",j.categories.map(c=>"#"+c).join(" "))}
+${kv("inz",inz(j)+(j.inz_name?" "+esc(j.inz_name):""))}
+${kv("visa",j.visa_mention?"ad mentions visa / sponsorship / relocation. READ IT, may be a no.":'<span class="dim">no visa words found by search</span>')}
+${kv("job id",esc(j.id))}
+</dl>
+<pre class="row"><h2>SUMMARY</h2>-------
+${esc(j.teaser)||'<span class="dim">(none)</span>'}</pre>
+${j.bullets&&j.bullets.length?`<pre class="row"><h2>BULLETS</h2>-------
+${j.bullets.map(b=>"- "+esc(b)).join("\n")}</pre>`:""}
+<pre class="row"><h2>FULL AD</h2>-------
+<a href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.url)}</a>
+<span class="dim">(seek blocks scripts from reading full ads, so the full text lives there.)</span></pre>
+<pre><a href="#/">&lt;&lt; back to list</a></pre>`;
+  scrollTo(0,0);
 }
-document.querySelectorAll(".chip").forEach(b=>b.addEventListener("click",()=>{
-  state.cat=b.dataset.cat;document.querySelectorAll(".chip").forEach(x=>x.setAttribute("aria-pressed",x===b));render();}));
-$("#q").addEventListener("input",e=>{state.q=e.target.value;render()});
-["acc","visa","fresh"].forEach(id=>$("#"+id).addEventListener("change",e=>{state[id]=e.target.checked;render()}));
+function route(){const m=location.hash.match(/^#\/job\/(\d+)/);m?detail(m[1]):list()}
+addEventListener("hashchange",route);
 fetch("jobs.json?t="+Date.now()).then(r=>r.json()).then(d=>{
-  data=d;const acc=d.jobs.filter(j=>j.inz==="accredited").length;
-  $("#sub").textContent=`${d.count} live NZ roles · ${acc} at INZ-accredited employers · list last changed ${ago(d.updated)} (${new Date(d.updated).toLocaleString()})`;
-  render();
-}).catch(()=>{$("#sub").textContent="Could not load jobs.json.";});
+  D=d;const acc=d.jobs.filter(j=>j.inz==="accredited").length,nw=d.jobs.filter(isNew).length;
+  $("#stat").textContent=`jobs: ${d.count} | inz-accredited: ${acc} | new-24h: ${nw} | list changed: ${ago(d.updated)} ago`;
+  route();
+}).catch(()=>{$("#stat").textContent="error: could not load jobs.json"});
 </script>
 </body>
 </html>

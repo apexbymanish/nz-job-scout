@@ -30,11 +30,6 @@ API = "https://nz.seek.com/api/jobsearch/v5/search"  # www.seek.co.nz 308-redire
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/130.0 Safari/537.36")
 
-CATEGORY_PATTERNS = {
-    "mobile": re.compile(r"\bios\b|swift|flutter|mobile|android|react native", re.I),
-    "dotnet": re.compile(r"\.net\b|c#|asp\.net", re.I),
-    "fintech": re.compile(r"fintech|payment|remit|bank|financial|lending|\bfx\b|foreign exchange|kyc|aml", re.I),
-}
 NEGATIVE_VISA = re.compile(
     r"(no|not|unable|cannot|can't|don't|do not|does not)[^.]{0,40}(sponsor|visa)|"
     r"must (have|hold)[^.]{0,30}(residen|citizen|work rights|right to work)", re.I)
@@ -90,6 +85,7 @@ def main():
     cfg = json.loads(CONFIG.read_text())
     reg = load_register()
     aliases = cfg.get("employer_aliases", {})
+    cat_patterns = {c: re.compile(p, re.I) for c, p in cfg["categories"].items()}
     title_ok = re.compile(cfg["title_must_match"], re.I)
     title_bad = re.compile(cfg["exclude_title"], re.I)
     cutoff = datetime.now(timezone.utc) - timedelta(days=cfg["max_age_days"])
@@ -120,11 +116,14 @@ def main():
                 print(f"FAILED {q['keywords']} p{page}: {e}", file=sys.stderr)
                 break
             items = data.get("data", [])
+            q_title = re.compile(q["title_regex"], re.I) if q.get("title_regex") else None
             for it in items:
                 if it.get("displayType") == "promoted":
                     continue  # paid placements ignore the sort and keywords
                 title = it.get("title", "")
                 if not title_ok.search(title) or title_bad.search(title):
+                    continue
+                if q_title and not q_title.search(title):
                     continue
                 listed = it.get("listingDate", "")
                 try:
@@ -139,7 +138,7 @@ def main():
                     company = it.get("companyName") or (it.get("advertiser") or {}).get("description", "")
                     status, reg_name = register_status(company, reg, aliases)
                     locs = it.get("locations") or [{}]
-                    cats = {c for c, p in CATEGORY_PATTERNS.items() if p.search(text)}
+                    cats = {c for c, p in cat_patterns.items() if p.search(text)}
                     j = jobs[jid] = {
                         "id": jid,
                         "title": title,
@@ -150,6 +149,9 @@ def main():
                         "salary": it.get("salaryLabel", ""),
                         "listed": listed,
                         "teaser": it.get("teaser", ""),
+                        "classification": " / ".join(
+                            x.get("description", "") for c in (it.get("classifications") or [])[:1]
+                            for x in (c.get("classification", {}), c.get("subclassification", {}))),
                         "bullets": it.get("bulletPoints") or [],
                         "categories": sorted(cats),
                         "inz": status,
