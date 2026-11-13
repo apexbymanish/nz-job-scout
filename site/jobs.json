@@ -1,24 +1,11 @@
 {
- "updated": "2026-11-13T16:46Z",
+ "updated": "2026-11-13T22:22Z",
  "count": 310,
  "added": [
-  "95509773",
-  "95510133",
-  "95512957",
-  "95521146",
-  "95528872",
-  "95539707",
-  "95562439",
-  "95564057",
-  "95565881",
-  "95686464",
-  "95701218",
-  "95701546",
-  "95701575",
-  "95701632",
-  "95814902"
+  "95532104",
+  "95532155"
  ],
- "removed": 17,
+ "removed": 2,
  "jobs": [
   {
    "id": "95878489",
@@ -5790,7 +5777,7 @@
     "High-trust stakeholder role across complex, political environments"
    ],
    "categories": [
-    "other"
+    "fintech"
    ],
    "inz": "unchecked",
    "inz_name": "",
@@ -5798,6 +5785,58 @@
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95532161",
    "first_seen": "2026-11-13T08:41Z"
+  },
+  {
+   "id": "95532155",
+   "title": "Senior Technical Lead, Cloud Platforms",
+   "company": "placeMe IT Recruitment",
+   "location": "Wellington Central, Wellington",
+   "work_type": "Full time",
+   "arrangement": "Hybrid",
+   "salary": "$150,000 – $170,000 per year + benefits",
+   "listed": "2026-10-27T20:10:56Z",
+   "teaser": "Lead a clean, 100% Azure setup in Wellington! $140k-$170k. Mentor a small team, drive IaC/DevOps, & lead key projects. WFH flexibility",
+   "classification": "Information & Communication Technology / Developers/Programmers",
+   "bullets": [
+    "Senior Azure Lead: Drive IaC/DevOps, mentor junior staff",
+    "50/50 split on BAU and major projects like Business Central & AI.",
+    "Wellington Based: $140k-$170k salary, 3 days in-office"
+   ],
+   "categories": [
+    "server"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95532155",
+   "first_seen": "2026-11-13T22:22Z"
+  },
+  {
+   "id": "95532104",
+   "title": "Delivery Lead",
+   "company": "Tribe Group",
+   "location": "Auckland Airport, Auckland",
+   "work_type": "Full time",
+   "arrangement": "",
+   "salary": "Lead major digital ops delivery | $195k",
+   "listed": "2026-10-27T20:00:43Z",
+   "teaser": "Lead digital delivery across operations portfolio; drive outcomes, stakeholder alignment, and team performance in a complex environment.",
+   "classification": "Information & Communication Technology / Programme & Project Management",
+   "bullets": [
+    "Lead a high-impact operations digital portfolio (1–4 year horizon)",
+    "Senior stakeholder partnering + governance across complex environments",
+    "$195k base + genuine leadership scope (team of ~10)"
+   ],
+   "categories": [
+    "fintech"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95532104",
+   "first_seen": "2026-11-13T22:22Z"
   },
   {
    "id": "95531578",
@@ -7900,54 +7939,6 @@
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95274508",
    "first_seen": "2026-11-13T08:49Z"
-  },
-  {
-   "id": "95272553",
-   "title": "Frontend Team Lead - Remote",
-   "company": "Techspace Consulting",
-   "location": "Wellington",
-   "work_type": "Full time",
-   "arrangement": "Remote",
-   "salary": "Up to $180K based on experience",
-   "listed": "2026-10-14T20:45:15Z",
-   "teaser": "Join a growing NZ SaaS success story. Lead engineers, stay hands-on with React, and help build products used by teams worldwide.",
-   "classification": "Information & Communication Technology / Developers/Programmers",
-   "bullets": [],
-   "categories": [
-    "mobile"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95272553",
-   "first_seen": "2026-11-13T08:41Z"
-  },
-  {
-   "id": "95272407",
-   "title": "Developer",
-   "company": "Absolute IT",
-   "location": "Auckland Airport, Auckland",
-   "work_type": "Full time",
-   "arrangement": "",
-   "salary": "$110,000 per annum",
-   "listed": "2026-10-14T20:08:05Z",
-   "teaser": "Develop secure, scalable software solutions and drive continuous technology improvement",
-   "classification": "Information & Communication Technology / Developers/Programmers",
-   "bullets": [
-    "Build and enhance business-critical software and integrations",
-    "Work across modern technologies including C#, Python, SQL and JavaScript",
-    "Join a collaborative team focused on innovation and continuous improvement"
-   ],
-   "categories": [
-    "server"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95272407",
-   "first_seen": "2026-11-13T08:41Z"
   }
  ]
 }
