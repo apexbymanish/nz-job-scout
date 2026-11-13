@@ -1,0 +1,167 @@
+{
+ "note": "NOT OFFICIAL. The sample questions and practice projects were written for this repo from common NZ tech interview patterns; no NZ agency publishes technical question lists. The links are the official or job-board sources: careers.govt.nz, Tahatū and Immigration NZ are government sites; SEEK and Trade Me are job boards.",
+ "questions": {
+  "nz": [
+   "Tell me about yourself. (Keep it to 2 minutes: current role, one big result, why NZ, why this team.)",
+   "Why New Zealand, and why this company? What do you know about our product and customers?",
+   "Tell me about a time you disagreed with a manager or senior engineer. What did you do, and what happened? (STAR)",
+   "Tell me about a time something you shipped broke in production. How did you handle it and what changed after?",
+   "Describe a time you helped a teammate who was struggling. (Kiwi teams value humble, collaborative people.)",
+   "How do you work with people from different cultures or time zones? (Your Korea, Nepal and multilingual app experience fits here.)",
+   "What is your visa situation and when could you start? (Be clear: AEWV needed, relocating at own cost, notice period.)",
+   "How do you handle feedback? Give an example where feedback changed your approach."
+  ],
+  "mobile": [
+   "Walk me through the architecture of an app you own. Why VIPER or MVVM, and what would you change?",
+   "How do you manage state in SwiftUI? When do you use @State, @StateObject, @ObservedObject or @Observable?",
+   "How would you find and fix a memory leak or retain cycle in an iOS app?",
+   "Explain async/await and actors in Swift. How do you avoid data races on the main thread?",
+   "How do you design offline-first behaviour and sync for a mobile app with a flaky network?",
+   "How does your release pipeline work? (signing, CI, TestFlight, phased rollout, crash monitoring)",
+   "How do you secure tokens and sensitive data on device? (Keychain, SSL pinning, jailbreak detection)",
+   "Flutter vs native: when would you choose each, and what are the trade-offs you have seen?"
+  ],
+  "server": [
+   "Design a REST API for transferring money between two accounts. How do you make it idempotent?",
+   "How do you handle a database transaction that spans two services? (outbox, saga, compensation)",
+   "In .NET, explain dependency injection lifetimes: singleton, scoped and transient. When does scoped go wrong?",
+   "async/await in C#: what is a deadlock with .Result, and how do you avoid it?",
+   "How would you find a slow endpoint in production? Walk through logs, metrics and tracing.",
+   "SQL: what indexes would you add for a query filtering by customer and date range, sorted by date?",
+   "How do you version an API without breaking existing mobile app clients?",
+   "Queues vs direct calls (SQS, Service Bus, Kafka): when do you use each?"
+  ],
+  "uiux": [
+   "Walk me through a project in your portfolio: the problem, your research, options you rejected, and the outcome.",
+   "How do you decide what to test with users, and how many users is enough?",
+   "How do you design for accessibility? (contrast, Dynamic Type, screen readers, WCAG 2.2)",
+   "How do you hand off designs to developers and handle changes once build has started?",
+   "Tell me about a time data or research proved your design wrong.",
+   "How would you simplify an identity-verification (KYC) flow without failing compliance?",
+   "How do you build and maintain a design system across web and mobile?"
+  ],
+  "product": [
+   "How do you decide what goes into the next quarter? Walk through your prioritisation method with a real example.",
+   "Tell me about a feature you killed or descoped. How did you tell stakeholders?",
+   "Which metrics would you track for a money-transfer app, and which one is the north star?",
+   "How do you work with engineering when an estimate is far bigger than expected?",
+   "Write a one-line problem statement for a feature you shipped, then tell me how you validated it.",
+   "How do you balance regulatory requirements (AML, KYC, privacy) against conversion?",
+   "How do you run discovery with customers you cannot easily meet (other countries, other languages)?"
+  ],
+  "fintech": [
+   "What happens end to end when a customer sends money overseas? (quote, FX, compliance screening, payout, reconciliation)",
+   "Why should money never be stored as a floating-point number? How do you handle currency rounding?",
+   "What are AML and KYC, and what do NZ's AML/CFT Act and the Privacy Act 2020 mean for an app like ours?",
+   "How do you make a payment request safe to retry? (idempotency keys, exactly-once effects)",
+   "How would you detect suspicious or fraudulent transactions without blocking good customers?",
+   "How do you test payment flows without moving real money? (sandboxes, test cards, contract tests)",
+   "What is reconciliation and what do you do when the ledger and the bank statement do not match?"
+  ],
+  "ask_them": [
+   "Is the company on the INZ accredited employer list, and will you support an AEWV application for this role?",
+   "Does the salary meet the AEWV median wage and, if relevant, the Green List threshold for Software Engineer?",
+   "What does the first 90 days look like, and how is success measured?",
+   "How does the team release: how often, who is on call, and how are incidents reviewed?",
+   "What is the hybrid or office policy, and is there any relocation support?",
+   "What is the biggest challenge the team faces this year?"
+  ]
+ },
+ "links": [
+  {
+   "title": "Job interviews in New Zealand (for people new to NZ)",
+   "source": "careers.govt.nz",
+   "url": "https://careers.govt.nz/job-hunting/new-to-new-zealand/job-interviews-in-new-zealand",
+   "status": 200
+  },
+  {
+   "title": "Tips for answering interview questions",
+   "source": "careers.govt.nz",
+   "url": "https://careers.govt.nz/job-hunting/interviews/tips-for-answering-interview-questions",
+   "status": 200
+  },
+  {
+   "title": "Questions you can ask at an interview",
+   "source": "careers.govt.nz",
+   "url": "https://careers.govt.nz/job-hunting/interviews/questions-you-can-ask-at-an-interview",
+   "status": 200
+  },
+  {
+   "title": "Tips for interviews",
+   "source": "Tahatū (replaces careers.govt.nz)",
+   "url": "https://tahatu.govt.nz/work/doing-an-interview/tips-for-interviews",
+   "status": 200
+  },
+  {
+   "title": "Succeeding in job interviews",
+   "source": "Immigration NZ, Live and Work",
+   "url": "https://www.live-work.immigration.govt.nz/work-in-new-zealand/finding-applying-for-jobs/succeeding-in-job-interviews",
+   "status": 200
+  },
+  {
+   "title": "Be 'Kiwi confident'",
+   "source": "Immigration NZ, Live and Work",
+   "url": "https://www.live-work.immigration.govt.nz/work-in-new-zealand/finding-applying-for-jobs/succeeding-in-job-interviews/be-kiwi-confident",
+   "status": 200
+  },
+  {
+   "title": "Make your overseas experience relevant to NZ",
+   "source": "Immigration NZ, Live and Work",
+   "url": "https://www.live-work.immigration.govt.nz/work-in-new-zealand/finding-applying-for-jobs/succeeding-in-job-interviews/make-your-overseas-experience-relevant-to-new",
+   "status": 200
+  },
+  {
+   "title": "Our NZ way of working",
+   "source": "Immigration NZ, Live and Work",
+   "url": "https://www.live-work.immigration.govt.nz/work-in-new-zealand/our-nz-way-of-working",
+   "status": 200
+  },
+  {
+   "title": "10 common behavioural interview questions",
+   "source": "SEEK",
+   "url": "https://nz.seek.com/career-advice/article/how-to-answer-behavioural-interview-questions",
+   "status": 200
+  },
+  {
+   "title": "How to use the STAR technique",
+   "source": "SEEK",
+   "url": "https://nz.seek.com/career-advice/article/how-to-use-the-star-interview-technique",
+   "status": 200
+  },
+  {
+   "title": "8 common interview questions and how to answer them",
+   "source": "SEEK",
+   "url": "https://nz.seek.com/career-advice/article/common-interview-questions-and-how-to-answer-them",
+   "status": 200
+  },
+  {
+   "title": "30 most common behavioural interview questions",
+   "source": "Trade Me Jobs",
+   "url": "https://www.trademe.co.nz/c/jobs/article/the-30-most-common-behavioural-interview-questions-answers",
+   "status": 200
+  }
+ ],
+ "projects": {
+  "mobile": [
+   "SwiftUI money-transfer demo: quote screen, FX rate refresh, offline cache, unit tests, fastlane lane.",
+   "Same app in Flutter, then a short README comparing the two builds."
+  ],
+  "server": [
+   "ASP.NET Core minimal API for transfers: idempotency keys, PostgreSQL, integration tests, Docker, deployed to AWS or Azure.",
+   "Webhook receiver with a queue and retry/dead-letter handling, plus a load test."
+  ],
+  "uiux": [
+   "Case study: redesign a KYC/ID-verification flow, with before/after, a 5-user test and an accessibility check.",
+   "Small design system in Figma (colour tokens, type scale, 10 components) with dark mode."
+  ],
+  "product": [
+   "One-page PRD for an 'international transfer to NZ' feature: problem, metrics, risks, rollout.",
+   "Teardown of an NZ fintech app (e.g. Sharesies, Hnry, Kiwibank): what you would ship next and why."
+  ],
+  "fintech": [
+   "Double-entry ledger service with reconciliation against a fake bank statement CSV.",
+   "Currency rounding and FX-quote library with property-based tests (never use float for money)."
+  ]
+ },
+ "links_checked": "2026-11-13T09:02Z"
+}

@@ -17,6 +17,7 @@ import re
 import sys
 import time
 import urllib.parse
+import urllib.error
 import urllib.request
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -25,6 +26,9 @@ ROOT = Path(__file__).resolve().parent.parent
 CONFIG = ROOT / "scout" / "config.json"
 ACCREDITED_CSV = ROOT / "data" / "accredited-employer-checks.csv"
 OUT = ROOT / "site" / "jobs.json"
+INTERVIEW_SRC = ROOT / "scout" / "interview.json"
+INTERVIEW_OUT = ROOT / "site" / "interview.json"
+LINK_CHECK_HOURS = 24
 
 API = "https://nz.seek.com/api/jobsearch/v5/search"  # www.seek.co.nz 308-redirects here
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
@@ -81,7 +85,52 @@ def fetch(params):
             time.sleep(5 * (attempt + 1))
 
 
+def link_ok(url):
+    req = urllib.request.Request(url, headers={"User-Agent": UA})
+    try:
+        with urllib.request.urlopen(req, timeout=20) as r:
+            return r.status
+    except urllib.error.HTTPError as e:
+        return e.code
+    except Exception:
+        return 0
+
+
+def build_interview():
+    """Copy the interview pack to site/ and re-check its links at most once a day."""
+    if not INTERVIEW_SRC.exists():
+        return
+    src = json.loads(INTERVIEW_SRC.read_text())
+    prev = {}
+    if INTERVIEW_OUT.exists():
+        try:
+            prev = json.loads(INTERVIEW_OUT.read_text())
+        except ValueError:
+            prev = {}
+    now = datetime.now(timezone.utc)
+    last = prev.get("links_checked")
+    fresh = last and now - datetime.fromisoformat(last.replace("Z", "+00:00")) < timedelta(hours=LINK_CHECK_HOURS)
+    prev_status = {l["url"]: l.get("status") for l in prev.get("links", [])}
+    same_links = set(prev_status) == {l["url"] for l in src["links"]}
+    if fresh and same_links:
+        for l in src["links"]:
+            l["status"] = prev_status[l["url"]]
+        src["links_checked"] = last
+    else:
+        for l in src["links"]:
+            l["status"] = link_ok(l["url"])
+            time.sleep(0.5)
+        src["links_checked"] = now.strftime("%Y-%m-%dT%H:%MZ")
+        bad = [l["url"] for l in src["links"] if l["status"] != 200]
+        print(f"Checked {len(src['links'])} interview links; {len(bad)} not OK: {bad}")
+    text = json.dumps(src, indent=1, ensure_ascii=False) + "\n"
+    if not INTERVIEW_OUT.exists() or INTERVIEW_OUT.read_text() != text:
+        INTERVIEW_OUT.parent.mkdir(parents=True, exist_ok=True)
+        INTERVIEW_OUT.write_text(text)
+
+
 def main():
+    build_interview()
     cfg = json.loads(CONFIG.read_text())
     reg = load_register()
     aliases = cfg.get("employer_aliases", {})

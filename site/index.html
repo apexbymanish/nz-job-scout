@@ -55,17 +55,24 @@ repo    : <a href="https://github.com/apexbymanish/nz-job-scout">github.com/apex
 <script>
 const PER=25;
 const CATS=[["all","all"],["mobile","mobile"],["server","server"],["uiux","ui/ux"],["product","product"],["fintech","fintech"]];
-const S={cat:"all",q:"",acc:false,visa:false,fresh:false,page:1};
+const S={cat:"all",q:"",acc:false,visa:false,fresh:false,soon:false,page:1};
 let D={jobs:[]};
 const $=s=>document.querySelector(s);
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const pad=(n,w)=>String(n).padStart(w,"0");
 function ago(iso){if(!iso)return"?";const m=(Date.now()-new Date(iso))/6e4;if(m<60)return Math.max(1,Math.round(m))+"m";const h=m/60;return h<24?Math.round(h)+"h":Math.round(h/24)+"d"}
+const AD_DAYS=30; // standard seek ads run 30 days; the search api gives no closing date, so this is an estimate
+const plural=(n,w)=>n+" "+w+(n===1?"":"s");
+const daysSince=iso=>Math.floor((Date.now()-new Date(iso))/864e5);
+function listedAgo(iso){if(!iso)return"listed ?";const d=daysSince(iso);if(d<1){const h=Math.max(1,Math.round((Date.now()-new Date(iso))/36e5));return"listed "+plural(h,"hour")+" ago"}return"listed "+plural(d,"day")+" ago"}
+const daysLeft=iso=>iso?AD_DAYS-daysSince(iso):null;
+function leftTxt(iso){const n=daysLeft(iso);if(n==null)return"";return n<=0?'<span class="bad">closing any time (est.)</span>':n<=5?`<span class="bad">~${plural(n,"day")} left (est.)</span>`:`~${plural(n,"day")} left (est.)`}
 const isNew=j=>new Date(j.first_seen)>Date.now()-864e5;
+let I=null; // interview pack
 function inz(j){return j.inz==="accredited"?'<span class="ok">INZ:ACCREDITED</span>':j.inz==="not found"?'<span class="bad">INZ:NOT-FOUND</span>':'<span class="dim">INZ:'+esc((j.inz||"unchecked").toUpperCase().replace(" ","-"))+'</span>'}
 function filtered(){
   const q=S.q.toLowerCase();
-  return D.jobs.filter(j=>(S.cat==="all"||j.categories.includes(S.cat))&&(!S.acc||j.inz==="accredited")&&(!S.visa||j.visa_mention)&&(!S.fresh||isNew(j))&&
+  return D.jobs.filter(j=>(S.cat==="all"||j.categories.includes(S.cat))&&(!S.acc||j.inz==="accredited")&&(!S.visa||j.visa_mention)&&(!S.fresh||isNew(j))&&(!S.soon||daysLeft(j.listed)<=7)&&
     (!q||(j.title+" "+j.company+" "+j.location+" "+j.teaser+" "+(j.bullets||[]).join(" ")).toLowerCase().includes(q)));
 }
 function list(){
@@ -74,18 +81,20 @@ function list(){
   const cats=CATS.map(([k,l])=>`<button class="btn${S.cat===k?" on":""}" data-cat="${k}">${l}</button>`).join(" ");
   const nums=[];for(let p=1;p<=pages;p++){if(p===1||p===pages||Math.abs(p-S.page)<=2)nums.push(p);else if(nums[nums.length-1]!=="..")nums.push("..")}
   const pager=`<pre class="pager"><button class="btn" data-p="${S.page-1}" ${S.page<=1?"disabled":""}>&lt;&lt; prev</button> | ${nums.map(p=>p===".."?"..":`<button class="btn${p===S.page?" on":""}" data-p="${p}">${p}</button>`).join(" ")} | <button class="btn" data-p="${S.page+1}" ${S.page>=pages?"disabled":""}>next &gt;&gt;</button></pre>`;
-  $("#view").innerHTML=`<pre class="row">cat  : ${cats}
+  $("#view").innerHTML=`<pre class="row">view : [jobs] <a href="#/interview">interview-prep</a>
+cat  : ${cats}
 grep : <input type="text" id="q" value="${esc(S.q)}" placeholder="type to filter" aria-label="filter">
-only : <label><input type="checkbox" id="acc" ${S.acc?"checked":""}><span>inz-accredited</span></label>  <label><input type="checkbox" id="visa" ${S.visa?"checked":""}><span>visa-mention</span></label>  <label><input type="checkbox" id="fresh" ${S.fresh?"checked":""}><span>new-24h</span></label>
+only : <label><input type="checkbox" id="acc" ${S.acc?"checked":""}><span>inz-accredited</span></label>  <label><input type="checkbox" id="visa" ${S.visa?"checked":""}><span>visa-mention</span></label>  <label><input type="checkbox" id="fresh" ${S.fresh?"checked":""}><span>new-24h</span></label>  <label><input type="checkbox" id="soon" ${S.soon?"checked":""}><span>closing-7d</span></label>
 --
 ${rows.length} result(s). page ${S.page}/${pages}. showing ${rows.length?start+1:0}-${start+slice.length}.</pre>
 <ol>${slice.map((j,i)=>`<li><pre>${pad(start+i+1,w)}. <a class="t" href="#/job/${j.id}">${esc(j.title)}</a>${isNew(j)?' <span class="new">NEW</span>':""}
-${" ".repeat(w+2)}${esc(j.company)} / ${esc(j.location)} / ${ago(j.listed)} ago
+${" ".repeat(w+2)}${esc(j.company)} / ${esc(j.location)}
+${" ".repeat(w+2)}${listedAgo(j.listed)} / ${leftTxt(j.listed)}
 ${" ".repeat(w+2)}${inz(j)}${j.visa_mention?" VISA?":""} ${j.categories.map(c=>"#"+c).join(" ")}${j.salary?" / "+esc(j.salary):""}</pre></li>`).join("")||"<li><pre>(nothing matches. loosen the filters.)</pre></li>"}</ol>${pager}`;
   $("#view").querySelectorAll("[data-cat]").forEach(b=>b.onclick=()=>{S.cat=b.dataset.cat;S.page=1;list()});
   $("#view").querySelectorAll("[data-p]").forEach(b=>b.onclick=()=>{if(b.disabled)return;S.page=+b.dataset.p;list();scrollTo(0,0)});
   const q=$("#q");q.oninput=()=>{S.q=q.value;S.page=1;const pos=q.selectionStart;list();const n=$("#q");n.focus();n.setSelectionRange(pos,pos)};
-  ["acc","visa","fresh"].forEach(id=>$("#"+id).onchange=e=>{S[id]=e.target.checked;S.page=1;list()});
+  ["acc","visa","fresh","soon"].forEach(id=>$("#"+id).onchange=e=>{S[id]=e.target.checked;S.page=1;list()});
 }
 function detail(id){
   const j=D.jobs.find(x=>x.id===id);
@@ -95,7 +104,8 @@ function detail(id){
 <pre class="row"><h2>${esc(j.title.toUpperCase())}</h2>${"=".repeat(Math.min(j.title.length,60))}</pre>
 <dl class="kv row">
 ${kv("company",esc(j.company))}${kv("location",esc(j.location))}${kv("arrangement",esc(j.arrangement))}${kv("work type",esc(j.work_type))}
-${kv("salary",esc(j.salary)||'<span class="dim">not stated</span>')}${kv("listed",esc((j.listed||"").slice(0,10))+" ("+ago(j.listed)+" ago)")}
+${kv("salary",esc(j.salary)||'<span class="dim">not stated</span>')}${kv("listed",esc((j.listed||"").slice(0,10))+" ("+listedAgo(j.listed).replace("listed ","")+")")}
+${kv("closes",j.listed?new Date(new Date(j.listed).getTime()+AD_DAYS*864e5).toISOString().slice(0,10)+" "+leftTxt(j.listed)+'<br><span class="dim">estimate: seek ads run 30 days. check the ad for a real closing date.</span>':"")}
 ${kv("first seen",esc(j.first_seen))}${kv("seek class",esc(j.classification))}${kv("tags",j.categories.map(c=>"#"+c).join(" "))}
 ${kv("inz",inz(j)+(j.inz_name?" "+esc(j.inz_name):""))}
 ${kv("visa",j.visa_mention?"ad mentions visa / sponsorship / relocation. READ IT, may be a no.":'<span class="dim">no visa words found by search</span>')}
@@ -108,12 +118,51 @@ ${j.bullets.map(b=>"- "+esc(b)).join("\n")}</pre>`:""}
 <pre class="row"><h2>FULL AD</h2>-------
 <a href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.url)}</a>
 <span class="dim">(seek blocks scripts from reading full ads, so the full text lives there.)</span></pre>
+${prepFor(j)}
 <pre><a href="#/">&lt;&lt; back to list</a></pre>`;
   scrollTo(0,0);
 }
-function route(){const m=location.hash.match(/^#\/job\/(\d+)/);m?detail(m[1]):list()}
+const CAT_LABEL={nz:"NZ / BEHAVIOURAL",mobile:"MOBILE",server:"SERVER / BACKEND",uiux:"UI / UX",product:"PRODUCT",fintech:"FINTECH",ask_them:"QUESTIONS TO ASK THEM"};
+function prepFor(j){
+  if(!I)return"";
+  const cats=j.categories.filter(c=>I.questions[c]);
+  const qs=[...cats.flatMap(c=>I.questions[c].slice(0,4).map(q=>`[${c}] ${q}`)),...I.questions.nz.slice(0,3).map(q=>`[nz] ${q}`)];
+  return`<pre class="row"><h2>INTERVIEW PREP</h2>--------------
+<span class="dim">sample questions written for this site. NOT official. see official guides on the prep page.</span>
+${qs.map((q,i)=>pad(i+1,2)+". "+esc(q)).join("\n")}
+
+ask them: ${esc(I.questions.ask_them[0])}
+
+<a href="#/interview">&gt;&gt; full interview prep + official NZ links</a></pre>`;
+}
+function interview(){
+  if(!I){$("#view").innerHTML='<pre><a href="#/">&lt;&lt; back</a>\n\ninterview pack not loaded.</pre>';return}
+  const sec=(k)=>`<pre class="row"><h2>${CAT_LABEL[k]}</h2>${"-".repeat(CAT_LABEL[k].length)}
+${I.questions[k].map((q,i)=>pad(i+1,2)+". "+esc(q)).join("\n")}${I.projects&&I.projects[k]?`
+
+practice projects (suggestions, not official):
+${I.projects[k].map(p=>"  * "+esc(p)).join("\n")}`:""}</pre>`;
+  $("#view").innerHTML=`<pre class="row">view : <a href="#/">jobs</a> [interview-prep]</pre>
+<pre class="row"><h2>INTERVIEW-PREP.TXT</h2>==================
+<span class="bad">NOT OFFICIAL:</span> the questions and projects below were written for this site
+from common NZ tech interview patterns. no NZ agency publishes technical question lists.
+the OFFICIAL part is the links at the bottom (govt.nz) plus job-board advice (seek, trade me).
+answer behavioural questions with STAR: situation, task, action, result.
+jump: ${["nz","mobile","server","uiux","product","fintech","ask_them"].map(k=>`<a href="#q-${k}">${k}</a>`).join(" ")} <a href="#q-links">links</a></pre>
+${["nz","mobile","server","uiux","product","fintech","ask_them"].map(k=>`<div id="q-${k}">${sec(k)}</div>`).join("")}
+<div id="q-links"><pre class="row"><h2>LINKS (NZ)</h2>----------
+${I.links.map(l=>`${l.status===200?'<span class="ok">[ok]</span> ':'<span class="bad">[dead?]</span>'} <a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.title)}</a>
+      <span class="dim">${esc(l.source)}${/govt\.nz/.test(l.url)?" / OFFICIAL GOVT":""}</span>`).join("\n")}
+<span class="dim">links checked: ${esc(I.links_checked)} (rechecked daily by the scheduler)
+note: careers.govt.nz is moving to tahatu.govt.nz; old links may redirect.</span></pre></div>
+<pre><a href="#/">&lt;&lt; back to jobs</a></pre>`;
+  $("#view").querySelectorAll('a[href^="#q-"]').forEach(a=>a.onclick=e=>{e.preventDefault();document.getElementById(a.getAttribute("href").slice(1)).scrollIntoView()});
+  scrollTo(0,0);
+}
+function route(){if(/^#q-/.test(location.hash))return;if(location.hash==="#/interview")return interview();const m=location.hash.match(/^#\/job\/(\d+)/);m?detail(m[1]):list()}
 addEventListener("hashchange",route);
-fetch("jobs.json?t="+Date.now()).then(r=>r.json()).then(d=>{
+const iv=fetch("interview.json?t="+Date.now()).then(r=>r.json()).then(d=>{I=d}).catch(()=>{});
+fetch("jobs.json?t="+Date.now()).then(r=>r.json()).then(async d=>{await iv;
   D=d;const acc=d.jobs.filter(j=>j.inz==="accredited").length,nw=d.jobs.filter(isNew).length;
   $("#stat").textContent=`jobs: ${d.count} | inz-accredited: ${acc} | new-24h: ${nw} | list changed: ${ago(d.updated)} ago`;
   route();

@@ -33,16 +33,17 @@ jobs:
       - name: Fetch jobs
         run: python scout/fetch_jobs.py
 
-      - name: Commit if the job list changed
+      - name: Commit if jobs or interview links changed
         id: commit
         run: |
-          if git diff --quiet -- site/jobs.json; then
+          git add -N site/ 2>/dev/null || true
+          if git diff --quiet -- site/; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
             echo "No change to commit."
           else
             git config user.name "job-scout-bot"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add site/jobs.json
+            git add site/
             git commit -m "Update job listings ($(python -c 'import json;d=json.load(open("site/jobs.json"));print(d["count"], "jobs,", len(d["added"]), "new")'))"
             git pull --rebase origin main
             git push origin HEAD:main

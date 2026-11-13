@@ -44,6 +44,8 @@ searches on that date and will go stale; rerun the runbook to refresh.
 - Each job is tagged with its INZ status from `data/accredited-employer-checks.csv`. Add a row there after checking a new employer on the register; the next run picks it up.
 - `.github/workflows/job-scout.yml` runs every 15 minutes, commits `site/jobs.json` only when the job list changes, and redeploys GitHub Pages.
 - Limits: Seek job detail pages block scripts, so the board shows the teaser only. "Mentions visa" means the ad matched a Seek search for visa/sponsorship/relocation words; it may say *no* sponsorship. GitHub can delay scheduled runs, and it disables them after 60 days without repository activity.
+- Each job shows "listed N days ago" and "~N days left (est.)". Seek's search API has no closing date, so days left assumes the standard 30-day Seek ad.
+- Interview prep (`#/interview` on the page, source `scout/interview.json`): sample questions and practice projects per category, plus NZ links. The questions and projects are NOT official; they were written for this repo. The links are official government pages (careers.govt.nz, Tahatū, Immigration NZ Live and Work) or job-board advice (SEEK, Trade Me). The scheduler rechecks the links once a day.
 - Run locally: `python3 scout/fetch_jobs.py`, then `python3 -m http.server -d site 8000`.
 
 ## Rerunning
