@@ -1,0 +1,26 @@
+{
+  "max_age_days": 30,
+  "pages_per_query": 2,
+  "page_size": 30,
+  "ict_classification": "6281",
+  "queries": [
+    {"keywords": "iOS Swift", "category": "mobile"},
+    {"keywords": "Flutter", "category": "mobile"},
+    {"keywords": "mobile engineer", "category": "mobile"},
+    {"keywords": "mobile developer", "category": "mobile"},
+    {"keywords": ".NET", "category": "dotnet"},
+    {"keywords": "C# developer", "category": "dotnet"},
+    {"keywords": "fintech", "category": "fintech"},
+    {"keywords": "payments engineer", "category": "fintech"},
+    {"keywords": "remittance", "category": "fintech", "any_classification": true},
+    {"keywords": "banking software engineer", "category": "fintech"},
+    {"keywords": "visa sponsorship", "category": null, "visa_signal": true},
+    {"keywords": "accredited employer", "category": null, "visa_signal": true},
+    {"keywords": "relocation", "category": null, "visa_signal": true}
+  ],
+  "title_must_match": "engineer|developer|architect|programmer|software|lead|ios|android|mobile|flutter|\\.net|c#|full ?stack|back ?end|front ?end|devops|sre|platform",
+  "exclude_title": "graduate|intern|junior|electrician|civil|mechanical|electrical|electronics|hardware|site engineer|project engineer|sales|recruiter|product (lead|manager|owner)|analyst|support (engineer|technician)|dynamics|salesforce|workday",
+  "employer_aliases": {
+    "SBS Bank": "Southland Building Society"
+  }
+}

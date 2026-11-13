@@ -37,6 +37,15 @@ searches on that date and will go stale; rerun the runbook to refresh.
 - Absolute IT has a Senior Software Engineer ad whose client will sponsor people moving at their own cost.
 - The CV has no commercial .NET work, so these roles need a .NET project or honest positioning on domain fit.
 
+## Live job board (auto-updated)
+
+- Page: https://apexbymanish.github.io/nz-job-scout/
+- `scout/fetch_jobs.py` reads Seek NZ's search API (standard library only) for the iOS/mobile, .NET/C# and fintech/remittance queries in `scout/config.json` and writes `site/jobs.json`.
+- Each job is tagged with its INZ status from `data/accredited-employer-checks.csv`. Add a row there after checking a new employer on the register; the next run picks it up.
+- `.github/workflows/job-scout.yml` runs every 15 minutes, commits `site/jobs.json` only when the job list changes, and redeploys GitHub Pages.
+- Limits: Seek job detail pages block scripts, so the board shows the teaser only. "Mentions visa" means the ad matched a Seek search for visa/sponsorship/relocation words; it may say *no* sponsorship. GitHub can delay scheduled runs, and it disables them after 60 days without repository activity.
+- Run locally: `python3 scout/fetch_jobs.py`, then `python3 -m http.server -d site 8000`.
+
 ## Rerunning
 
 Follow `docs/runbook.md`. The INZ register is a JavaScript search with no public API, so the

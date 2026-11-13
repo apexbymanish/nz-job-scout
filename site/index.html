@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NZ Job Scout</title>
+<meta name="description" content="Live NZ mobile, .NET and fintech job listings with INZ accreditation flags. Refreshed every 15 minutes.">
+<style>
+:root{
+  --bg:#f6f5f2;--card:#fff;--ink:#1c1c1a;--muted:#6b6a65;--line:#e3e1db;
+  --accent:#0b6e4f;--accent-ink:#fff;--warn:#9a5b00;--warn-bg:#fff3dd;
+  --ok-bg:#e3f4ec;--ok:#0b6e4f;--no-bg:#f4e4e4;--no:#8a2b2b;--chip:#efede7;--new:#c2410c;
+}
+@media (prefers-color-scheme:dark){:root{
+  --bg:#141413;--card:#1e1e1c;--ink:#ecebe6;--muted:#a19f97;--line:#33322e;
+  --accent:#4fbf94;--accent-ink:#0d1f18;--warn:#f0b45a;--warn-bg:#3a2c12;
+  --ok-bg:#163126;--ok:#6fd3aa;--no-bg:#3a1d1d;--no:#f0a3a3;--chip:#2a2926;--new:#fb923c;
+}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}
+.wrap{max-width:960px;margin:0 auto;padding:24px 16px 64px}
+h1{font-size:1.5rem;margin:0 0 4px}
+.sub{color:var(--muted);margin:0 0 20px;font-size:.9rem}
+.controls{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:12px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{border:1px solid var(--line);background:var(--chip);color:var(--ink);border-radius:999px;padding:5px 12px;font:inherit;font-size:.85rem;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+input[type=search]{flex:1 1 220px;min-width:0;padding:8px 12px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);font:inherit}
+.toggles{display:flex;flex-wrap:wrap;gap:14px;margin-bottom:16px;font-size:.88rem;color:var(--muted)}
+.toggles label{display:flex;gap:6px;align-items:center;cursor:pointer}
+.count{font-size:.85rem;color:var(--muted);margin-bottom:10px}
+.job{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin-bottom:10px}
+.top{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+.title{font-weight:600;font-size:1.02rem;color:var(--ink);text-decoration:none}
+.title:hover{text-decoration:underline}
+.co{color:var(--muted);font-size:.9rem;margin-top:2px}
+.when{color:var(--muted);font-size:.8rem;white-space:nowrap}
+.meta{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.tag{font-size:.75rem;padding:2px 8px;border-radius:6px;background:var(--chip);color:var(--muted)}
+.tag.ok{background:var(--ok-bg);color:var(--ok);font-weight:600}
+.tag.no{background:var(--no-bg);color:var(--no)}
+.tag.visa{background:var(--warn-bg);color:var(--warn);font-weight:600}
+.tag.new{background:transparent;color:var(--new);border:1px solid var(--new);font-weight:700}
+.teaser{margin:8px 0 0;font-size:.9rem}
+ul.b{margin:6px 0 0;padding-left:18px;color:var(--muted);font-size:.85rem}
+.empty{color:var(--muted);text-align:center;padding:40px 0}
+footer{margin-top:28px;color:var(--muted);font-size:.8rem}
+footer a{color:inherit}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>NZ Job Scout</h1>
+  <p class="sub" id="sub">Loading…</p>
+
+  <div class="controls">
+    <div class="chips" role="group" aria-label="Category">
+      <button class="chip" data-cat="all" aria-pressed="true">All</button>
+      <button class="chip" data-cat="mobile" aria-pressed="false">iOS / Mobile</button>
+      <button class="chip" data-cat="dotnet" aria-pressed="false">.NET / C#</button>
+      <button class="chip" data-cat="fintech" aria-pressed="false">Fintech / Payments</button>
+    </div>
+    <input type="search" id="q" placeholder="Search title, company, location…" aria-label="Search">
+  </div>
+  <div class="toggles">
+    <label><input type="checkbox" id="acc"> INZ accredited only</label>
+    <label><input type="checkbox" id="visa"> Mentions visa / sponsorship / relocation</label>
+    <label><input type="checkbox" id="fresh"> New in last 24h</label>
+  </div>
+
+  <div class="count" id="count"></div>
+  <div id="list"></div>
+
+  <footer>
+    Source: Seek NZ search API, refreshed every 15 minutes by GitHub Actions (GitHub may delay scheduled runs).
+    "INZ accredited" comes from manual checks in <code>data/accredited-employer-checks.csv</code>; "unchecked" means nobody has looked yet.
+    "Mentions visa" means the ad matched Seek's search for those words. It may say <em>no</em> sponsorship, so read the ad.
+    <a href="https://www.immigration.govt.nz/work/requirements-for-work-visas/approved-employers/accredited-employer-list">Check the INZ register</a>.
+  </footer>
+</div>
+<script>
+const state={cat:"all",q:"",acc:false,visa:false,fresh:false};
+let data={jobs:[]};
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+function ago(iso){
+  if(!iso)return"";const m=(Date.now()-new Date(iso))/6e4;
+  if(m<60)return Math.max(1,Math.round(m))+"m ago";const h=m/60;if(h<24)return Math.round(h)+"h ago";
+  return Math.round(h/24)+"d ago";
+}
+const catName={mobile:"iOS/Mobile",dotnet:".NET/C#",fintech:"Fintech",other:"Other"};
+function inzTag(j){
+  if(j.inz==="accredited")return`<span class="tag ok" title="${esc(j.inz_name)}">INZ accredited</span>`;
+  if(j.inz==="not found")return`<span class="tag no">Not on INZ register</span>`;
+  return`<span class="tag">INZ ${esc(j.inz||"unchecked")}</span>`;
+}
+function render(){
+  const q=state.q.toLowerCase();const dayAgo=Date.now()-864e5;
+  const rows=data.jobs.filter(j=>
+    (state.cat==="all"||j.categories.includes(state.cat))&&
+    (!state.acc||j.inz==="accredited")&&
+    (!state.visa||j.visa_mention)&&
+    (!state.fresh||new Date(j.first_seen)>dayAgo)&&
+    (!q||(j.title+" "+j.company+" "+j.location+" "+j.teaser).toLowerCase().includes(q)));
+  $("#count").textContent=`${rows.length} of ${data.jobs.length} jobs`;
+  $("#list").innerHTML=rows.length?rows.map(j=>{
+    const isNew=new Date(j.first_seen)>dayAgo;
+    return`<article class="job">
+      <div class="top"><div>
+        <a class="title" href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a>
+        <div class="co">${esc(j.company)} · ${esc(j.location)}${j.arrangement?" · "+esc(j.arrangement):""}${j.salary?" · "+esc(j.salary):""}</div>
+      </div><div class="when">${ago(j.listed)}</div></div>
+      <div class="meta">
+        ${isNew?'<span class="tag new">NEW</span>':""}
+        ${inzTag(j)}
+        ${j.visa_mention?'<span class="tag visa">Mentions visa/relocation</span>':""}
+        ${j.categories.map(c=>`<span class="tag">${esc(catName[c]||c)}</span>`).join("")}
+        ${j.work_type?`<span class="tag">${esc(j.work_type)}</span>`:""}
+      </div>
+      ${j.teaser?`<p class="teaser">${esc(j.teaser)}</p>`:""}
+      ${j.bullets&&j.bullets.length?`<ul class="b">${j.bullets.map(b=>`<li>${esc(b)}</li>`).join("")}</ul>`:""}
+    </article>`}).join(""):'<div class="empty">No jobs match these filters.</div>';
+}
+document.querySelectorAll(".chip").forEach(b=>b.addEventListener("click",()=>{
+  state.cat=b.dataset.cat;document.querySelectorAll(".chip").forEach(x=>x.setAttribute("aria-pressed",x===b));render();}));
+$("#q").addEventListener("input",e=>{state.q=e.target.value;render()});
+["acc","visa","fresh"].forEach(id=>$("#"+id).addEventListener("change",e=>{state[id]=e.target.checked;render()}));
+fetch("jobs.json?t="+Date.now()).then(r=>r.json()).then(d=>{
+  data=d;const acc=d.jobs.filter(j=>j.inz==="accredited").length;
+  $("#sub").textContent=`${d.count} live NZ roles · ${acc} at INZ-accredited employers · list last changed ${ago(d.updated)} (${new Date(d.updated).toLocaleString()})`;
+  render();
+}).catch(()=>{$("#sub").textContent="Could not load jobs.json.";});
+</script>
+</body>
+</html>
