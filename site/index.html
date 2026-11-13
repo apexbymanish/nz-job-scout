@@ -42,7 +42,8 @@ dl{margin:0}dd{margin:0;word-break:break-word}
 <body>
 <div class="page">
 <pre class="row"><h1>NZ-JOB-SCOUT.TXT</h1>=================
-<span id="stat" class="dim">loading...</span></pre>
+<span id="stat" class="dim">loading...</span>
+<span id="alert"></span></pre>
 <main id="view"></main>
 <pre class="row dim" style="margin-top:48px">--
 source  : seek nz search api, checked every 15 min (github may run late)
@@ -81,7 +82,7 @@ function list(){
   const cats=CATS.map(([k,l])=>`<button class="btn${S.cat===k?" on":""}" data-cat="${k}">${l}</button>`).join(" ");
   const nums=[];for(let p=1;p<=pages;p++){if(p===1||p===pages||Math.abs(p-S.page)<=2)nums.push(p);else if(nums[nums.length-1]!=="..")nums.push("..")}
   const pager=`<pre class="pager"><button class="btn" data-p="${S.page-1}" ${S.page<=1?"disabled":""}>&lt;&lt; prev</button> | ${nums.map(p=>p===".."?"..":`<button class="btn${p===S.page?" on":""}" data-p="${p}">${p}</button>`).join(" ")} | <button class="btn" data-p="${S.page+1}" ${S.page>=pages?"disabled":""}>next &gt;&gt;</button></pre>`;
-  $("#view").innerHTML=`<pre class="row">view : [jobs] <a href="#/interview">interview-prep</a>
+  $("#view").innerHTML=`<pre class="row">${nav("jobs")}
 cat  : ${cats}
 grep : <input type="text" id="q" value="${esc(S.q)}" placeholder="type to filter" aria-label="filter">
 only : <label><input type="checkbox" id="acc" ${S.acc?"checked":""}><span>inz-accredited</span></label>  <label><input type="checkbox" id="visa" ${S.visa?"checked":""}><span>visa-mention</span></label>  <label><input type="checkbox" id="fresh" ${S.fresh?"checked":""}><span>new-24h</span></label>  <label><input type="checkbox" id="soon" ${S.soon?"checked":""}><span>closing-7d</span></label>
@@ -142,7 +143,7 @@ ${I.questions[k].map((q,i)=>pad(i+1,2)+". "+esc(q)).join("\n")}${I.projects&&I.p
 
 practice projects (suggestions, not official):
 ${I.projects[k].map(p=>"  * "+esc(p)).join("\n")}`:""}</pre>`;
-  $("#view").innerHTML=`<pre class="row">view : <a href="#/">jobs</a> [interview-prep]</pre>
+  $("#view").innerHTML=`<pre class="row">${nav("interview")}</pre>
 <pre class="row"><h2>INTERVIEW-PREP.TXT</h2>==================
 <span class="bad">NOT OFFICIAL:</span> the questions and projects below were written for this site
 from common NZ tech interview patterns. no NZ agency publishes technical question lists.
@@ -159,10 +160,79 @@ note: careers.govt.nz is moving to tahatu.govt.nz; old links may redirect.</span
   $("#view").querySelectorAll('a[href^="#q-"]').forEach(a=>a.onclick=e=>{e.preventDefault();document.getElementById(a.getAttribute("href").slice(1)).scrollIntoView()});
   scrollTo(0,0);
 }
-function route(){if(/^#q-/.test(location.hash))return;if(location.hash==="#/interview")return interview();const m=location.hash.match(/^#\/job\/(\d+)/);m?detail(m[1]):list()}
+let R=null,N=null; // rules, news
+function nav(active){
+  const v=[["jobs","#/"],["interview","#/interview","interview-prep"],["rules","#/rules","nz-rules"],["about","#/about","about"]];
+  return "view : "+v.map(([k,h,l])=>k===active?`[${l||k}]`:`<a href="${h}">${l||k}</a>`).join(" ");
+}
+function rules(){
+  if(!R){$("#view").innerHTML=`<pre>${nav("rules")}\n\nrules not loaded.</pre>`;return}
+  const news=N&&N.items?N.items:[];
+  $("#view").innerHTML=`<pre class="row">${nav("rules")}</pre>
+<pre class="row"><h2>NZ-RULES.TXT</h2>============
+verified : ${esc(R.verified)} (${esc(R.verified_by)})
+<span class="bad">note     :</span> ${esc(R.disclaimer)}</pre>
+${R.alerts&&R.alerts.length?`<pre class="row"><h2>!! ALERTS</h2>---------
+${R.alerts.map(a=>`<span class="bad">${esc(a.date)}</span> ${esc(a.text)} <a href="${esc(a.url)}" target="_blank" rel="noopener">[source]</a>`).join("\n")}</pre>`:""}
+<pre class="row"><h2>KEY RULES FOR A SKILLED TECH HIRE FROM OVERSEAS</h2>----------------------------------------------</pre>
+${R.rules.map((r,i)=>`<pre class="row"><b>${pad(i+1,2)}. ${esc(r.topic.toUpperCase())}</b>
+    ${esc(r.rule)}
+    <span class="ok">so what:</span> ${esc(r.you)}
+    <a href="${esc(r.url)}" target="_blank" rel="noopener">[official source]</a></pre>`).join("")}
+<pre class="row"><h2>RECENT OFFICIAL CHANGES (INZ)</h2>-----------------------------
+${R.changes.map(c=>`${esc(c.date.padEnd(10))}  <a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.title)}</a>`).join("\n")}</pre>
+<pre class="row"><h2>NEWS HEADLINES (auto, hourly)</h2>-----------------------------
+<span class="dim">from google news. NOT official. media can be wrong. confirm on immigration.govt.nz.
+last fetched: ${esc(N&&N.fetched||"?")}</span>
+${news.slice(0,25).map(n=>`${esc(n.date)}  <a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a> <span class="dim">/ ${esc(n.source)}</span>`).join("\n")||"(no headlines yet)"}</pre>
+<pre class="row"><h2>OFFICIAL LINKS</h2>--------------
+${R.official_links.map(l=>`* <a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.title)}</a>`).join("\n")}</pre>
+<pre><a href="#/">&lt;&lt; back to jobs</a></pre>`;
+  scrollTo(0,0);
+}
+function about(){
+  const acc=D.jobs.filter(j=>j.inz==="accredited").length;
+  $("#view").innerHTML=`<pre class="row">${nav("about")}</pre>
+<pre class="row"><h2>README.TXT</h2>==========
+nz-job-scout. built and run by Manish Adhikari.
+senior iOS engineer: 7 years in mobile, the last 4 leading the iOS app of a
+licensed cross-border remittance service (swift, swiftui, kyc, payments, fastlane).
+looking for a senior mobile / fintech engineering role in New Zealand.</pre>
+<pre class="row"><h2>WHAT IT DOES</h2>------------
+* tracks ${D.count} live NZ roles across mobile, server, ui/ux, product, fintech
+* flags employers on the INZ accredited list (${acc} today)
+* keeps a sourced summary of NZ immigration rules, plus an hourly news feed
+* interview prep per role type, with official NZ guidance links</pre>
+<pre class="row"><h2>HOW IT WORKS</h2>------------
+  seek search api  --+
+  google news rss  --+--&gt; scout/fetch_jobs.py --&gt; site/*.json --&gt; github pages
+  scout/rules.json --+     (python stdlib)                        (this page)
+        ^
+        | daily research agent: reads official INZ pages, updates with sources
+
+  github actions runs the fetcher every 15 min; commits only when data changed</pre>
+<pre class="row"><h2>ENGINEERING CHOICES</h2>-------------------
+* zero dependencies: python standard library, one html file, no build step
+* idempotent runs: output only changes when the data changes, so git history stays clean
+* fails safe: if every query fails, the last good data stays up
+* respects bot protection: blocked pages are never scraped; INZ facts are read by hand
+  or by the research agent and always link to the source
+* honest data: estimates are labelled (est.), unofficial content says NOT OFFICIAL
+* built with AI-assisted development (Claude Code), reviewed and run by me</pre>
+<pre class="row"><h2>CONTACT</h2>-------
+github   : <a href="https://github.com/apexbymanish" target="_blank" rel="noopener">github.com/apexbymanish</a>
+linkedin : <a href="https://www.linkedin.com/in/manish-adhikari-248351183/" target="_blank" rel="noopener">linkedin.com/in/manish-adhikari-248351183</a>
+cv       : <a href="https://github.com/apexbymanish/nz-job-scout/blob/main/cv/manish-adhikari-cv.md" target="_blank" rel="noopener">cv/manish-adhikari-cv.md</a>
+source   : <a href="https://github.com/apexbymanish/nz-job-scout" target="_blank" rel="noopener">github.com/apexbymanish/nz-job-scout</a></pre>
+<pre><a href="#/">&lt;&lt; back to jobs</a></pre>`;
+  scrollTo(0,0);
+}
+function route(){if(/^#q-/.test(location.hash))return;const h=location.hash;if(h==="#/interview")return interview();if(h==="#/rules")return rules();if(h==="#/about")return about();const m=h.match(/^#\/job\/(\d+)/);m?detail(m[1]):list()}
 addEventListener("hashchange",route);
-const iv=fetch("interview.json?t="+Date.now()).then(r=>r.json()).then(d=>{I=d}).catch(()=>{});
+const get=u=>fetch(u+"?t="+Date.now()).then(r=>r.json()).catch(()=>null);
+const iv=Promise.all([get("interview.json"),get("rules.json"),get("news.json")]).then(([i,r,n])=>{I=i;R=r;N=n});
 fetch("jobs.json?t="+Date.now()).then(r=>r.json()).then(async d=>{await iv;
+  if(R&&R.alerts&&R.alerts.length)$("#alert").innerHTML=R.alerts.map(a=>`<span class="bad">!! ${esc(a.date)}: ${esc(a.text)}</span> <a href="#/rules">more</a>`).join("\n");
   D=d;const acc=d.jobs.filter(j=>j.inz==="accredited").length,nw=d.jobs.filter(isNew).length;
   $("#stat").textContent=`jobs: ${d.count} | inz-accredited: ${acc} | new-24h: ${nw} | list changed: ${ago(d.updated)} ago`;
   route();

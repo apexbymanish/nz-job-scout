@@ -1,0 +1,39 @@
+{
+ "verified": "2026-11-13",
+ "verified_by": "Read on immigration.govt.nz in a browser; updated daily by a scheduled research agent",
+ "disclaimer": "Summary for job hunting, not immigration advice. Rules change; the linked INZ page is the source of truth. For your own case, use a licensed immigration adviser (iaa.govt.nz) or a lawyer.",
+ "alerts": [
+  {"date": "2026-11-12", "text": "INZ has paused processing of all visa applications until further notice because of a global Microsoft outage.", "url": "https://www.immigration.govt.nz/about-us/news-centre/"}
+ ],
+ "rules": [
+  {"topic": "AEWV: who can hire you", "rule": "You need a job offer of at least 30 hours a week from an INZ-accredited employer that has an approved job check for your role. The employer sends you the link to apply.", "you": "Check the employer on the INZ accredited employer list before you spend time on an application.", "url": "https://www.immigration.govt.nz/visas/accredited-employer-work-visa/"},
+  {"topic": "AEWV: pay", "rule": "You must be paid at least the market rate for the job: the range a New Zealander would be paid for that work.", "you": "Ask for the salary band early. Market rate, not a fixed median, is the AEWV test.", "url": "https://www.immigration.govt.nz/work/requirements-for-work-visas/wage-rates-for-work-visas/"},
+  {"topic": "AEWV: skills and English", "rule": "You must meet work experience and/or qualification requirements for the job (for example 2 years of relevant experience, or a relevant Level 4+ qualification). English evidence is required if the job is skill level 3 to 5.", "you": "Software Engineer (ANZSCO 261313) is skill level 1, so the AEWV English test does not apply. Keep employment certificates on letterhead with dates and duties.", "url": "https://www.immigration.govt.nz/visas/accredited-employer-work-visa/"},
+  {"topic": "AEWV: length, cost, speed", "rule": "Stay up to 5 years (3 years for skill level 4 or 5 jobs). Cost from NZD 1,540. Processing 80% within 5 weeks (normal times).", "you": "Budget the fee plus medicals and police certificates.", "url": "https://www.immigration.govt.nz/visas/accredited-employer-work-visa/"},
+  {"topic": "Never pay for a job", "rule": "Employers and agents cannot charge you fees for a job or make you pay recruitment costs. On 20 Oct 2026 the Employment Court confirmed that payments made overseas for a New Zealand job are also illegal under the Wages Protection Act 1983. INZ warns that job offer scams are common.", "you": "If anyone asks for money for a job offer or job check, walk away and report it.", "url": "https://www.immigration.govt.nz/about-us/news-centre/important-employment-court-decision-overseas-payments-for-new-zealand-jobs-are-illegal/"},
+  {"topic": "Straight to Residence: Software Engineer", "rule": "Software Engineer 261313 is a Green List Tier 1 role. Pay must be at least NZD 72.80 an hour (208% of the 2025 median wage). On a contract for services: NZD 109.20 an hour plus 10 years in a relevant role. You must be 55 or younger and working for, or have an offer from, an accredited employer. You can apply from outside NZ. Cost from NZD 6,450; 80% within 4 months.", "you": "NZD 72.80/hr is about NZD 151,400 a year at 40 hours. Many senior offers are lower, so check before you count on this route.", "url": "https://www.immigration.govt.nz/work/requirements-for-work-visas/green-list-occupations-qualifications-and-skills/green-list-roles-jobs-we-need-people-for-in-new-zealand/"},
+  {"topic": "Median wage INZ uses", "rule": "NZD 35.00 an hour (the 2025 median wage) is used where a Green List role has no specific rate. Thresholds based on the median change each year.", "you": "Re-check thresholds every year, usually around February to March.", "url": "https://www.immigration.govt.nz/visas/straight-to-residence-visa/"},
+  {"topic": "Skilled Migrant Category (from Aug 2026)", "rule": "Three pathways: Points-based (6 points), Skilled Work Experience (skill level 1 to 3 role, 5 years of directly relevant experience including 2 years in NZ at 1.1 times the median wage or more), and Trades and Technician. Overseas qualifications need an NZQA International Qualification Assessment to claim points. Maximum NZ work experience needed fell from 3 to 2 years.", "you": "If pay is below the Green List rate: AEWV first, then Skilled Work Experience after 2 years in NZ at about NZD 38.50/hr or more (1.1 x NZD 35.00).", "url": "https://www.immigration.govt.nz/visas/skilled-migrant-category-resident-visa/"},
+  {"topic": "Green List change, 8 Mar 2027", "rule": "17 trades occupations leave the Tier 2 Work to Residence list because new SMC pathways cover them. Tier 1 roles such as Software Engineer are not in this change.", "you": "No change for software roles. A wider Green List review is expected in 2027.", "url": "https://www.immigration.govt.nz/about-us/news-centre/changes-to-the-green-list-from-march-2027/"}
+ ],
+ "changes": [
+  {"date": "2026-11-16", "title": "New Short-Term Graduate Work Visa launches", "url": "https://www.immigration.govt.nz/about-us/news-centre/new-short-term-graduate-work-visa-launching-on-16-november-2026/"},
+  {"date": "2026-11-12", "title": "Visa processing paused: global Microsoft outage", "url": "https://www.immigration.govt.nz/about-us/news-centre/"},
+  {"date": "2026-11-12", "title": "Resident visa changes if dependent children are unlawfully in NZ", "url": "https://www.immigration.govt.nz/about-us/news-centre/"},
+  {"date": "2026-11-02", "title": "Changes to the Green List from 8 March 2027", "url": "https://www.immigration.govt.nz/about-us/news-centre/changes-to-the-green-list-from-march-2027/"},
+  {"date": "2026-10-26", "title": "Changes to student visas", "url": "https://www.immigration.govt.nz/about-us/news-centre/"},
+  {"date": "2026-10-20", "title": "Employment Court: overseas payments for NZ jobs are illegal", "url": "https://www.immigration.govt.nz/about-us/news-centre/important-employment-court-decision-overseas-payments-for-new-zealand-jobs-are-illegal/"},
+  {"date": "2026-10-20", "title": "India-New Zealand FTA in force with new visa commitments", "url": "https://www.immigration.govt.nz/about-us/news-centre/"},
+  {"date": "2026-08", "title": "New Skilled Migrant Category pathways in effect", "url": "https://www.immigration.govt.nz/about-us/news-centre/changes-to-the-skilled-migrant-category-resident-visa-announced/"}
+ ],
+ "official_links": [
+  {"title": "INZ news centre (all announcements)", "url": "https://www.immigration.govt.nz/about-us/news-centre/"},
+  {"title": "Accredited Employer Work Visa", "url": "https://www.immigration.govt.nz/visas/accredited-employer-work-visa/"},
+  {"title": "Accredited employer list (search employers)", "url": "https://www.immigration.govt.nz/work/requirements-for-work-visas/approved-employers/accredited-employer-list"},
+  {"title": "Green List roles", "url": "https://www.immigration.govt.nz/work/requirements-for-work-visas/green-list-occupations-qualifications-and-skills/green-list-roles-jobs-we-need-people-for-in-new-zealand/"},
+  {"title": "Straight to Residence Visa", "url": "https://www.immigration.govt.nz/visas/straight-to-residence-visa/"},
+  {"title": "Skilled Migrant Category Resident Visa", "url": "https://www.immigration.govt.nz/visas/skilled-migrant-category-resident-visa/"},
+  {"title": "Wage rates for work visas", "url": "https://www.immigration.govt.nz/work/requirements-for-work-visas/wage-rates-for-work-visas/"},
+  {"title": "Find a licensed immigration adviser", "url": "https://www.iaa.govt.nz/"}
+ ]
+}

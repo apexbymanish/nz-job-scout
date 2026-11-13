@@ -29,6 +29,23 @@ OUT = ROOT / "site" / "jobs.json"
 INTERVIEW_SRC = ROOT / "scout" / "interview.json"
 INTERVIEW_OUT = ROOT / "site" / "interview.json"
 LINK_CHECK_HOURS = 24
+RULES_SRC = ROOT / "scout" / "rules.json"
+RULES_OUT = ROOT / "site" / "rules.json"
+NEWS_OUT = ROOT / "site" / "news.json"
+NEWS_MINUTES = 60
+# Public Google News RSS search feeds. INZ's own site blocks scripts, so official
+# rule changes are tracked in scout/rules.json by a daily research agent instead.
+NEWS_QUERIES = [
+    '"Immigration New Zealand"',
+    'AEWV visa',
+    '"Skilled Migrant Category" New Zealand',
+    '"Green List" New Zealand immigration',
+    '"accredited employer" New Zealand visa',
+    'New Zealand work visa changes',
+]
+NEWS_RELEVANT = re.compile(r"immigra|visa|aewv|migrant|residen|green list|accredited employer|\binz\b|work rights|deport|refugee|citizenship", re.I)
+NEWS_BLOCKED_SOURCES = {"legit news", "yen news", "yen.com.gh", "legit.ng"}  # clickbait aggregators
+NEWS_IRRELEVANT = re.compile(r"green party|iucn|protected area|election q ?& ?a", re.I)
 
 API = "https://nz.seek.com/api/jobsearch/v5/search"  # www.seek.co.nz 308-redirects here
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
@@ -129,8 +146,77 @@ def build_interview():
         INTERVIEW_OUT.write_text(text)
 
 
+def write_if_changed(path, obj):
+    text = json.dumps(obj, indent=1, ensure_ascii=False) + "\n"
+    if not path.exists() or path.read_text() != text:
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(text)
+        return True
+    return False
+
+
+def build_rules():
+    if RULES_SRC.exists():
+        write_if_changed(RULES_OUT, json.loads(RULES_SRC.read_text()))
+
+
+def build_news():
+    """NZ immigration headlines from Google News RSS, refreshed at most hourly."""
+    import xml.etree.ElementTree as ET
+    from email.utils import parsedate_to_datetime
+    prev = {}
+    if NEWS_OUT.exists():
+        try:
+            prev = json.loads(NEWS_OUT.read_text())
+        except ValueError:
+            prev = {}
+    now = datetime.now(timezone.utc)
+    last = prev.get("fetched")
+    if last and now - datetime.fromisoformat(last.replace("Z", "+00:00")) < timedelta(minutes=NEWS_MINUTES):
+        return
+    items = {}
+    for q in NEWS_QUERIES:
+        url = "https://news.google.com/rss/search?" + urllib.parse.urlencode(
+            {"q": q + " when:60d", "hl": "en-NZ", "gl": "NZ", "ceid": "NZ:en"})
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": UA})
+            with urllib.request.urlopen(req, timeout=30) as r:
+                root = ET.fromstring(r.read())
+        except Exception as e:
+            print(f"news feed failed for {q}: {e}", file=sys.stderr)
+            continue
+        for it in root.iter("item"):
+            title = (it.findtext("title") or "").strip()
+            source = (it.findtext("source") or "").strip()
+            if source and title.endswith(" - " + source):
+                title = title[: -len(source) - 3]
+            if source.lower() in NEWS_BLOCKED_SOURCES:
+                continue
+            if not NEWS_RELEVANT.search(title) or NEWS_IRRELEVANT.search(title):
+                continue
+            try:
+                when = parsedate_to_datetime(it.findtext("pubDate")).astimezone(timezone.utc)
+            except Exception:
+                continue
+            key = re.sub(r"[^a-z0-9]", "", title.lower())[:80]
+            if key not in items:
+                items[key] = {"date": when.strftime("%Y-%m-%d"), "title": title,
+                              "source": source, "url": it.findtext("link") or ""}
+        time.sleep(1)
+    if not items:
+        return  # keep the old feed rather than blanking it
+    news = sorted(items.values(), key=lambda n: n["date"], reverse=True)[:40]
+    old = [(n["title"], n["date"]) for n in prev.get("items", [])]
+    if old == [(n["title"], n["date"]) for n in news]:
+        return  # same headlines: do not touch the file, so nothing is committed
+    write_if_changed(NEWS_OUT, {"fetched": now.strftime("%Y-%m-%dT%H:%MZ"), "items": news})
+    print(f"News: {len(news)} headlines")
+
+
 def main():
     build_interview()
+    build_rules()
+    build_news()
     cfg = json.loads(CONFIG.read_text())
     reg = load_register()
     aliases = cfg.get("employer_aliases", {})
