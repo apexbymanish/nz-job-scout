@@ -15,6 +15,7 @@ searches on that date and will go stale; rerun the runbook to refresh.
 | `prompts/outreach-prompts.md` | Reusable prompts for cover letters and CV tailoring per company |
 | `docs/runbook.md` | Step-by-step of how the search and verification were actually done, including what failed |
 | `reports/2026-11-02-search-report.md` | The full search output: verified matches, deep dives, visa notes |
+| `reports/2026-11-13-dotnet-remittance-fintech-report.md` | Second search: .NET/C#, remittance and fintech roles (Xe, Propellerhead, Bureau, Hnry, Sharesies) |
 | `data/job-listings.csv` | Every live listing found, with status and link |
 | `data/accredited-employer-checks.csv` | Employer-by-employer result from the INZ register |
 | `cv/manish-adhikari-cv.md` | The CV, benchmarked against NZ government CV guidance (contact details redacted) |
@@ -28,6 +29,13 @@ searches on that date and will go stale; rerun the runbook to refresh.
 - Air New Zealand, Halter, NZ Automobile Association and SBS Bank had live senior iOS or mobile roles and are on the INZ accredited register, but their ads were silent on visas.
 - Software Engineer (ANZSCO 261313) is Green List Tier 1 with a pay condition of NZD 70.00 per hour in the 9 March 2026 list. Verify the current list before negotiating.
 - Flutter roles in NZ were close to zero on the search date.
+
+## .NET, remittance and fintech search (13 Nov 2026)
+
+- Best domain fit: Xe Full Stack Software Engineer, Christchurch (C#/.NET, KYC, payments, FX). No visa statement.
+- Propellerhead (accredited) invites international applicants relocating to Auckland.
+- Absolute IT has a Senior Software Engineer ad whose client will sponsor people moving at their own cost.
+- The CV has no commercial .NET work, so these roles need a .NET project or honest positioning on domain fit.
 
 ## Rerunning
 
