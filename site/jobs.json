@@ -1,19 +1,8 @@
 {
- "updated": "2026-11-14T15:56Z",
- "count": 305,
- "added": [
-  "95542129",
-  "95555386",
-  "95561789",
-  "95573619",
-  "95588809",
-  "95593303",
-  "95704897",
-  "95706242",
-  "95845311",
-  "95848757"
- ],
- "removed": 12,
+ "updated": "2026-11-14T20:25Z",
+ "count": 303,
+ "added": [],
+ "removed": 2,
  "jobs": [
   {
    "id": "95891406",
@@ -7761,58 +7750,6 @@
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95299112",
    "first_seen": "2026-11-13T08:49Z"
-  },
-  {
-   "id": "95298447",
-   "title": "Engineering Manager",
-   "company": "The Adviser Platform",
-   "location": "Eden Terrace, Auckland",
-   "work_type": "Full time",
-   "arrangement": "Hybrid",
-   "salary": "Competitive remuneration",
-   "listed": "2026-10-15T19:30:12Z",
-   "teaser": "Lead TAP’s technical direction while staying hands-on with C#/.NET, React and AI-assisted development. Drive modernisation and engineering quality.",
-   "classification": "Information & Communication Technology / Engineering - Software",
-   "bullets": [
-    "Hybrid model in Auckland or Christchurch",
-    "Competitive remuneration",
-    "Hands-on technical leadership with modern AI-assisted development"
-   ],
-   "categories": [
-    "server"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95298447",
-   "first_seen": "2026-11-13T08:41Z"
-  },
-  {
-   "id": "95298240",
-   "title": "Senior Software Developer Team Lead",
-   "company": "Arthur D Riley Co Ltd.",
-   "location": "Wellington Central, Wellington",
-   "work_type": "Full time",
-   "arrangement": "",
-   "salary": "",
-   "listed": "2026-10-15T18:29:52Z",
-   "teaser": "Lead a team of developers while remaining hands-on with coding, delivery, and technical leadership in a modern technology environment.",
-   "classification": "Information & Communication Technology / Developers/Programmers",
-   "bullets": [
-    "Excellent benefits package including bonus opportunities and insurances",
-    "Professional development, wellbeing support, and flexible working options",
-    "Proudly NZ owned supportive business with a people-first culture"
-   ],
-   "categories": [
-    "fintech"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95298240",
-   "first_seen": "2026-11-13T08:41Z"
   }
  ]
 }
