@@ -1,15 +1,39 @@
 {
- "updated": "2026-11-14T02:36Z",
- "count": 309,
+ "updated": "2026-11-14T09:26Z",
+ "count": 307,
  "added": [
-  "95533507",
-  "95569178",
-  "95704135",
-  "95838576",
-  "95845311"
+  "95533455",
+  "95891406"
  ],
- "removed": 6,
+ "removed": 4,
  "jobs": [
+  {
+   "id": "95891406",
+   "title": "Intermediate Full-Stack Software Engineer",
+   "company": "St Pierre's Sushi",
+   "location": "Epsom, Auckland",
+   "work_type": "Full time",
+   "arrangement": "",
+   "salary": "",
+   "listed": "2026-11-14T03:06:47Z",
+   "teaser": "Build mission-critical web apps and data integrations for an iconic NZ brand. Advance your engineering career with our expanding business.",
+   "classification": "Information & Communication Technology / Engineering - Software",
+   "bullets": [
+    "Build, scale, and optimise core business applications and internal software.",
+    "Join a fast-growing national brand supporting 88+ retail locations across NZ.",
+    "Enjoy competitive pay, great company culture, and direct technical mentorship."
+   ],
+   "categories": [
+    "mobile",
+    "server"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95891406",
+   "first_seen": "2026-11-14T09:26Z"
+  },
   {
    "id": "95290394",
    "title": "CONTRACT - Senior Integration Engineer - C#",
@@ -563,32 +587,6 @@
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95845603",
    "first_seen": "2026-11-13T08:49Z"
-  },
-  {
-   "id": "95845311",
-   "title": "Network Practice Lead",
-   "company": "Fusion Networks",
-   "location": "Ellerslie, Auckland",
-   "work_type": "Full time",
-   "arrangement": "Hybrid",
-   "salary": "Competitive Salary Package",
-   "listed": "2026-11-12T01:42:46Z",
-   "teaser": "Hands-on Network Practice Lead to drive strategy, architecture, automation and delivery across secure, scalable customer networks.",
-   "classification": "Information & Communication Technology / Networks & Systems Administration",
-   "bullets": [
-    "Shape the future of Fusion’s network practice",
-    "Stay hands-on while leading at scale",
-    "Influence customers and executives alike,"
-   ],
-   "categories": [
-    "server"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95845311",
-   "first_seen": "2026-11-14T02:36Z"
   },
   {
    "id": "95845047",
@@ -2277,32 +2275,6 @@
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95794218",
    "first_seen": "2026-11-13T08:49Z"
-  },
-  {
-   "id": "95793647",
-   "title": "Data Engineer (Databricks)",
-   "company": "Talent Army",
-   "location": "Auckland",
-   "work_type": "Full time",
-   "arrangement": "Hybrid",
-   "salary": "",
-   "listed": "2026-11-10T02:15:57Z",
-   "teaser": "Modernise a global proptech's data platform on Azure Databricks, building robust pipelines and helping take AI use cases into production.",
-   "classification": "Information & Communication Technology / Developers/Programmers",
-   "bullets": [
-    "Lead key parts of a Databricks Lakehouse modernisation programme",
-    "Prepare the data behind ML models and AI agents heading into production",
-    "Hybrid - Based in Auckland (preferred) or Wellington"
-   ],
-   "categories": [
-    "server"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95793647",
-   "first_seen": "2026-11-13T08:41Z"
   },
   {
    "id": "95793018",
@@ -4232,28 +4204,6 @@
    "first_seen": "2026-11-13T08:41Z"
   },
   {
-   "id": "95681475",
-   "title": "Lead Integration Consultant - Azure",
-   "company": "H2R Consulting",
-   "location": "Auckland",
-   "work_type": "Full time",
-   "arrangement": "Hybrid",
-   "salary": "Competitive salary + hybrid working",
-   "listed": "2026-11-04T03:03:39Z",
-   "teaser": "Join one of New Zealand's leading technology consultancies, delivering innovative digital solutions to enterprise customers",
-   "classification": "Information & Communication Technology / Developers/Programmers",
-   "bullets": [],
-   "categories": [
-    "server"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95681475",
-   "first_seen": "2026-11-13T08:49Z"
-  },
-  {
    "id": "95680604",
    "title": "Senior Software Engineer I– API & Interface Layer - Embedded Systems",
    "company": "Tekron International",
@@ -5824,6 +5774,32 @@
    "first_seen": "2026-11-14T02:36Z"
   },
   {
+   "id": "95533455",
+   "title": "AI Engineering Lead",
+   "company": "Advanced Management Systems Ltd",
+   "location": "Rosedale, Auckland",
+   "work_type": "Full time",
+   "arrangement": "Hybrid",
+   "salary": "",
+   "listed": "2026-10-27T22:12:52Z",
+   "teaser": "Lead AI-first software delivery. Shape engineering direction, introduce practical AI capability and develop an experienced team.",
+   "classification": "Information & Communication Technology / Engineering - Software",
+   "bullets": [
+    "Lead the move to AI-first software engineering",
+    "Shape architecture, engineering standards and team capability",
+    "Hybrid role with genuine influence and long-term growth opportunities"
+   ],
+   "categories": [
+    "mobile"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95533455",
+   "first_seen": "2026-11-14T09:26Z"
+  },
+  {
    "id": "95532759",
    "title": "Intermediate / senior software developer",
    "company": "Evnex",
@@ -6820,7 +6796,6 @@
     "Paid certifications and training support to keep your skills sharp"
    ],
    "categories": [
-    "mobile",
     "server"
    ],
    "inz": "not found",
@@ -7889,32 +7864,6 @@
    "visa_mention": false,
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95298240",
-   "first_seen": "2026-11-13T08:41Z"
-  },
-  {
-   "id": "95280322",
-   "title": "Senior Software Engineer - iOS",
-   "company": "Potentia",
-   "location": "Wellington",
-   "work_type": "Full time",
-   "arrangement": "",
-   "salary": "Competitive Daily Rate",
-   "listed": "2026-10-15T02:48:05Z",
-   "teaser": "Build and improve mobile apps using Swift and SwiftUI, shaping scalable solutions in a collaborative team with opportunities to explore Android",
-   "classification": "Information & Communication Technology / Engineering - Software",
-   "bullets": [
-    "Build iOS apps using Swift and SwiftUI",
-    "Design and deliver scalable mobile features",
-    "Collaborate across iOS and Android development"
-   ],
-   "categories": [
-    "mobile"
-   ],
-   "inz": "not matched",
-   "inz_name": "INNATE POTENTIAL LIMITED",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95280322",
    "first_seen": "2026-11-13T08:41Z"
   }
  ]
