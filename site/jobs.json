@@ -1,9 +1,40 @@
 {
- "updated": "2026-11-15T00:03Z",
- "count": 301,
- "added": [],
- "removed": 2,
+ "updated": "2026-11-15T06:27Z",
+ "count": 292,
+ "added": [
+  "95726881",
+  "95792699",
+  "95814902",
+  "95896874"
+ ],
+ "removed": 13,
  "jobs": [
+  {
+   "id": "95896874",
+   "title": "Systems Engineer",
+   "company": "Convergence Partners",
+   "location": "Auckland",
+   "work_type": "Full time",
+   "arrangement": "",
+   "salary": "",
+   "listed": "2026-11-15T02:57:05Z",
+   "teaser": "Hands-on systems engineer, supporting business critical systems and applications",
+   "classification": "Information & Communication Technology / Engineering - Hardware",
+   "bullets": [
+    "Hands-on technical support for staff across the organisation",
+    "Maintain calibration and compliance for specialist workstations",
+    "Coach service desk teams and support IT projects to go-live"
+   ],
+   "categories": [
+    "server"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95896874",
+   "first_seen": "2026-11-15T06:27Z"
+  },
   {
    "id": "95891406",
    "title": "Intermediate Full-Stack Software Engineer",
@@ -1101,7 +1132,7 @@
    "arrangement": "Hybrid",
    "salary": "",
    "listed": "2026-11-11T04:24:37Z",
-   "teaser": "Shape enterprise D365 solutions. Lead discovery, design architectures, mentor teams. Grow your career with market-leading L&D.",
+   "teaser": "Shape enterprise D365 solutions. Lead discovery & design for Finance and Supply Chain modernisation. Drive real business impact.",
    "classification": "Information & Communication Technology / Consultants",
    "bullets": [
     "Flexible Work Arrangements and Work From Home",
@@ -1109,8 +1140,7 @@
     "Grow in a flexible, people-first culture with real career development"
    ],
    "categories": [
-    "fintech",
-    "server"
+    "fintech"
    ],
    "inz": "accredited",
    "inz_name": "DATACOM NEW ZEALAND LIMITED (+4 other Datacom entities)",
@@ -1841,6 +1871,32 @@
    "first_seen": "2026-11-13T08:49Z"
   },
   {
+   "id": "95814902",
+   "title": "Product Manager",
+   "company": "Computer Dynamics",
+   "location": "Albany, Auckland",
+   "work_type": "Full time",
+   "arrangement": "",
+   "salary": "$100,000 – $130,000 per year",
+   "listed": "2026-11-10T21:23:06Z",
+   "teaser": "Join a great company with an awesome team—drive growth, shape strategy, and lead 100+ exciting brands to success!",
+   "classification": "Marketing & Communications / Product Management & Development",
+   "bullets": [
+    "Great company culture with strong values",
+    "Pathway opportunities for career development and growth",
+    "Great fun and supportive team"
+   ],
+   "categories": [
+    "product"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95814902",
+   "first_seen": "2026-11-15T06:27Z"
+  },
+  {
    "id": "95814888",
    "title": "Head of Engineering Excellence",
    "company": "ANZ",
@@ -2246,6 +2302,32 @@
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95793018",
    "first_seen": "2026-11-13T08:41Z"
+  },
+  {
+   "id": "95792699",
+   "title": "Senior Cybersecurity Engineer",
+   "company": "Datacom",
+   "location": "Auckland CBD, Auckland",
+   "work_type": "Full time",
+   "arrangement": "Hybrid",
+   "salary": "",
+   "listed": "2026-11-10T01:49:02Z",
+   "teaser": "Lead cyber defence operations. Shape security strategy. Grow with industry-leading support and development.",
+   "classification": "Information & Communication Technology / Security",
+   "bullets": [
+    "Flexible Work Arrangements and Work From Home",
+    "Make your mark at one of ANZ's largest and most complex technology businesses",
+    "Grow in a flexible, people-first culture with real career development"
+   ],
+   "categories": [
+    "fintech"
+   ],
+   "inz": "accredited",
+   "inz_name": "DATACOM NEW ZEALAND LIMITED (+4 other Datacom entities)",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95792699",
+   "first_seen": "2026-11-15T06:27Z"
   },
   {
    "id": "95791684",
@@ -3536,6 +3618,32 @@
    "first_seen": "2026-11-13T08:41Z"
   },
   {
+   "id": "95726881",
+   "title": "AI Product Engineer",
+   "company": "Talent Link Limited",
+   "location": "Wellington Central, Wellington",
+   "work_type": "Full time",
+   "arrangement": "",
+   "salary": "$70,000 – $150,000 per year",
+   "listed": "2026-11-05T17:28:18Z",
+   "teaser": "Help us build the next generation of property management software where AI agents and automation don’t just answer questions, they get the job done!",
+   "classification": "Information & Communication Technology / Engineering - Software",
+   "bullets": [
+    "Build tech that matters and have it actually implemented",
+    "Be part of a fast-growing New Zealand software company",
+    "Make an impact and contribute to industry-leading tech"
+   ],
+   "categories": [
+    "server"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95726881",
+   "first_seen": "2026-11-15T06:27Z"
+  },
+  {
    "id": "95717899",
    "title": "Solutions Architect",
    "company": "Randstad",
@@ -3812,32 +3920,6 @@
    "first_seen": "2026-11-13T08:41Z"
   },
   {
-   "id": "95703482",
-   "title": "Product Owner Practice Lead",
-   "company": "TOWER Insurance",
-   "location": "Auckland CBD, Auckland",
-   "work_type": "Full time",
-   "arrangement": "",
-   "salary": "Competitive Salary, Annual Review and Benefits",
-   "listed": "2026-11-05T00:03:16Z",
-   "teaser": "Shape Tower’s Product Owner Practice, connecting strategy, delivery and people to drive better customer and business outcomes.",
-   "classification": "Information & Communication Technology / Programme & Project Management",
-   "bullets": [
-    "Join an award winning proud Kiwi organization in the heart of Auckland",
-    "Flexible working options to support your work/life balance",
-    "Collaborative and innovative work environment"
-   ],
-   "categories": [
-    "product"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95703482",
-   "first_seen": "2026-11-13T08:49Z"
-  },
-  {
    "id": "95703280",
    "title": "Senior Network Engineer",
    "company": "Health New Zealand - Te Whatu Ora",
@@ -3889,111 +3971,6 @@
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95703106",
    "first_seen": "2026-11-13T08:49Z"
-  },
-  {
-   "id": "95702489",
-   "title": "Product Owner",
-   "company": "Randstad",
-   "location": "Auckland CBD, Auckland",
-   "work_type": "Full time",
-   "arrangement": "",
-   "salary": "High-impact web portfolio, AI focus, Auckland",
-   "listed": "2026-11-04T23:02:15Z",
-   "teaser": "Lead digital vision for a top Auckland agency. Shape UX, roadmaps, and AI readiness across a major web portfolio.",
-   "classification": "Information & Communication Technology / Product Management & Development",
-   "bullets": [
-    "Own the roadmap for high-traffic, public-facing websites and digital platforms.",
-    "Explore AI trends for future readiness.",
-    "Drive customer design with key partners."
-   ],
-   "categories": [
-    "product",
-    "uiux"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95702489",
-   "first_seen": "2026-11-13T08:49Z"
-  },
-  {
-   "id": "95701632",
-   "title": "Principal Systems Engineer",
-   "company": "New Zealand Transport Agency",
-   "location": "Palmerston North, Manawatu",
-   "work_type": "Full time",
-   "arrangement": "",
-   "salary": "",
-   "listed": "2026-11-04T22:04:52Z",
-   "teaser": "Shape the future of NZTA technology, leading enterprise engineering and growing capability to deliver better outcomes for New Zealanders.",
-   "classification": "Information & Communication Technology / Engineering - Network",
-   "bullets": [
-    "Lead technical direction across critical enterprise platforms",
-    "Mentor engineers and grow organisational capability",
-    "Drive innovation, automation, and operational excellence"
-   ],
-   "categories": [
-    "server"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95701632",
-   "first_seen": "2026-11-13T16:46Z"
-  },
-  {
-   "id": "95701575",
-   "title": "Principal Systems Engineer",
-   "company": "New Zealand Transport Agency",
-   "location": "Auckland",
-   "work_type": "Full time",
-   "arrangement": "",
-   "salary": "",
-   "listed": "2026-11-04T22:00:31Z",
-   "teaser": "Shape the future of NZTA technology, leading enterprise engineering and growing capability to deliver better outcomes for New Zealanders.",
-   "classification": "Information & Communication Technology / Engineering - Network",
-   "bullets": [
-    "Lead technical direction across critical enterprise platforms",
-    "Mentor engineers and grow organisational capability",
-    "Drive innovation, automation, and operational excellence"
-   ],
-   "categories": [
-    "server"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95701575",
-   "first_seen": "2026-11-13T16:46Z"
-  },
-  {
-   "id": "95701546",
-   "title": "Principal Systems Engineer",
-   "company": "New Zealand Transport Agency",
-   "location": "Wellington",
-   "work_type": "Full time",
-   "arrangement": "",
-   "salary": "",
-   "listed": "2026-11-04T21:56:50Z",
-   "teaser": "Shape the future of NZTA technology, leading enterprise engineering and growing capability to deliver better outcomes for New Zealanders.",
-   "classification": "Information & Communication Technology / Engineering - Network",
-   "bullets": [
-    "Lead technical direction across critical enterprise platforms",
-    "Mentor engineers and grow organisational capability",
-    "Drive innovation, automation, and operational excellence"
-   ],
-   "categories": [
-    "server"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95701546",
-   "first_seen": "2026-11-13T16:46Z"
   },
   {
    "id": "95701159",
@@ -5648,7 +5625,8 @@
    "classification": "Information & Communication Technology / Engineering - Software",
    "bullets": [],
    "categories": [
-    "mobile"
+    "mobile",
+    "server"
    ],
    "inz": "unchecked",
    "inz_name": "",
@@ -6689,7 +6667,6 @@
    "bullets": [],
    "categories": [
     "fintech",
-    "mobile",
     "server"
    ],
    "inz": "unchecked",
@@ -7492,212 +7469,6 @@
    "visa_mention": false,
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95333272",
-   "first_seen": "2026-11-13T08:41Z"
-  },
-  {
-   "id": "95311124",
-   "title": "Platform Engineer - AI Enablement Squad",
-   "company": "Beyond Recruitment",
-   "location": "Wellington Central, Wellington",
-   "work_type": "Contract/Temp",
-   "arrangement": "Hybrid",
-   "salary": "",
-   "listed": "2026-10-16T04:48:35Z",
-   "teaser": "AI Platform Engineer",
-   "classification": "Information & Communication Technology / Developers/Programmers",
-   "bullets": [
-    "Work at the cutting edge of AI",
-    "Shape how AI is engineered at scale",
-    "Build enterprise AI solutions"
-   ],
-   "categories": [
-    "server"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95311124",
-   "first_seen": "2026-11-13T08:41Z"
-  },
-  {
-   "id": "95309465",
-   "title": "Product Designer",
-   "company": "First Table",
-   "location": "Auckland CBD, Auckland",
-   "work_type": "Full time",
-   "arrangement": "Hybrid",
-   "salary": "",
-   "listed": "2026-10-16T04:10:53Z",
-   "teaser": "Love beautiful design? Shape digital experiences used by millions, with real ownership, creative freedom and an established product team behind you.",
-   "classification": "Design & Architecture / Web & Interaction Design",
-   "bullets": [
-    "Shape a global B2C product used by more than 3 million diners",
-    "Own beautiful, intuitive digital experiences from concept to launch",
-    "Enjoy real autonomy, hybrid flexibility and a collaborative product team"
-   ],
-   "categories": [
-    "uiux"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95309465",
-   "first_seen": "2026-11-13T08:49Z"
-  },
-  {
-   "id": "95307767",
-   "title": "Systems Engineer - Relocate to Timaru",
-   "company": "Crescent Consulting",
-   "location": "Southland",
-   "work_type": "Full time",
-   "arrangement": "",
-   "salary": "$80,000 – $100,000 per year",
-   "listed": "2026-10-16T03:33:17Z",
-   "teaser": "Join a tight-knit South Island MSP as a Systems Engineer in Timaru. Your own clients, solve real problems and grow with training and support.",
-   "classification": "Information & Communication Technology / Networks & Systems Administration",
-   "bullets": [
-    "Your own client portfolio across Timaru and South Canterbury, L1 to L3 support",
-    "Training, development and a supportive team culture"
-   ],
-   "categories": [
-    "other"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": true,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95307767",
-   "first_seen": "2026-11-13T08:41Z"
-  },
-  {
-   "id": "95307628",
-   "title": "Systems Engineer - Relocate to Timaru",
-   "company": "Crescent Consulting",
-   "location": "Christchurch, Canterbury",
-   "work_type": "Full time",
-   "arrangement": "",
-   "salary": "$80,000 – $100,000 per year",
-   "listed": "2026-10-16T03:29:31Z",
-   "teaser": "Join a tight-knit South Island MSP as a Systems Engineer in Timaru. Your own clients, solve real problems and grow with training and support.",
-   "classification": "Information & Communication Technology / Networks & Systems Administration",
-   "bullets": [
-    "Your own client portfolio across Timaru and South Canterbury, L1 to L3 support",
-    "Training, development and a supportive team culture"
-   ],
-   "categories": [
-    "other"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": true,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95307628",
-   "first_seen": "2026-11-13T08:41Z"
-  },
-  {
-   "id": "95307554",
-   "title": "Systems Engineer - Relocate to Timaru",
-   "company": "Crescent Consulting",
-   "location": "Auckland",
-   "work_type": "Full time",
-   "arrangement": "",
-   "salary": "$80,000 – $100,000 per year",
-   "listed": "2026-10-16T03:27:06Z",
-   "teaser": "Join a tight-knit South Island MSP as a Systems Engineer in Timaru. Your own clients, solve real problems and grow with training and support.",
-   "classification": "Information & Communication Technology / Networks & Systems Administration",
-   "bullets": [
-    "Your own client portfolio across Timaru and South Canterbury, L1 to L3 support",
-    "Training, development and a supportive team culture"
-   ],
-   "categories": [
-    "other"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": true,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95307554",
-   "first_seen": "2026-11-13T08:41Z"
-  },
-  {
-   "id": "95306833",
-   "title": "Senior Product Designer for Mobile B2B",
-   "company": "Les Mills",
-   "location": "Auckland CBD, Auckland",
-   "work_type": "Full time",
-   "arrangement": "Hybrid",
-   "salary": "",
-   "listed": "2026-10-16T03:09:27Z",
-   "teaser": "Design the mobile experiences that help instructors and clubs thrive. Shape intuitive, AI-powered products used by fitness professionals worldwide.",
-   "classification": "Information & Communication Technology / Product Management & Development",
-   "bullets": [
-    "Own mobile design end-to-end",
-    "Create global impact",
-    "Free Les Mills gym membership and LM+ Subscription"
-   ],
-   "categories": [
-    "mobile",
-    "uiux"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95306833",
-   "first_seen": "2026-11-13T08:49Z"
-  },
-  {
-   "id": "95305181",
-   "title": "Software Engineer",
-   "company": "Gallagher Group",
-   "location": "Ruakura, Waikato",
-   "work_type": "Full time",
-   "arrangement": "Hybrid",
-   "salary": "Free Parking + Annual Bonus + Global Organisation!",
-   "listed": "2026-10-16T02:28:24Z",
-   "teaser": "Develop world-class security software as part of an agile team building solutions used by customers around the globe.",
-   "classification": "Information & Communication Technology / Engineering - Software",
-   "bullets": [
-    "Build security products used worldwide",
-    "Hybrid flexibility and annual bonus",
-    "Grow your career alongside talented engineers"
-   ],
-   "categories": [
-    "mobile"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95305181",
-   "first_seen": "2026-11-13T08:41Z"
-  },
-  {
-   "id": "95304585",
-   "title": "Software Engineer Lead",
-   "company": "Gallagher Group",
-   "location": "Ruakura, Waikato",
-   "work_type": "Full time",
-   "arrangement": "Hybrid",
-   "salary": "Annual Bonus + Free Parking + Global Organisation",
-   "listed": "2026-10-16T02:11:52Z",
-   "teaser": "Lead software engineering capability and delivery across a growing Security Product environment.",
-   "classification": "Information & Communication Technology / Engineering - Software",
-   "bullets": [
-    "Make impacts on products, people, and engineering practices used globally",
-    "Lead and mentor a high-performing team",
-    "Flexible working, annual bonus, career growth and industry-leading technology"
-   ],
-   "categories": [
-    "mobile"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95304585",
    "first_seen": "2026-11-13T08:41Z"
   }
  ]
