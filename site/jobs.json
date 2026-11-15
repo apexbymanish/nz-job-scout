@@ -1,20 +1,12 @@
 {
- "updated": "2026-11-15T14:14Z",
- "count": 294,
+ "updated": "2026-11-15T19:48Z",
+ "count": 297,
  "added": [
-  "95445637",
-  "95566677",
-  "95595927",
-  "95612890",
-  "95619532",
-  "95631761",
-  "95632358",
-  "95677941",
-  "95701201",
-  "95702489",
-  "95793647"
+  "95588082",
+  "95614347",
+  "95623988"
  ],
- "removed": 9,
+ "removed": 0,
  "jobs": [
   {
    "id": "95896874",
@@ -4632,7 +4624,8 @@
     "Hybrid working for better work-life balance"
    ],
    "categories": [
-    "mobile"
+    "mobile",
+    "server"
    ],
    "inz": "unchecked",
    "inz_name": "",
@@ -5027,6 +5020,28 @@
    "first_seen": "2026-11-13T08:49Z"
   },
   {
+   "id": "95623988",
+   "title": "Senior Software Engineer - Web Services",
+   "company": "Rocket Lab",
+   "location": "Mount Wellington, Auckland",
+   "work_type": "Full time",
+   "arrangement": "",
+   "salary": "",
+   "listed": "2026-11-01T21:19:51Z",
+   "teaser": "Join our pioneering team and launch your career to new heights!",
+   "classification": "Information & Communication Technology / Engineering - Software",
+   "bullets": [],
+   "categories": [
+    "mobile"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95623988",
+   "first_seen": "2026-11-15T19:48Z"
+  },
+  {
    "id": "95623767",
    "title": "Mobile Apps Engineer",
    "company": "SBS Bank",
@@ -5130,6 +5145,32 @@
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95619532",
    "first_seen": "2026-11-15T14:14Z"
+  },
+  {
+   "id": "95614347",
+   "title": "IT & Security Operations Engineer – Google Workspace, Mac & Windows",
+   "company": "Tracplus",
+   "location": "Auckland CBD, Auckland",
+   "work_type": "Full time",
+   "arrangement": "Hybrid",
+   "salary": "",
+   "listed": "2026-10-30T23:00:12Z",
+   "teaser": "Shape IT and security at TracPlus, supporting technology that helps emergency responders worldwide. Enjoy five weeks’ leave and room to grow.",
+   "classification": "Information & Communication Technology / Networks & Systems Administration",
+   "bullets": [
+    "Shape a new IT and security function with support from experienced leaders.",
+    "Grow your expertise through hands-on delivery and an ISO 27001 programme.",
+    "Join a collaborative global team supporting emergency response."
+   ],
+   "categories": [
+    "mobile"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95614347",
+   "first_seen": "2026-11-15T19:48Z"
   },
   {
    "id": "95612890",
@@ -5445,6 +5486,32 @@
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95588616",
    "first_seen": "2026-11-13T08:49Z"
+  },
+  {
+   "id": "95588082",
+   "title": "WordPress Developer",
+   "company": "Evolve Recruitment Group",
+   "location": "Auckland",
+   "work_type": "Contract/Temp",
+   "arrangement": "Hybrid",
+   "salary": "",
+   "listed": "2026-10-29T21:21:37Z",
+   "teaser": "Maintain and enhance a busy WordPress website, supporting landing pages, Elementor, and Gravity Forms during a major CRM transformation.",
+   "classification": "Information & Communication Technology / Web Development & Production",
+   "bullets": [
+    "Initial 6-month contract with potential for extension to 12 months",
+    "Work Across NZ & AU Digital Initiatives During a Major CRM Transformation",
+    "Variety, Autonomy & Fast-Moving Projects in a Business-Critical Role"
+   ],
+   "categories": [
+    "mobile"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95588082",
+   "first_seen": "2026-11-15T19:48Z"
   },
   {
    "id": "95573619",
