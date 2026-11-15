@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-14T20:25Z",
- "count": 303,
+ "updated": "2026-11-15T00:03Z",
+ "count": 301,
  "added": [],
  "removed": 2,
  "jobs": [
@@ -5325,6 +5325,7 @@
     "Play a key role in a small, world-class team with very low turnover"
    ],
    "categories": [
+    "mobile",
     "server"
    ],
    "inz": "unchecked",
@@ -7494,32 +7495,6 @@
    "first_seen": "2026-11-13T08:41Z"
   },
   {
-   "id": "95333212",
-   "title": "Senior Data Engineer",
-   "company": "Basis NZ Limited",
-   "location": "Takapuna, Auckland",
-   "work_type": "Full time",
-   "arrangement": "Hybrid",
-   "salary": "Salary + ESOP",
-   "listed": "2026-10-18T06:45:15Z",
-   "teaser": "Come play a critical role and join Basis on our mission to make clean energy effortless and affordable for everybody!",
-   "classification": "Information & Communication Technology / Engineering - Software",
-   "bullets": [
-    "Flexible working hours and hybrid work arrangement",
-    "Unlimited annual leave",
-    "Play a critical role in the next phase of Basis' plans"
-   ],
-   "categories": [
-    "server"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95333212",
-   "first_seen": "2026-11-13T08:49Z"
-  },
-  {
    "id": "95311124",
    "title": "Platform Engineer - AI Enablement Squad",
    "company": "Beyond Recruitment",
@@ -7724,32 +7699,6 @@
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95304585",
    "first_seen": "2026-11-13T08:41Z"
-  },
-  {
-   "id": "95299112",
-   "title": "Frontend tester",
-   "company": "Harvey Norman",
-   "location": "Manukau, Auckland",
-   "work_type": "Contract/Temp",
-   "arrangement": "",
-   "salary": "",
-   "listed": "2026-10-15T21:52:01Z",
-   "teaser": "Help deliver a high-quality online shopping experience as we test our new ecommerce website in this 3 month, fixed-term role!",
-   "classification": "Information & Communication Technology / Testing & Quality Assurance",
-   "bullets": [
-    "Employee discounts in all Harvey Norman Stores across New Zealand",
-    "All General Managers internally promoted, great career progression",
-    "Leadership programmes to help you grow and develop!"
-   ],
-   "categories": [
-    "fintech"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95299112",
-   "first_seen": "2026-11-13T08:49Z"
   }
  ]
 }
