@@ -1,20 +1,87 @@
 {
- "updated": "2026-11-16T11:16Z",
+ "updated": "2026-11-16T21:10Z",
  "count": 298,
  "added": [
-  "95575291",
-  "95588388",
-  "95592961",
-  "95624837",
-  "95908052",
-  "95911602",
-  "95912832",
-  "95913486",
-  "95913557",
-  "95913813"
+  "95419819",
+  "95928645",
+  "95928972",
+  "95929578"
  ],
- "removed": 11,
+ "removed": 4,
  "jobs": [
+  {
+   "id": "95929578",
+   "title": "Senior Level 3 Engineer",
+   "company": "Appoint",
+   "location": "Auckland CBD, Auckland",
+   "work_type": "Contract/Temp",
+   "arrangement": "",
+   "salary": "",
+   "listed": "2026-11-16T20:47:28Z",
+   "teaser": "Senior Systems Engineer - contract role - to provide cover whilst a team member is on a secondment.",
+   "classification": "Information & Communication Technology / Networks & Systems Administration",
+   "bullets": [],
+   "categories": [
+    "mobile",
+    "server"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95929578",
+   "first_seen": "2026-11-16T21:10Z"
+  },
+  {
+   "id": "95928972",
+   "title": "IT Systems Engineer",
+   "company": "Allied Media",
+   "location": "Dunedin Central, Otago",
+   "work_type": "Full time",
+   "arrangement": "",
+   "salary": "",
+   "listed": "2026-11-16T18:30:23Z",
+   "teaser": "Exciting work - monitoring and troubleshooting computers, networks, servers, devices and IT infrastructure!",
+   "classification": "Information & Communication Technology / Help Desk & IT Support",
+   "bullets": [
+    "Great team environment!"
+   ],
+   "categories": [
+    "server"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95928972",
+   "first_seen": "2026-11-16T21:10Z"
+  },
+  {
+   "id": "95928645",
+   "title": "Senior Infrastructure and Network Engineer | Newmarket",
+   "company": "Metlifecare",
+   "location": "Newmarket, Auckland",
+   "work_type": "Full time",
+   "arrangement": "Hybrid",
+   "salary": "Competitive salary + extensive staff benefits",
+   "listed": "2026-11-16T18:06:15Z",
+   "teaser": "Senior, hands-on position responsible for the core technology and network infrastructure supporting 37 retirement villages and support office.",
+   "classification": "Information & Communication Technology / Engineering - Software",
+   "bullets": [
+    "Join a purpose-driven organisation making a real difference!",
+    "Lead critical infrastructure supporting 37 villages nationwide.",
+    "Hybrid work environment with extensive staff benefits"
+   ],
+   "categories": [
+    "server"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95928645",
+   "first_seen": "2026-11-16T21:10Z"
+  },
   {
    "id": "95913813",
    "title": "Solutions Designer & Developer",
@@ -1377,8 +1444,7 @@
     "Supportive and collaborative team culture"
    ],
    "categories": [
-    "mobile",
-    "server"
+    "mobile"
    ],
    "inz": "unchecked",
    "inz_name": "",
@@ -1750,32 +1816,6 @@
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95821498",
    "first_seen": "2026-11-13T08:41Z"
-  },
-  {
-   "id": "95821460",
-   "title": "Senior AWS Network Engineer",
-   "company": "Comspek International",
-   "location": "Wellington",
-   "work_type": "Full time",
-   "arrangement": "Hybrid",
-   "salary": "NZD 130000 - 150000 per annum",
-   "listed": "2026-11-11T02:41:05Z",
-   "teaser": "Seeking an experienced Senior AWS Network Engineer to design, implement, operate, and continuously improve enterprise networking infrastructure",
-   "classification": "Information & Communication Technology / Engineering - Network",
-   "bullets": [
-    "Cisco / AWS / LAN / WAN / SD-WAN",
-    "Permanent / Work Life Balance",
-    "Strong Package / Hybrid / Wellington Based"
-   ],
-   "categories": [
-    "server"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95821460",
-   "first_seen": "2026-11-13T08:49Z"
   },
   {
    "id": "95820235",
@@ -3729,32 +3769,6 @@
    "first_seen": "2026-11-13T08:41Z"
   },
   {
-   "id": "95728538",
-   "title": "Digital Workspace Engineer (Power Platform)",
-   "company": "Kainga Ora",
-   "location": "Christchurch Central, Canterbury",
-   "work_type": "Full time",
-   "arrangement": "",
-   "salary": "",
-   "listed": "2026-11-05T21:32:28Z",
-   "teaser": "Use your Power Platform expertise to transform digital experiences at Kāinga Ora.",
-   "classification": "Information & Communication Technology / Engineering - Software",
-   "bullets": [
-    "Lead enterprise Power Platform & AI innovation",
-    "Make a real impact for communities across NZ",
-    "5 weeks' leave, & insurance benefits plus more"
-   ],
-   "categories": [
-    "fintech"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95728538",
-   "first_seen": "2026-11-13T08:41Z"
-  },
-  {
    "id": "95728417",
    "title": "Software Developer",
    "company": "Craigs Investment Partners",
@@ -4802,32 +4816,6 @@
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95648898",
    "first_seen": "2026-11-13T08:49Z"
-  },
-  {
-   "id": "95647846",
-   "title": "Network Engineer",
-   "company": "Health New Zealand - Te Whatu Ora",
-   "location": "Christchurch Central, Canterbury",
-   "work_type": "Full time",
-   "arrangement": "Hybrid",
-   "salary": "",
-   "listed": "2026-11-02T20:37:22Z",
-   "teaser": "Make a real impact on the health and wellbeing of New Zealanders through meaningful digital solutions",
-   "classification": "Information & Communication Technology / Engineering - Network",
-   "bullets": [
-    "Work in a Supportive, Values-Led Environment",
-    "Data-Driven Decision Making",
-    "Hybrid working for better work-life balance"
-   ],
-   "categories": [
-    "mobile"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95647846",
-   "first_seen": "2026-11-13T08:41Z"
   },
   {
    "id": "95647327",
@@ -5880,32 +5868,6 @@
    "first_seen": "2026-11-13T08:41Z"
   },
   {
-   "id": "95562439",
-   "title": "Technical Lead",
-   "company": "BrightSpark Recruitment",
-   "location": "Wellington Central, Wellington",
-   "work_type": "Full time",
-   "arrangement": "Hybrid",
-   "salary": "Good salary + benefits offered",
-   "listed": "2026-10-28T21:34:58Z",
-   "teaser": "Play a key role at this growing SaaS business that's on a mission to revolutionise and disrupt its sector.",
-   "classification": "Information & Communication Technology / Engineering - Software",
-   "bullets": [
-    "Lead technical direction and delivery for a squad of 3-4 engineers",
-    "Hybrid working - 3 days in office",
-    "Growth opportunities, supportive leadership, social team"
-   ],
-   "categories": [
-    "mobile"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95562439",
-   "first_seen": "2026-11-13T16:46Z"
-  },
-  {
    "id": "95561789",
    "title": "Senior AI Software Engineer",
    "company": "Eversor Limited",
@@ -6916,6 +6878,32 @@
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95421038",
    "first_seen": "2026-11-13T08:41Z"
+  },
+  {
+   "id": "95419819",
+   "title": "Head of Payroll",
+   "company": "Amy Tea Consulting Limited",
+   "location": "Kawakawa, Northland",
+   "work_type": "Full time",
+   "arrangement": "",
+   "salary": "",
+   "listed": "2026-10-21T23:40:03Z",
+   "teaser": "Lead payroll for Ngāti Hine Health Trust and ensure every kaimahi is paid their full entitlements, accurately and on time.",
+   "classification": "Accounting / Payroll",
+   "bullets": [
+    "Lead payroll at a large kaupapa Māori health provider, based in Kawakawa",
+    "Work with the business to identify and implement payroll cycle improvements",
+    "Be the payroll expert kaimahi and managers trust, managing costs with data"
+   ],
+   "categories": [
+    "fintech"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95419819",
+   "first_seen": "2026-11-16T21:10Z"
   },
   {
    "id": "95418537",
