@@ -1,30 +1,119 @@
 {
- "updated": "2026-11-17T03:51Z",
- "count": 302,
+ "updated": "2026-11-17T12:44Z",
+ "count": 303,
  "added": [
-  "95451265",
-  "95590326",
-  "95929713",
-  "95929749",
-  "95929750",
-  "95929788",
-  "95929825",
-  "95929826",
-  "95930283",
-  "95931273",
-  "95935723",
-  "95935784",
-  "95935785",
-  "95935810",
-  "95936196",
-  "95936728",
-  "95937249",
-  "95938338",
-  "95938661",
-  "95939110"
+  "95940295",
+  "95940363",
+  "95942174",
+  "95942278"
  ],
- "removed": 16,
+ "removed": 3,
  "jobs": [
+  {
+   "id": "95942278",
+   "title": "Senior Software Engineer",
+   "company": "BrightSpark Recruitment",
+   "location": "Greenlane, Auckland",
+   "work_type": "Full time",
+   "arrangement": "Hybrid",
+   "salary": "Good salary + bonus scheme + benefits",
+   "listed": "2026-11-17T05:30:32Z",
+   "teaser": "Join a genuinely collaborative engineering culture where technical excellence, continuous improvement, and customer outcomes are valued equally",
+   "classification": "Information & Communication Technology / Engineering - Software",
+   "bullets": [
+    "Most senior engineer in a passionate and talented team",
+    "Hybrid working/great culture",
+    "Supportive leadership and upskilling opportunuties"
+   ],
+   "categories": [
+    "server"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95942278",
+   "first_seen": "2026-11-17T12:44Z"
+  },
+  {
+   "id": "95942174",
+   "title": "Senior Data Engineer",
+   "company": "Younity",
+   "location": "Christchurch Central, Canterbury",
+   "work_type": "Full time",
+   "arrangement": "Hybrid",
+   "salary": "Databricks + Azure + modern data projects",
+   "listed": "2026-11-17T05:26:54Z",
+   "teaser": "If you're a Data Engineer sitting in an internal role wondering what consulting might look like - kick start your new chapter in 2027!",
+   "classification": "Information & Communication Technology / Developers/Programmers",
+   "bullets": [
+    "Solid perks + growth + competitive salary,+ bonus potential",
+    "Kiwi owned, growing fast, and known for delivering cutting-edge data solutions",
+    "Christchurch-based + great team + new office near great lunch options"
+   ],
+   "categories": [
+    "server"
+   ],
+   "inz": "not found",
+   "inz_name": "No results",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95942174",
+   "first_seen": "2026-11-17T12:44Z"
+  },
+  {
+   "id": "95940363",
+   "title": "UI Designer",
+   "company": "Talent Army",
+   "location": "Christchurch, Canterbury",
+   "work_type": "Full time",
+   "arrangement": "",
+   "salary": "",
+   "listed": "2026-11-17T04:20:37Z",
+   "teaser": "Design and ship intuitive product experiences alongside engineers in a fast-moving, collaborative software environment.",
+   "classification": "Design & Architecture / Web & Interaction Design",
+   "bullets": [
+    "Work directly with engineers to design, build and improve products",
+    "Influence UI, interaction design and design systems across complex software",
+    "Fast-moving environment where you can ship, learn and iterate quickly"
+   ],
+   "categories": [
+    "uiux"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95940363",
+   "first_seen": "2026-11-17T12:44Z"
+  },
+  {
+   "id": "95940295",
+   "title": "Software Engineer",
+   "company": "Talent Army",
+   "location": "Christchurch Central, Canterbury",
+   "work_type": "Full time",
+   "arrangement": "",
+   "salary": "",
+   "listed": "2026-11-17T04:18:03Z",
+   "teaser": "Build and scale cloud-native SaaS products in a high-impact engineering team with flexibility, autonomy, and room to grow.",
+   "classification": "Information & Communication Technology / Engineering - Software",
+   "bullets": [
+    "Christchurch - office-based role",
+    "Build scalable software used by customers around the world",
+    "Join a collaborative, high-trust engineering culture"
+   ],
+   "categories": [
+    "mobile",
+    "server"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95940295",
+   "first_seen": "2026-11-17T12:44Z"
+  },
   {
    "id": "95939110",
    "title": "Data Engineer",
@@ -1226,32 +1315,6 @@
    "visa_mention": false,
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95871344",
-   "first_seen": "2026-11-13T08:49Z"
-  },
-  {
-   "id": "95870878",
-   "title": "Security Engineer (Platform & Cloud infrastructure)",
-   "company": "Consult Recruitment",
-   "location": "Auckland CBD, Auckland",
-   "work_type": "Full time",
-   "arrangement": "Hybrid",
-   "salary": "",
-   "listed": "2026-11-13T01:46:35Z",
-   "teaser": "Senior role at NZ Super Fund's Guardians: safeguard resilient cloud, network, and core infrastructure platforms.",
-   "classification": "Information & Communication Technology / Engineering - Network",
-   "bullets": [
-    "Senior Security role within Platform & Cloud infrastructure",
-    "Full time permanent role - Auckland CBD",
-    "Protect the technology behind the NZ Super Fund for future generations."
-   ],
-   "categories": [
-    "server"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95870878",
    "first_seen": "2026-11-13T08:49Z"
   },
   {
@@ -4744,7 +4807,6 @@
     "Enjoy flexible remote work with wellness benefits"
    ],
    "categories": [
-    "mobile",
     "server"
    ],
    "inz": "unchecked",
@@ -7357,28 +7419,6 @@
    "first_seen": "2026-11-13T08:41Z"
   },
   {
-   "id": "95371206",
-   "title": "Senior Analytics Engineer",
-   "company": "Sky Network Television",
-   "location": "Auckland CBD, Auckland",
-   "work_type": "Full time",
-   "arrangement": "Hybrid",
-   "salary": "",
-   "listed": "2026-10-20T03:10:32Z",
-   "teaser": "We're building something special at Rangiata Sky. We're on a mission on all things data and challenging the status quo. Come join our story at Sky!",
-   "classification": "Information & Communication Technology / Database Development & Administration",
-   "bullets": [],
-   "categories": [
-    "server"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95371206",
-   "first_seen": "2026-11-13T08:49Z"
-  },
-  {
    "id": "95370654",
    "title": "UX Writer",
    "company": "BNZ",
@@ -7716,28 +7756,6 @@
    "visa_mention": true,
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95335903",
-   "first_seen": "2026-11-13T08:41Z"
-  },
-  {
-   "id": "95333272",
-   "title": "Senior Platform Engineer",
-   "company": "Basis NZ Limited",
-   "location": "Takapuna, Auckland",
-   "work_type": "Full time",
-   "arrangement": "Hybrid",
-   "salary": "",
-   "listed": "2026-10-18T07:01:33Z",
-   "teaser": "Own the infrastructure, reliability and metering platform behind Basis’s home energy panels. Christchurch or Auckland locations.",
-   "classification": "Information & Communication Technology / Engineering - Software",
-   "bullets": [],
-   "categories": [
-    "server"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95333272",
    "first_seen": "2026-11-13T08:41Z"
   }
  ]
