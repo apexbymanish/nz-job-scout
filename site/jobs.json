@@ -1,19 +1,15 @@
 {
- "updated": "2026-11-18T11:38Z",
- "count": 282,
+ "updated": "2026-11-18T19:37Z",
+ "count": 272,
  "added": [
-  "95598430",
-  "95600954",
-  "95680604",
-  "95962836",
-  "95962855",
-  "95963055",
-  "95963627",
-  "95963758",
-  "95967672",
-  "95975751"
+  "95614347",
+  "95624019",
+  "95625001",
+  "95648747",
+  "95913486",
+  "95913557"
  ],
- "removed": 25,
+ "removed": 16,
  "jobs": [
   {
    "id": "95975751",
@@ -1314,6 +1310,60 @@
    "first_seen": "2026-11-16T11:16Z"
   },
   {
+   "id": "95913557",
+   "title": "Product Manager - Unsecured Lending",
+   "company": "Kiwibank",
+   "location": "Wellington Central, Wellington",
+   "work_type": "Full time",
+   "arrangement": "Hybrid",
+   "salary": "Great salaries and benefits at Kiwibank!",
+   "listed": "2026-11-16T04:02:40Z",
+   "teaser": "Challenge traditional lending and shape products that make everyday banking simpler, helping Kiwi manage their finances with confidence.",
+   "classification": "Marketing & Communications / Product Management & Development",
+   "bullets": [
+    "Shape products that help Kiwi manage their everyday finances with confidence",
+    "Grow your career through meaningful product ownership and transformative change",
+    "Enjoy market leading benefits, including medical, life and trauma insurance"
+   ],
+   "categories": [
+    "fintech",
+    "product"
+   ],
+   "inz": "accredited",
+   "inz_name": "KIWIBANK LIMITED",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95913557",
+   "first_seen": "2026-11-18T19:37Z"
+  },
+  {
+   "id": "95913486",
+   "title": "Product Manager - Unsecured Lending",
+   "company": "Kiwibank",
+   "location": "Auckland CBD, Auckland",
+   "work_type": "Full time",
+   "arrangement": "Hybrid",
+   "salary": "Great salaries and benefits at Kiwibank!",
+   "listed": "2026-11-16T04:01:02Z",
+   "teaser": "Challenge traditional lending and shape products that make everyday banking simpler, helping Kiwi manage their finances with confidence.",
+   "classification": "Marketing & Communications / Product Management & Development",
+   "bullets": [
+    "Shape products that help Kiwi manage their everyday finances with confidence",
+    "Grow your career through meaningful product ownership and transformative change",
+    "Enjoy market leading benefits, including medical, life and trauma insurance"
+   ],
+   "categories": [
+    "fintech",
+    "product"
+   ],
+   "inz": "accredited",
+   "inz_name": "KIWIBANK LIMITED",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95913486",
+   "first_seen": "2026-11-18T19:37Z"
+  },
+  {
    "id": "95908052",
    "title": "Senior Full Stack Developer",
    "company": "Recollect",
@@ -2067,32 +2117,6 @@
    "first_seen": "2026-11-13T08:41Z"
   },
   {
-   "id": "95841419",
-   "title": "Lifecycle and Experience Design Lead",
-   "company": "Mercury",
-   "location": "Newmarket, Auckland",
-   "work_type": "Full time",
-   "arrangement": "Hybrid",
-   "salary": "",
-   "listed": "2026-11-11T22:59:22Z",
-   "teaser": "Turn customer insights into better lifecycle experiences. Shape practical service designs and a prioritised roadmap in a six-month opportunity.",
-   "classification": "Marketing & Communications / Market Research & Analysis",
-   "bullets": [
-    "Bring your CX and service design expertise to connected customer journeys",
-    "Design for the potential of AI, personalisation and automation",
-    "Turn customer insights into practical improvements and a prioritised roadmap"
-   ],
-   "categories": [
-    "uiux"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95841419",
-   "first_seen": "2026-11-13T08:49Z"
-  },
-  {
    "id": "95841275",
    "title": "Senior Software Engineer",
    "company": "TEKsystems",
@@ -2215,33 +2239,6 @@
    "first_seen": "2026-11-13T08:41Z"
   },
   {
-   "id": "95839705",
-   "title": "Senior Data Engineer",
-   "company": "Plexure",
-   "location": "Auckland CBD, Auckland",
-   "work_type": "Full time",
-   "arrangement": "Hybrid",
-   "salary": "",
-   "listed": "2026-11-11T20:13:02Z",
-   "teaser": "We’re looking for a Python Engineer from either a software or data engineering background to join us in this newly created role!",
-   "classification": "Information & Communication Technology / Engineering - Software",
-   "bullets": [
-    "Join a global, growing SaaS company with over 300M users in 60+ countries",
-    "Enjoy paid wellness days, summer hours, a 2k training budget, insurances + more",
-    "Become part of a friendly, collaborative team who are here to support you"
-   ],
-   "categories": [
-    "fintech",
-    "server"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95839705",
-   "first_seen": "2026-11-13T08:41Z"
-  },
-  {
    "id": "95839640",
    "title": "Software Engineering Team Lead",
    "company": "Tuatahi First Fibre Limited",
@@ -2266,32 +2263,6 @@
    "visa_mention": false,
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95839640",
-   "first_seen": "2026-11-13T08:41Z"
-  },
-  {
-   "id": "95839562",
-   "title": "Senior Security Operations Engineer",
-   "company": "Plexure",
-   "location": "Auckland CBD, Auckland",
-   "work_type": "Full time",
-   "arrangement": "Hybrid",
-   "salary": "",
-   "listed": "2026-11-11T19:25:08Z",
-   "teaser": "Lead initiatives that turn security into real business value!",
-   "classification": "Information & Communication Technology / Security",
-   "bullets": [
-    "Join a global, growing SaaS company with over 300M users in 60+ countries",
-    "Enjoy paid wellness days, summer hours, 2k training budget, insurances + more",
-    "Join a friendly, collaborative team in a fully cloud-native environment"
-   ],
-   "categories": [
-    "fintech"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95839562",
    "first_seen": "2026-11-13T08:41Z"
   },
   {
@@ -2366,32 +2337,6 @@
    "visa_mention": false,
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95824559",
-   "first_seen": "2026-11-13T08:41Z"
-  },
-  {
-   "id": "95824156",
-   "title": "Senior Test Automation Engineer",
-   "company": "Recruit IT",
-   "location": "Auckland",
-   "work_type": "Full time",
-   "arrangement": "Hybrid",
-   "salary": "",
-   "listed": "2026-11-11T03:54:05Z",
-   "teaser": "We are looking for a senior leader who wants to help shape the next generation of quality engineering.",
-   "classification": "Information & Communication Technology / Testing & Quality Assurance",
-   "bullets": [
-    "Contribute to the test automation & orchestration design at an enterprise scale",
-    "Initial assignment with a highly respected NZ and Global brand",
-    "Hybrid Working - home + our office or on-site with client"
-   ],
-   "categories": [
-    "mobile"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95824156",
    "first_seen": "2026-11-13T08:41Z"
   },
   {
@@ -2751,136 +2696,6 @@
    "visa_mention": false,
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95814984",
-   "first_seen": "2026-11-13T08:41Z"
-  },
-  {
-   "id": "95814940",
-   "title": "Head of Artificial Intelligence & Data Platforms",
-   "company": "ANZ",
-   "location": "Auckland CBD, Auckland",
-   "work_type": "Full time",
-   "arrangement": "",
-   "salary": "",
-   "listed": "2026-11-10T21:28:57Z",
-   "teaser": "Shape the data and AI platforms powering innovation, analytics and trusted data use across a complex enterprise technology environment.",
-   "classification": "Information & Communication Technology / Engineering - Software",
-   "bullets": [
-    "Build the foundations that enable AI innovation at enterprise scale",
-    "Turn ambitious data and AI opportunities into real-world outcomes",
-    "Access exclusive staff banking benefits, including banking and insurance"
-   ],
-   "categories": [
-    "fintech"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95814940",
-   "first_seen": "2026-11-13T08:49Z"
-  },
-  {
-   "id": "95814925",
-   "title": "Head of Operational Data Delivery",
-   "company": "ANZ",
-   "location": "Auckland CBD, Auckland",
-   "work_type": "Full time",
-   "arrangement": "",
-   "salary": "",
-   "listed": "2026-11-10T21:26:18Z",
-   "teaser": "Shape how data is delivered, connecting strategy and execution to solve complex business, operational and regulatory needs",
-   "classification": "Information & Communication Technology / Management",
-   "bullets": [
-    "Take complex data priorities from strategy through to real-world delivery",
-    "Influence how critical data outcomes are delivered across the bank",
-    "Enjoy comprehensive employee benefits, including banking discounts"
-   ],
-   "categories": [
-    "fintech"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95814925",
-   "first_seen": "2026-11-13T08:49Z"
-  },
-  {
-   "id": "95814916",
-   "title": "Head of IT Service Management",
-   "company": "ANZ",
-   "location": "Auckland CBD, Auckland",
-   "work_type": "Full time",
-   "arrangement": "",
-   "salary": "",
-   "listed": "2026-11-10T21:25:17Z",
-   "teaser": "Transform technology service management through automation, modern tooling and resilient practices that keep critical services running",
-   "classification": "Information & Communication Technology / Management",
-   "bullets": [
-    "Modernise service operations through automation, tooling and technolog",
-    "Influence technology strategy across NZ and Group Technology",
-    "Enjoy comprehensive employee benefits, including banking discounts"
-   ],
-   "categories": [
-    "fintech"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95814916",
-   "first_seen": "2026-11-13T08:49Z"
-  },
-  {
-   "id": "95814909",
-   "title": "Head of Operational Data Delivery",
-   "company": "ANZ",
-   "location": "Auckland CBD, Auckland",
-   "work_type": "Full time",
-   "arrangement": "",
-   "salary": "",
-   "listed": "2026-11-10T21:24:11Z",
-   "teaser": "Shape how data is delivered, connecting strategy and execution to solve complex business, operational and regulatory needs",
-   "classification": "Information & Communication Technology / Management",
-   "bullets": [
-    "Take complex data priorities from strategy through to real-world delivery",
-    "Influence how critical data outcomes are delivered across the bank",
-    "Enjoy comprehensive employee benefits, including banking discounts"
-   ],
-   "categories": [
-    "fintech"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95814909",
-   "first_seen": "2026-11-13T08:49Z"
-  },
-  {
-   "id": "95814888",
-   "title": "Head of Engineering Excellence",
-   "company": "ANZ",
-   "location": "Auckland CBD, Auckland",
-   "work_type": "Full time",
-   "arrangement": "",
-   "salary": "",
-   "listed": "2026-11-10T21:21:53Z",
-   "teaser": "Shape modern engineering practices, grow technical capability and embed AI to deliver better software and customer outcomes",
-   "classification": "Information & Communication Technology / Engineering - Software",
-   "bullets": [
-    "Influence the future of engineering and AI across a major technology landscape",
-    "Put modern engineering and AI into practice at meaningful scale",
-    "Access exclusive staff banking benefits, including banking and insurance"
-   ],
-   "categories": [
-    "fintech"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95814888",
    "first_seen": "2026-11-13T08:41Z"
   },
   {
@@ -3853,60 +3668,6 @@
    "first_seen": "2026-11-13T08:41Z"
   },
   {
-   "id": "95737180",
-   "title": "Open Banking Product Lead",
-   "company": "Kiwibank",
-   "location": "Wellington Central, Wellington",
-   "work_type": "Full time",
-   "arrangement": "Hybrid",
-   "salary": "Excellent salaries and benefits at Kiwibank!",
-   "listed": "2026-11-06T03:21:12Z",
-   "teaser": "Banking is changing, want to help shape the future of Open Banking in Aotearoa?",
-   "classification": "Information & Communication Technology / Product Management & Development",
-   "bullets": [
-    "Shape Kiwibank’s Open Banking strategy and future ecosystem",
-    "Lead innovative partnerships that make Kiwi better off",
-    "Manage the regulatory and compliance capabilities that enable Open Banking"
-   ],
-   "categories": [
-    "fintech",
-    "product"
-   ],
-   "inz": "accredited",
-   "inz_name": "KIWIBANK LIMITED",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95737180",
-   "first_seen": "2026-11-13T08:49Z"
-  },
-  {
-   "id": "95737114",
-   "title": "Open Banking Product Lead",
-   "company": "Kiwibank",
-   "location": "Auckland CBD, Auckland",
-   "work_type": "Full time",
-   "arrangement": "Hybrid",
-   "salary": "Excellent salaries and benefits at Kiwibank!",
-   "listed": "2026-11-06T03:19:45Z",
-   "teaser": "Banking is changing, want to help shape the future of Open Banking in Aotearoa?",
-   "classification": "Information & Communication Technology / Product Management & Development",
-   "bullets": [
-    "Shape Kiwibank’s Open Banking strategy and future ecosystem",
-    "Lead innovative partnerships that make Kiwi better off",
-    "Manage the regulatory and compliance capabilities that enable Open Banking"
-   ],
-   "categories": [
-    "fintech",
-    "product"
-   ],
-   "inz": "accredited",
-   "inz_name": "KIWIBANK LIMITED",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95737114",
-   "first_seen": "2026-11-13T08:49Z"
-  },
-  {
    "id": "95732287",
    "title": "Project Manager / Delivery Lead",
    "company": "Westpac Bank",
@@ -4241,32 +4002,6 @@
    "first_seen": "2026-11-13T08:41Z"
   },
   {
-   "id": "95707086",
-   "title": "Senior HMC Engineer",
-   "company": "Health New Zealand - Te Whatu Ora",
-   "location": "Auckland CBD, Auckland",
-   "work_type": "Full time",
-   "arrangement": "Hybrid",
-   "salary": "",
-   "listed": "2026-11-05T02:08:16Z",
-   "teaser": "Be a part of our Digital Services team - shaping the future of digital healthcare for all New Zealanders",
-   "classification": "Information & Communication Technology / Engineering - Software",
-   "bullets": [
-    "Flexible working arrangements",
-    "Contributing significantly to Health outcomes in NZ",
-    "Work with Highly Skilled Professionals"
-   ],
-   "categories": [
-    "mobile"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95707086",
-   "first_seen": "2026-11-13T08:41Z"
-  },
-  {
    "id": "95703895",
    "title": "Network Engineer",
    "company": "Alexander James",
@@ -4472,28 +4207,6 @@
    "first_seen": "2026-11-13T08:41Z"
   },
   {
-   "id": "95680604",
-   "title": "Senior Software Engineer I– API & Interface Layer - Embedded Systems",
-   "company": "Tekron International",
-   "location": "Epsom, Auckland",
-   "work_type": "Full time",
-   "arrangement": "",
-   "salary": "",
-   "listed": "2026-11-04T02:41:57Z",
-   "teaser": "Join our team at Tekron (Microchip Technology) as a Senior Software Engineer. Advance your career, drive innovation, and create real-world impact.",
-   "classification": "Information & Communication Technology / Engineering - Software",
-   "bullets": [],
-   "categories": [
-    "server"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95680604",
-   "first_seen": "2026-11-18T11:38Z"
-  },
-  {
    "id": "95680430",
    "title": "Senior Software Engineer II– Embedded Systems & Yocto Platform",
    "company": "Tekron International",
@@ -4565,32 +4278,6 @@
    "visa_mention": false,
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95678965",
-   "first_seen": "2026-11-13T08:41Z"
-  },
-  {
-   "id": "95678853",
-   "title": "DevOps Engineer",
-   "company": "WorkSafe New Zealand",
-   "location": "Wellington Central, Wellington",
-   "work_type": "Full time",
-   "arrangement": "Hybrid",
-   "salary": "",
-   "listed": "2026-11-04T01:54:31Z",
-   "teaser": "Design and deliver the cloud platforms, automation and DevOps practices that power WorkSafe's digital future.",
-   "classification": "Information & Communication Technology / Engineering - Software",
-   "bullets": [
-    "Build secure cloud platforms that enable critical services",
-    "Drive automation, DevOps excellence and engineering standards",
-    "18-month fixed term role based in any WorkSafe Mahi Haumaru location"
-   ],
-   "categories": [
-    "server"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95678853",
    "first_seen": "2026-11-13T08:41Z"
   },
   {
@@ -4849,6 +4536,32 @@
    "first_seen": "2026-11-13T08:41Z"
   },
   {
+   "id": "95648747",
+   "title": "Software Engineer",
+   "company": "Hays Recruitment",
+   "location": "Auckland",
+   "work_type": "Full time",
+   "arrangement": "Hybrid",
+   "salary": "",
+   "listed": "2026-11-02T22:22:10Z",
+   "teaser": "Hands-on C# and Python Developer for application development projects.",
+   "classification": "Information & Communication Technology / Engineering - Software",
+   "bullets": [
+    "Competitive rate",
+    "Hybrid work environment",
+    "Valid working rights in New Zealand essential"
+   ],
+   "categories": [
+    "server"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95648747",
+   "first_seen": "2026-11-18T19:37Z"
+  },
+  {
    "id": "95647327",
    "title": "Software and Applied AI Engineer",
    "company": "Traffic Safe",
@@ -5071,7 +4784,8 @@
     "Modern stack: AWS, React, TypeScript & Node in a high-trust, cloud-first team"
    ],
    "categories": [
-    "mobile"
+    "mobile",
+    "server"
    ],
    "inz": "unchecked",
    "inz_name": "",
@@ -5097,7 +4811,8 @@
     "The opportunity to work in a leading ANZ company"
    ],
    "categories": [
-    "mobile"
+    "mobile",
+    "server"
    ],
    "inz": "accredited",
    "inz_name": "DATACOM NEW ZEALAND LIMITED (+4 other Datacom entities)",
@@ -5105,6 +4820,32 @@
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95625230",
    "first_seen": "2026-11-17T21:23Z"
+  },
+  {
+   "id": "95625001",
+   "title": "Senior Developer / Tech Lead - AI LAB",
+   "company": "Datacom",
+   "location": "Wellington Central, Wellington",
+   "work_type": "Full time",
+   "arrangement": "Hybrid",
+   "salary": "",
+   "listed": "2026-11-01T22:56:15Z",
+   "teaser": "About UsAt Datacom, we combine technology, expertise, and talented people to help organisations thrive in a rapidly changing world.",
+   "classification": "Information & Communication Technology / Team Leaders",
+   "bullets": [
+    "Career Progression and Growth",
+    "Dynamic and Supportive work culture",
+    "The opportunity to work in a leading ANZ company"
+   ],
+   "categories": [
+    "server"
+   ],
+   "inz": "accredited",
+   "inz_name": "DATACOM NEW ZEALAND LIMITED (+4 other Datacom entities)",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95625001",
+   "first_seen": "2026-11-18T19:37Z"
   },
   {
    "id": "95624837",
@@ -5131,6 +4872,32 @@
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95624837",
    "first_seen": "2026-11-16T11:16Z"
+  },
+  {
+   "id": "95624019",
+   "title": "Data Engineer",
+   "company": "The Instillery Group",
+   "location": "Parnell, Auckland",
+   "work_type": "Full time",
+   "arrangement": "Hybrid",
+   "salary": "",
+   "listed": "2026-11-01T21:26:29Z",
+   "teaser": "Ready to build top-shelf tech with some of Aotearoa’s finest? Hit apply and let’s talk.",
+   "classification": "Information & Communication Technology / Engineering - Software",
+   "bullets": [
+    "Competitive pay plus extra leave for your birthday & wellbeing",
+    "Join a fast-paced culture where your ideas drive change",
+    "Work with forward thinking organisations on high-impact data projects."
+   ],
+   "categories": [
+    "server"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95624019",
+   "first_seen": "2026-11-18T19:37Z"
   },
   {
    "id": "95623252",
@@ -5210,6 +4977,32 @@
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95619532",
    "first_seen": "2026-11-15T14:14Z"
+  },
+  {
+   "id": "95614347",
+   "title": "IT & Security Operations Engineer – Google Workspace, Mac & Windows",
+   "company": "Tracplus",
+   "location": "Auckland CBD, Auckland",
+   "work_type": "Full time",
+   "arrangement": "Hybrid",
+   "salary": "",
+   "listed": "2026-10-30T23:00:12Z",
+   "teaser": "Shape IT and security at TracPlus, supporting technology that helps emergency responders worldwide. Enjoy five weeks’ leave and room to grow.",
+   "classification": "Information & Communication Technology / Networks & Systems Administration",
+   "bullets": [
+    "Shape a new IT and security function with support from experienced leaders.",
+    "Grow your expertise through hands-on delivery and an ISO 27001 programme.",
+    "Join a collaborative global team supporting emergency response."
+   ],
+   "categories": [
+    "mobile"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95614347",
+   "first_seen": "2026-11-18T19:37Z"
   },
   {
    "id": "95612890",
@@ -5303,6 +5096,7 @@
    "classification": "Information & Communication Technology / Architects",
    "bullets": [],
    "categories": [
+    "mobile",
     "server"
    ],
    "inz": "unchecked",
@@ -6429,32 +6223,6 @@
    "first_seen": "2026-11-13T08:41Z"
   },
   {
-   "id": "95506508",
-   "title": "ServiceNow Developer",
-   "company": "AC3",
-   "location": "Auckland",
-   "work_type": "Full time",
-   "arrangement": "Hybrid",
-   "salary": "$125,000-$140,000 + Kiwisaver +bonus",
-   "listed": "2026-10-26T19:01:43Z",
-   "teaser": "Join a ServiceNow Elite Partner and work on exciting projects across multiple modules (ITSM, ITOM, HRSD, SecOps). Training & Certifications paid for.",
-   "classification": "Information & Communication Technology / Developers/Programmers",
-   "bullets": [
-    "ServiceNow Elite Partner. Voted #4 Best Place to Work. Flexible hybrid work.",
-    "Broad variety of projects and customers (private & Government)",
-    "Supportive team. Training and certifications paid for. Learn & Grow!"
-   ],
-   "categories": [
-    "mobile"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95506508",
-   "first_seen": "2026-11-13T08:49Z"
-  },
-  {
    "id": "95506122",
    "title": "Senior Front End Developer",
    "company": "Ticketure New Zealand Limited",
@@ -6602,7 +6370,6 @@
     "Join a great team of experts"
    ],
    "categories": [
-    "mobile",
     "server"
    ],
    "inz": "unchecked",
@@ -6703,8 +6470,7 @@
     "We celebrate the diversity of our people and champion diverse thinking"
    ],
    "categories": [
-    "mobile",
-    "server"
+    "mobile"
    ],
    "inz": "unchecked",
    "inz_name": "",
@@ -6775,8 +6541,7 @@
    "classification": "Information & Communication Technology / Database Development & Administration",
    "bullets": [],
    "categories": [
-    "fintech",
-    "server"
+    "fintech"
    ],
    "inz": "unchecked",
    "inz_name": "",
@@ -6798,8 +6563,7 @@
    "classification": "Information & Communication Technology / Engineering - Software",
    "bullets": [],
    "categories": [
-    "mobile",
-    "server"
+    "mobile"
    ],
    "inz": "unchecked",
    "inz_name": "",
@@ -6881,32 +6645,6 @@
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95418537",
    "first_seen": "2026-11-13T08:41Z"
-  },
-  {
-   "id": "95417738",
-   "title": "Data Engineer - Azure",
-   "company": "Younity",
-   "location": "Wellington Central, Wellington",
-   "work_type": "Full time",
-   "arrangement": "Hybrid",
-   "salary": "",
-   "listed": "2026-10-21T20:55:04Z",
-   "teaser": "Build Azure Databricks solutions from the ground up in a senior hands-on role with a growing consultancy establishing its Wellington hub.",
-   "classification": "Information & Communication Technology / Database Development & Administration",
-   "bullets": [
-    "Permanent | Wellington | Hybrid |",
-    "Help shape a Wellington hub and a growing Azure Databricks practice",
-    "Paid certifications and training support to keep your skills sharp"
-   ],
-   "categories": [
-    "server"
-   ],
-   "inz": "not found",
-   "inz_name": "No results",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95417738",
-   "first_seen": "2026-11-13T08:49Z"
   },
   {
    "id": "95417652",
