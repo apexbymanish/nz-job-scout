@@ -138,7 +138,7 @@
    "title": "30 most common behavioural interview questions",
    "source": "Trade Me Jobs",
    "url": "https://www.trademe.co.nz/c/jobs/article/the-30-most-common-behavioural-interview-questions-answers",
-   "status": 200
+   "status": 403
   }
  ],
  "projects": {
@@ -163,5 +163,5 @@
    "Currency rounding and FX-quote library with property-based tests (never use float for money)."
   ]
  },
- "links_checked": "2026-11-17T21:22Z"
+ "links_checked": "2026-11-19T01:29Z"
 }
