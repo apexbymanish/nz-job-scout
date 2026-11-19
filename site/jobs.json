@@ -1,28 +1,12 @@
 {
- "updated": "2026-11-19T09:23Z",
- "count": 293,
+ "updated": "2026-11-19T18:28Z",
+ "count": 292,
  "added": [
-  "95632358",
-  "95633616",
-  "95678146",
-  "95773709",
-  "95773712",
-  "95814479",
-  "95908521",
-  "95983543",
-  "95983806",
-  "95983853",
-  "95984857",
-  "95986963",
-  "95987163",
-  "95987225",
-  "95987275",
-  "95987682",
-  "95988026",
-  "95990811",
-  "95993549"
+  "95508275",
+  "95818118",
+  "95841419"
  ],
- "removed": 9,
+ "removed": 4,
  "jobs": [
   {
    "id": "95993549",
@@ -2664,6 +2648,32 @@
    "first_seen": "2026-11-13T08:41Z"
   },
   {
+   "id": "95841419",
+   "title": "Lifecycle and Experience Design Lead",
+   "company": "Mercury",
+   "location": "Newmarket, Auckland",
+   "work_type": "Full time",
+   "arrangement": "Hybrid",
+   "salary": "",
+   "listed": "2026-11-11T22:59:22Z",
+   "teaser": "Turn customer insights into better lifecycle experiences. Shape practical service designs and a prioritised roadmap in a six-month opportunity.",
+   "classification": "Marketing & Communications / Market Research & Analysis",
+   "bullets": [
+    "Bring your CX and service design expertise to connected customer journeys",
+    "Design for the potential of AI, personalisation and automation",
+    "Turn customer insights into practical improvements and a prioritised roadmap"
+   ],
+   "categories": [
+    "uiux"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95841419",
+   "first_seen": "2026-11-19T18:28Z"
+  },
+  {
    "id": "95841275",
    "title": "Senior Software Engineer",
    "company": "TEKsystems",
@@ -3020,6 +3030,32 @@
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95820054",
    "first_seen": "2026-11-13T08:41Z"
+  },
+  {
+   "id": "95818118",
+   "title": "Senior Geospatial Engineer",
+   "company": "New Zealand Transport Agency",
+   "location": "Wellington",
+   "work_type": "Full time",
+   "arrangement": "",
+   "salary": "",
+   "listed": "2026-11-11T01:01:07Z",
+   "teaser": "Lead NZTA's geospatial capability, delivering modern GIS solutions that support better transport outcomes.",
+   "classification": "Information & Communication Technology / Other",
+   "bullets": [
+    "Lead enterprise geospatial platforms and GIS engineering excellence",
+    "Deliver scalable spatial solutions that enable better decisions",
+    "Grow capability whilst shaping the future of geospatial services"
+   ],
+   "categories": [
+    "server"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95818118",
+   "first_seen": "2026-11-19T18:28Z"
   },
   {
    "id": "95817973",
@@ -3657,32 +3693,6 @@
    "first_seen": "2026-11-19T09:23Z"
   },
   {
-   "id": "95773709",
-   "title": "Contract - Java / MuleSoft Developer | 6 Month Contract",
-   "company": "Datacom",
-   "location": "Wellington Central, Wellington",
-   "work_type": "Full time",
-   "arrangement": "",
-   "salary": "",
-   "listed": "2026-11-09T03:44:59Z",
-   "teaser": "Expert Java/MuleSoft developer needed. 6-month contract, flexible NZ locations, competitive rate.",
-   "classification": "Information & Communication Technology / Engineering - Software",
-   "bullets": [
-    "Flexible Work Arrangements and Work From Home",
-    "Make your mark at one of ANZ's largest and most complex technology businesses",
-    "Grow in a flexible, people-first culture with real career development"
-   ],
-   "categories": [
-    "server"
-   ],
-   "inz": "accredited",
-   "inz_name": "DATACOM NEW ZEALAND LIMITED (+4 other Datacom entities)",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95773709",
-   "first_seen": "2026-11-19T09:23Z"
-  },
-  {
    "id": "95773470",
    "title": "Engineering Lead",
    "company": "Spark New Zealand",
@@ -4242,32 +4252,6 @@
    "visa_mention": false,
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95736499",
-   "first_seen": "2026-11-19T01:30Z"
-  },
-  {
-   "id": "95733080",
-   "title": "Digital Platform and Security Lead",
-   "company": "Taupo District Council",
-   "location": "Taupo, Waikato",
-   "work_type": "Full time",
-   "arrangement": "",
-   "salary": "",
-   "listed": "2026-11-06T01:39:37Z",
-   "teaser": "Bring your technical expertise, grow as a leader and help shape secure, future-ready digital services that make a real difference for our community",
-   "classification": "Information & Communication Technology / Management",
-   "bullets": [
-    "Stay technical while growing as a leader",
-    "Shape cloud, security and digital platforms",
-    "Build your career and enjoy the Taupō lifestyle"
-   ],
-   "categories": [
-    "fintech"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95733080",
    "first_seen": "2026-11-19T01:30Z"
   },
   {
@@ -5281,7 +5265,8 @@
     "Join a company celebrated for its commitment to safety and innovation!"
    ],
    "categories": [
-    "mobile"
+    "mobile",
+    "server"
    ],
    "inz": "unchecked",
    "inz_name": "",
@@ -5381,6 +5366,7 @@
    "classification": "Information & Communication Technology / Database Development & Administration",
    "bullets": [],
    "categories": [
+    "mobile",
     "server"
    ],
    "inz": "unchecked",
@@ -6795,56 +6781,30 @@
    "first_seen": "2026-11-13T16:46Z"
   },
   {
-   "id": "95510133",
-   "title": "Platform Engineer",
-   "company": "FindIT Recruitment",
-   "location": "Wellington Central, Wellington",
-   "work_type": "Contract/Temp",
-   "arrangement": "Hybrid",
+   "id": "95508275",
+   "title": "Support Services Leader - Part Time - Centre Place",
+   "company": "Farmers",
+   "location": "Hamilton Central, Waikato",
+   "work_type": "Part time",
+   "arrangement": "",
    "salary": "",
-   "listed": "2026-10-27T00:37:40Z",
-   "teaser": "9 month DevOps contract with a critical NZ infrastructure organisation. Hands-on role using AWS, Ansible, OpenShift, Kubernetes and CI/CD.",
-   "classification": "Information & Communication Technology / Engineering - Software",
+   "listed": "2026-10-26T22:56:25Z",
+   "teaser": "Provide behind-the-scenes support across payroll, banking, administration and customer service to keep the store running smoothly.",
+   "classification": "Administration & Office Support / Other",
    "bullets": [
-    "Initial 9 month contract | Wellington-based",
-    "AWS, Ansible, OpenShift, Kubernetes, Helm & CI/CD",
-    "Work on high-impact infrastructure and automation projects"
+    "Deliver exceptional customer service and create a welcoming shopping experience.",
+    "Staff discounts across Farmers, Pascoes, Whitcoulls & rest of JPG Group!",
+    "Excellent training and development opportunities."
    ],
    "categories": [
-    "server"
+    "fintech"
    ],
    "inz": "unchecked",
    "inz_name": "",
    "visa_mention": false,
    "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95510133",
-   "first_seen": "2026-11-13T16:46Z"
-  },
-  {
-   "id": "95509773",
-   "title": "Automation Software Tester",
-   "company": "Comspek International",
-   "location": "Wellington",
-   "work_type": "Full time",
-   "arrangement": "Hybrid",
-   "salary": "",
-   "listed": "2026-10-27T00:21:12Z",
-   "teaser": "Come join one of the best companies going, experiencing a high level of growth and looking for skilled Automation testing skills with Playwright",
-   "classification": "Information & Communication Technology / Testing & Quality Assurance",
-   "bullets": [
-    "Playwright / Automation Testing",
-    "Permanent / Work Life Balance",
-    "Career opportunities / Amazing team / Brand New Role"
-   ],
-   "categories": [
-    "mobile"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95509773",
-   "first_seen": "2026-11-13T16:46Z"
+   "url": "https://www.seek.co.nz/job/95508275",
+   "first_seen": "2026-11-19T18:28Z"
   },
   {
    "id": "95506655",
