@@ -1,26 +1,40 @@
 {
- "updated": "2026-11-20T08:01Z",
- "count": 294,
+ "updated": "2026-11-20T16:55Z",
+ "count": 295,
  "added": [
-  "95701218",
-  "95760924",
-  "95840232",
-  "96010495",
-  "96011214",
-  "96012181",
-  "96012210",
-  "96012335",
-  "96012756",
-  "96014951",
-  "96015411",
-  "96016016",
-  "96017391",
-  "96017554",
-  "96018193",
-  "96018569"
+  "95672697",
+  "95673741",
+  "95770590",
+  "96023018"
  ],
- "removed": 15,
+ "removed": 3,
  "jobs": [
+  {
+   "id": "96023018",
+   "title": "Senior Product Manager",
+   "company": "moshtix",
+   "location": "Auckland CBD, Auckland",
+   "work_type": "Contract/Temp",
+   "arrangement": "Hybrid",
+   "salary": "",
+   "listed": "2026-11-20T08:25:07Z",
+   "teaser": "Lead end-to-end product discovery, delivery and growth for the Universe platform across global markets.",
+   "classification": "Information & Communication Technology / Product Management & Development",
+   "bullets": [
+    "Exciting contract opportunity working within a dynamic & rewarding team!",
+    "Part of Ticketmaster the world's leading & innovative ticketing company!",
+    "Exciting industry with a fun and inclusive work environment!"
+   ],
+   "categories": [
+    "product"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/96023018",
+   "first_seen": "2026-11-20T16:55Z"
+  },
   {
    "id": "96018569",
    "title": "Senior Reporting & Automation Lead",
@@ -1551,32 +1565,6 @@
    "first_seen": "2026-11-18T03:02Z"
   },
   {
-   "id": "95960556",
-   "title": "Lead Technology Security Specialist – API & Integration",
-   "company": "Tribe Group",
-   "location": "Wellington Central, Wellington",
-   "work_type": "Full time",
-   "arrangement": "Hybrid",
-   "salary": "18-month fixed term | Circa $185k–$195k",
-   "listed": "2026-11-18T02:02:05Z",
-   "teaser": "Secure complex APIs, integrations and modern platforms in a major government transformation. Deep technical expertise essential.",
-   "classification": "Information & Communication Technology / Architects",
-   "bullets": [
-    "API security, integration and complex legacy modernisation",
-    "18-month fixed term | Indicative $185k–$195k",
-    "Wellington | Hybrid working | Major transformation programme"
-   ],
-   "categories": [
-    "server"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95960556",
-   "first_seen": "2026-11-18T03:02Z"
-  },
-  {
    "id": "95959929",
    "title": "Senior Data Engineer",
    "company": "ASB Bank",
@@ -3032,8 +3020,8 @@
     "Work across MuleSoft Anypoint Platform and SAP Integration Suite"
    ],
    "categories": [
-    "fintech",
-    "mobile"
+    "mobile",
+    "server"
    ],
    "inz": "unchecked",
    "inz_name": "",
@@ -3211,32 +3199,6 @@
    "visa_mention": false,
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95832692",
-   "first_seen": "2026-11-13T08:41Z"
-  },
-  {
-   "id": "95825207",
-   "title": "Solution Architect - D365",
-   "company": "Datacom",
-   "location": "New Zealand",
-   "work_type": "Full time",
-   "arrangement": "Hybrid",
-   "salary": "",
-   "listed": "2026-11-11T04:24:37Z",
-   "teaser": "Shape enterprise D365 solutions. Lead discovery & design for Finance and Supply Chain modernisation. Drive real business impact.",
-   "classification": "Information & Communication Technology / Consultants",
-   "bullets": [
-    "Flexible Work Arrangements and Work From Home",
-    "Make your mark at one of ANZ's largest and most complex technology businesses",
-    "Grow in a flexible, people-first culture with real career development"
-   ],
-   "categories": [
-    "fintech"
-   ],
-   "inz": "accredited",
-   "inz_name": "DATACOM NEW ZEALAND LIMITED (+4 other Datacom entities)",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95825207",
    "first_seen": "2026-11-13T08:41Z"
   },
   {
@@ -4164,6 +4126,28 @@
    "first_seen": "2026-11-13T08:41Z"
   },
   {
+   "id": "95770590",
+   "title": "Senior Product Manager",
+   "company": "Narrative",
+   "location": "Auckland CBD, Auckland",
+   "work_type": "Full time",
+   "arrangement": "Hybrid",
+   "salary": "",
+   "listed": "2026-11-09T02:19:07Z",
+   "teaser": "Build and ship high-quality features for Narrative’s core products, collaborating across teams while growing autonomy, technical depth, and impact.",
+   "classification": "Information & Communication Technology / Product Management & Development",
+   "bullets": [],
+   "categories": [
+    "product"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95770590",
+   "first_seen": "2026-11-20T16:55Z"
+  },
+  {
    "id": "95765396",
    "title": "Lead Cloud Engineer",
    "company": "Walker Smith",
@@ -4388,6 +4372,7 @@
     "Exciting digital transformation, collaborative team"
    ],
    "categories": [
+    "mobile",
     "server"
    ],
    "inz": "unchecked",
@@ -5223,7 +5208,8 @@
     "18-month fixed term role based in any WorkSafe Mahi Haumaru location"
    ],
    "categories": [
-    "mobile"
+    "mobile",
+    "server"
    ],
    "inz": "unchecked",
    "inz_name": "",
@@ -5338,6 +5324,32 @@
    "first_seen": "2026-11-13T08:49Z"
   },
   {
+   "id": "95673741",
+   "title": "Lead Data Engineer",
+   "company": "Younity",
+   "location": "Auckland CBD, Auckland",
+   "work_type": "Contract/Temp",
+   "arrangement": "Hybrid",
+   "salary": "$130 - $140 per hour",
+   "listed": "2026-11-03T22:05:40Z",
+   "teaser": "Lead the design and delivery of modern data platforms using Databricks, Azure and cloud technologies.",
+   "classification": "Information & Communication Technology / Engineering - Software",
+   "bullets": [
+    "6+ Months Contract Opportunity",
+    "Work for a prominent global player",
+    "Hybrid"
+   ],
+   "categories": [
+    "server"
+   ],
+   "inz": "not found",
+   "inz_name": "No results",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95673741",
+   "first_seen": "2026-11-20T16:55Z"
+  },
+  {
    "id": "95673654",
    "title": "Senior Network Engineer",
    "company": "Potentia",
@@ -5411,6 +5423,32 @@
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95672892",
    "first_seen": "2026-11-13T08:41Z"
+  },
+  {
+   "id": "95672697",
+   "title": "Enterprise Architect - SAP",
+   "company": "Taska360",
+   "location": "Wellington Central, Wellington",
+   "work_type": "Contract/Temp",
+   "arrangement": "",
+   "salary": "$$ dependent on your expertise",
+   "listed": "2026-11-03T19:39:09Z",
+   "teaser": "We seek an Architect who brings significant SAP expertise especially transforming large and complex tech environments to S/4HANA",
+   "classification": "Information & Communication Technology / Architects",
+   "bullets": [
+    "Initial 6mth engagement",
+    "Wellington based",
+    "Utilise your SAP and S/4HANA expertise"
+   ],
+   "categories": [
+    "mobile"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95672697",
+   "first_seen": "2026-11-20T16:55Z"
   },
   {
    "id": "95658293",
@@ -5961,32 +5999,6 @@
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95619532",
    "first_seen": "2026-11-15T14:14Z"
-  },
-  {
-   "id": "95614347",
-   "title": "IT & Security Operations Engineer – Google Workspace, Mac & Windows",
-   "company": "Tracplus",
-   "location": "Auckland CBD, Auckland",
-   "work_type": "Full time",
-   "arrangement": "Hybrid",
-   "salary": "",
-   "listed": "2026-10-30T23:00:12Z",
-   "teaser": "Shape IT and security at TracPlus, supporting technology that helps emergency responders worldwide. Enjoy five weeks’ leave and room to grow.",
-   "classification": "Information & Communication Technology / Networks & Systems Administration",
-   "bullets": [
-    "Shape a new IT and security function with support from experienced leaders.",
-    "Grow your expertise through hands-on delivery and an ISO 27001 programme.",
-    "Join a collaborative global team supporting emergency response."
-   ],
-   "categories": [
-    "mobile"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95614347",
-   "first_seen": "2026-11-18T19:37Z"
   },
   {
    "id": "95612890",
@@ -6797,7 +6809,6 @@
     "Hybrid role with genuine influence and long-term growth opportunities"
    ],
    "categories": [
-    "mobile",
     "server"
    ],
    "inz": "unchecked",
@@ -6846,7 +6857,6 @@
     "Based in Hamilton, Waikato"
    ],
    "categories": [
-    "mobile",
     "server"
    ],
    "inz": "unchecked",
@@ -7118,8 +7128,7 @@
     "Shape how a modern engineering team builds with AI, from anywhere in NZ."
    ],
    "categories": [
-    "mobile",
-    "server"
+    "mobile"
    ],
    "inz": "unchecked",
    "inz_name": "",
