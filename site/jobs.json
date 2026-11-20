@@ -1,14 +1,36 @@
 {
- "updated": "2026-11-20T16:55Z",
- "count": 295,
+ "updated": "2026-11-20T22:57Z",
+ "count": 292,
  "added": [
-  "95672697",
-  "95673741",
-  "95770590",
-  "96023018"
+  "95533916",
+  "95726881",
+  "95732593",
+  "96032644"
  ],
- "removed": 3,
+ "removed": 7,
  "jobs": [
+  {
+   "id": "96032644",
+   "title": "Intermediate/Senior Software Engineer – Industrial Automation (C#)",
+   "company": "Active Talent",
+   "location": "Tauranga Central, Bay of Plenty",
+   "work_type": "Full time",
+   "arrangement": "",
+   "salary": "$120,000 – $160,000 per year",
+   "listed": "2026-11-20T21:40:59Z",
+   "teaser": "Kiwi team with a big international reach! Develop cutting-edge industrial software & help shape the next generation of technologies!",
+   "classification": "Information & Communication Technology / Engineering - Software",
+   "bullets": [],
+   "categories": [
+    "server"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/96032644",
+   "first_seen": "2026-11-20T22:57Z"
+  },
   {
    "id": "96023018",
    "title": "Senior Product Manager",
@@ -1540,28 +1562,6 @@
    "visa_mention": false,
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95960851",
-   "first_seen": "2026-11-18T03:02Z"
-  },
-  {
-   "id": "95960686",
-   "title": "Senior Data Engineer",
-   "company": "H2R Consulting",
-   "location": "Wellington Central, Wellington",
-   "work_type": "Contract/Temp",
-   "arrangement": "Hybrid",
-   "salary": "",
-   "listed": "2026-11-18T02:05:40Z",
-   "teaser": "2x 12-month hourly rate contracts for Senior Data Engineers. Migrate SAS to Microsoft Fabric. Wellington based, hybrid working",
-   "classification": "Information & Communication Technology / Database Development & Administration",
-   "bullets": [],
-   "categories": [
-    "server"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95960686",
    "first_seen": "2026-11-18T03:02Z"
   },
   {
@@ -3565,32 +3565,6 @@
    "first_seen": "2026-11-13T08:41Z"
   },
   {
-   "id": "95814479",
-   "title": "Lead Engineer",
-   "company": "Arlo Software",
-   "location": "Petone, Wellington",
-   "work_type": "Full time",
-   "arrangement": "Hybrid",
-   "salary": "",
-   "listed": "2026-11-10T20:58:16Z",
-   "teaser": "Lead a team of 3-4 engineers while staying hands-on. Own delivery, mentor your team, and keep shipping code that matters.",
-   "classification": "Information & Communication Technology / Developers/Programmers",
-   "bullets": [
-    "Stay hands-on — ship code, not just manage from the sidelines",
-    "Mentor engineers through real guidance, not just performance reviews",
-    "Hybrid working environment"
-   ],
-   "categories": [
-    "server"
-   ],
-   "inz": "not found",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95814479",
-   "first_seen": "2026-11-19T09:23Z"
-  },
-  {
    "id": "95814343",
    "title": "System Developer - Finance",
    "company": "Absolute IT",
@@ -4505,6 +4479,28 @@
    "first_seen": "2026-11-13T08:41Z"
   },
   {
+   "id": "95732593",
+   "title": "Software Product Owner",
+   "company": "Rocket Lab",
+   "location": "Auckland",
+   "work_type": "Full time",
+   "arrangement": "",
+   "salary": "",
+   "listed": "2026-11-06T01:24:07Z",
+   "teaser": "First idea to production release. You'll work with stakeholders to understand what they need and turn it into a clear vision and roadmap.",
+   "classification": "Information & Communication Technology / Product Management & Development",
+   "bullets": [],
+   "categories": [
+    "product"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95732593",
+   "first_seen": "2026-11-20T22:57Z"
+  },
+  {
    "id": "95732287",
    "title": "Project Manager / Delivery Lead",
    "company": "Westpac Bank",
@@ -4715,6 +4711,32 @@
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95728243",
    "first_seen": "2026-11-13T08:41Z"
+  },
+  {
+   "id": "95726881",
+   "title": "AI Product Engineer",
+   "company": "Talent Link Limited",
+   "location": "Wellington Central, Wellington",
+   "work_type": "Full time",
+   "arrangement": "",
+   "salary": "$70,000 – $150,000 per year",
+   "listed": "2026-11-05T17:28:18Z",
+   "teaser": "Help us build the next generation of property management software where AI agents and automation don’t just answer questions, they get the job done!",
+   "classification": "Information & Communication Technology / Engineering - Software",
+   "bullets": [
+    "Build tech that matters and have it actually implemented",
+    "Be part of a fast-growing New Zealand software company",
+    "Make an impact and contribute to industry-leading tech"
+   ],
+   "categories": [
+    "mobile"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95726881",
+   "first_seen": "2026-11-20T22:57Z"
   },
   {
    "id": "95717899",
@@ -6703,7 +6725,7 @@
     "Competitive package on offer"
    ],
    "categories": [
-    "mobile"
+    "other"
    ],
    "inz": "unchecked",
    "inz_name": "",
@@ -6711,6 +6733,32 @@
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95534304",
    "first_seen": "2026-11-13T08:41Z"
+  },
+  {
+   "id": "95533916",
+   "title": "Credit Team Lead",
+   "company": "Nova Energy",
+   "location": "Wellington Central, Wellington",
+   "work_type": "Full time",
+   "arrangement": "Hybrid",
+   "salary": "Competitive salary",
+   "listed": "2026-10-27T22:45:59Z",
+   "teaser": "Lead our Credit Solutions team across various locations to deliver effective outcomes and foster a high-performing, inclusive culture.",
+   "classification": "Accounting / Accounts Receivable/Credit Control",
+   "bullets": [
+    "Competitive remuneration with a discretionary performance-based bonus.",
+    "Flexible working arrangements.",
+    "Annual health checks, mole maps, flu vaccinations and mental health support"
+   ],
+   "categories": [
+    "fintech"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95533916",
+   "first_seen": "2026-11-20T22:57Z"
   },
   {
    "id": "95533825",
@@ -6730,7 +6778,6 @@
    ],
    "categories": [
     "fintech",
-    "mobile",
     "server"
    ],
    "inz": "unchecked",
@@ -7005,59 +7052,6 @@
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95525258",
    "first_seen": "2026-11-13T08:49Z"
-  },
-  {
-   "id": "95515993",
-   "title": "Senior DevOps Engineer - NZ",
-   "company": "SecuritEase International Limited",
-   "location": "Petone, Wellington",
-   "work_type": "Full time",
-   "arrangement": "Hybrid",
-   "salary": "",
-   "listed": "2026-10-27T03:22:13Z",
-   "teaser": "Join SecuritEase as a Senior DevOps Engineer, driving cloud automation, Kubernetes, infrastructure scalability and platform reliability in fintech.",
-   "classification": "Information & Communication Technology / Developers/Programmers",
-   "bullets": [
-    "Work with modern cloud technologies - Kubernetes, Terraform, AWS and Azure.",
-    "Make a real impact by driving automation, scalability and platform reliability.",
-    "Join a global fintech business with opportunities to innovate."
-   ],
-   "categories": [
-    "fintech",
-    "server"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95515993",
-   "first_seen": "2026-11-13T08:41Z"
-  },
-  {
-   "id": "95512957",
-   "title": "Platform Engineer",
-   "company": "FindIT Recruitment",
-   "location": "Wellington Central, Wellington",
-   "work_type": "Full time",
-   "arrangement": "Hybrid",
-   "salary": "",
-   "listed": "2026-10-27T02:04:02Z",
-   "teaser": "An opportunity for an intermediate or senior Platform Engineer to work across Azure, OpenShift, Linux and infrastructure automation in Wellington.",
-   "classification": "Information & Communication Technology / Engineering - Software",
-   "bullets": [
-    "Hands-on engineering across Azure, OpenShift and infrastructure automation.",
-    "Design, build and improve secure, reliable enterprise platforms.",
-    "Senior technical role with opportunities to influence platform architecture."
-   ],
-   "categories": [
-    "server"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95512957",
-   "first_seen": "2026-11-13T16:46Z"
   },
   {
    "id": "95508275",
@@ -7433,81 +7427,6 @@
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95419819",
    "first_seen": "2026-11-16T21:10Z"
-  },
-  {
-   "id": "95418537",
-   "title": "Contract Senior Software Engineer (React, Python)",
-   "company": "Salt",
-   "location": "Auckland",
-   "work_type": "Contract/Temp",
-   "arrangement": "Remote",
-   "salary": "$100 - $125 p.h.",
-   "listed": "2026-10-21T22:10:51Z",
-   "teaser": "* Top-notch brand & culture in Energy domain\n* 6months contract initially\n* Remote \n* Auckland\n* Good rate",
-   "classification": "Information & Communication Technology / Developers/Programmers",
-   "bullets": [],
-   "categories": [
-    "server"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": true,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95418537",
-   "first_seen": "2026-11-13T08:41Z"
-  },
-  {
-   "id": "95417652",
-   "title": "Senior Backend Engineer",
-   "company": "Younity",
-   "location": "Wellington Central, Wellington",
-   "work_type": "Full time",
-   "arrangement": "",
-   "salary": "",
-   "listed": "2026-10-21T20:34:15Z",
-   "teaser": "Take AI features from prototype to production in a Senior Backend Engineer role, building secure TypeScript services for NZ's finance advice sector.",
-   "classification": "Information & Communication Technology / Engineering - Software",
-   "bullets": [
-    "Fixed Term (12 month) | Wellington",
-    "Own the backend behind real AI features, from prototype to productionn",
-    "Work directly with the Technical Lead and Product Owner"
-   ],
-   "categories": [
-    "product",
-    "server"
-   ],
-   "inz": "not found",
-   "inz_name": "No results",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95417652",
-   "first_seen": "2026-11-13T08:41Z"
-  },
-  {
-   "id": "95417455",
-   "title": "Product Engineer (AI-Native, Full Stack)",
-   "company": "FileInvite Ltd",
-   "location": "Penrose, Auckland",
-   "work_type": "Full time",
-   "arrangement": "Hybrid",
-   "salary": "",
-   "listed": "2026-10-21T19:42:22Z",
-   "teaser": "Join FileInvite as a Product Engineer to drive AI-native full-stack development, enhancing our document collection platform for commercial lenders.",
-   "classification": "Information & Communication Technology / Engineering - Software",
-   "bullets": [
-    "AI-driven development with ownership from idea to production.",
-    "Shape AI-native engineering in a fast-growing global tech company.",
-    "Enjoy ESOP, wellness days, and flexible working."
-   ],
-   "categories": [
-    "server"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95417455",
-   "first_seen": "2026-11-13T08:41Z"
   }
  ]
 }
