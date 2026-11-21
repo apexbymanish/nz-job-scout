@@ -1,11 +1,12 @@
 {
- "updated": "2026-11-21T12:01Z",
- "count": 290,
+ "updated": "2026-11-21T19:14Z",
+ "count": 289,
  "added": [
-  "95233082",
-  "96012756"
+  "95704135",
+  "95732593",
+  "95736499"
  ],
- "removed": 3,
+ "removed": 4,
  "jobs": [
   {
    "id": "96034193",
@@ -4278,32 +4279,6 @@
    "first_seen": "2026-11-20T16:55Z"
   },
   {
-   "id": "95765870",
-   "title": "CONTRACT - Java / MuleSoft Developer | 6 Month Contract",
-   "company": "Datacom",
-   "location": "Auckland CBD, Auckland",
-   "work_type": "Full time",
-   "arrangement": "",
-   "salary": "",
-   "listed": "2026-11-08T23:45:56Z",
-   "teaser": "Lead Java/MuleSoft developer needed for major enterprise programme. Competitive rate, flexible NZ locations.",
-   "classification": "Information & Communication Technology / Engineering - Software",
-   "bullets": [
-    "Flexible Work Arrangements and Work From Home",
-    "Make your mark at one of ANZ's largest and most complex technology businesses",
-    "Grow in a flexible, people-first culture with real career development"
-   ],
-   "categories": [
-    "server"
-   ],
-   "inz": "accredited",
-   "inz_name": "DATACOM NEW ZEALAND LIMITED (+4 other Datacom entities)",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95765870",
-   "first_seen": "2026-11-21T03:46Z"
-  },
-  {
    "id": "95765396",
    "title": "Lead Cloud Engineer",
    "company": "Walker Smith",
@@ -4661,6 +4636,54 @@
    "first_seen": "2026-11-13T08:41Z"
   },
   {
+   "id": "95736499",
+   "title": "QA Engineer",
+   "company": "Beyond Recruitment",
+   "location": "Auckland",
+   "work_type": "Full time",
+   "arrangement": "Hybrid",
+   "salary": "",
+   "listed": "2026-11-06T03:05:59Z",
+   "teaser": "Take your QA career to the next level! Join a collaborative Agile team driving automation, AI and quality engineering.",
+   "classification": "Information & Communication Technology / Testing & Quality Assurance",
+   "bullets": [
+    "Own automation and quality engineering using C#/.NET and Playwright",
+    "Work with modern AI tools, cloud technologies and CI/CD pipelines.",
+    "Permanent Auckland role with a collaborative team and 3-day hybrid working."
+   ],
+   "categories": [
+    "server"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95736499",
+   "first_seen": "2026-11-21T19:14Z"
+  },
+  {
+   "id": "95732593",
+   "title": "Software Product Owner",
+   "company": "Rocket Lab",
+   "location": "Auckland",
+   "work_type": "Full time",
+   "arrangement": "",
+   "salary": "",
+   "listed": "2026-11-06T01:24:07Z",
+   "teaser": "First idea to production release. You'll work with stakeholders to understand what they need and turn it into a clear vision and roadmap.",
+   "classification": "Information & Communication Technology / Product Management & Development",
+   "bullets": [],
+   "categories": [
+    "product"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95732593",
+   "first_seen": "2026-11-21T19:14Z"
+  },
+  {
    "id": "95731461",
    "title": "Technical Strategist (Solution Architect)",
    "company": "Propellerhead",
@@ -4993,6 +5016,32 @@
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95704897",
    "first_seen": "2026-11-19T01:30Z"
+  },
+  {
+   "id": "95704135",
+   "title": "Senior Test Engineer - Wellington",
+   "company": "Planit Testing",
+   "location": "Wellington",
+   "work_type": "Full time",
+   "arrangement": "Hybrid",
+   "salary": "$90k - $110k p.a.",
+   "listed": "2026-11-05T00:29:54Z",
+   "teaser": "As a Quality Engineer, you are an established part of the Consultancy model & are integral to Planit's ability to deliver quality & testing solutions.",
+   "classification": "Information & Communication Technology / Testing & Quality Assurance",
+   "bullets": [
+    "Exciting and Innovative Projects",
+    "Embrace our dynamic fast paced environment",
+    "Growth and development opportunities"
+   ],
+   "categories": [
+    "mobile"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95704135",
+   "first_seen": "2026-11-21T19:14Z"
   },
   {
    "id": "95703895",
@@ -6011,7 +6060,6 @@
     "Power team of committed managers"
    ],
    "categories": [
-    "fintech",
     "mobile",
     "server"
    ],
@@ -6283,54 +6331,6 @@
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95602962",
    "first_seen": "2026-11-18T03:02Z"
-  },
-  {
-   "id": "95600954",
-   "title": "Product Manager",
-   "company": "Access APAC",
-   "location": "Auckland CBD, Auckland",
-   "work_type": "Full time",
-   "arrangement": "Hybrid",
-   "salary": "",
-   "listed": "2026-10-30T05:32:15Z",
-   "teaser": "Product Manager to work on Tradify, transforming how tradespeople run their businesses.",
-   "classification": "Information & Communication Technology / Product Management & Development",
-   "bullets": [
-    "Hybrid working option, based in a central city location",
-    "Learn and grow in a high energy environment",
-    "Have fun working in a talented team!"
-   ],
-   "categories": [
-    "product"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95600954",
-   "first_seen": "2026-11-18T11:38Z"
-  },
-  {
-   "id": "95598430",
-   "title": "Lead Business Intelligence Advisor",
-   "company": "H2R Consulting",
-   "location": "Wellington Central, Wellington",
-   "work_type": "Contract/Temp",
-   "arrangement": "Hybrid",
-   "salary": "",
-   "listed": "2026-10-30T04:00:47Z",
-   "teaser": "Provide technical leadership across enterprise BI projects, driving dimensional modelling, data standards and best practice.",
-   "classification": "Information & Communication Technology / Developers/Programmers",
-   "bullets": [],
-   "categories": [
-    "fintech"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95598430",
-   "first_seen": "2026-11-18T11:38Z"
   },
   {
    "id": "95597697",
@@ -6683,7 +6683,6 @@
    "classification": "Information & Communication Technology / Developers/Programmers",
    "bullets": [],
    "categories": [
-    "mobile",
     "server"
    ],
    "inz": "unchecked",
@@ -7045,32 +7044,6 @@
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95532759",
    "first_seen": "2026-11-13T08:41Z"
-  },
-  {
-   "id": "95532729",
-   "title": "Senior Software Developer",
-   "company": "HR Connect",
-   "location": "Hamilton Central, Waikato",
-   "work_type": "Full time",
-   "arrangement": "",
-   "salary": "",
-   "listed": "2026-10-27T21:20:13Z",
-   "teaser": "Senior Software Developer opportunity combining hands-on development with mentoring, technical guidance, and strong software design capability.",
-   "classification": "Information & Communication Technology / Developers/Programmers",
-   "bullets": [
-    "Technology & Team Lead role",
-    "Infrastructure operations and project management focus",
-    "Based in Hamilton, Waikato"
-   ],
-   "categories": [
-    "server"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95532729",
-   "first_seen": "2026-11-13T08:49Z"
   },
   {
    "id": "95532206",
