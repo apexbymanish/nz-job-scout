@@ -1,19 +1,11 @@
 {
- "updated": "2026-11-21T03:46Z",
- "count": 291,
+ "updated": "2026-11-21T12:01Z",
+ "count": 290,
  "added": [
-  "95686464",
-  "95765870",
-  "95773709",
-  "95773712",
-  "95788683",
-  "95814479",
-  "96034087",
-  "96034110",
-  "96034135",
-  "96034193"
+  "95233082",
+  "96012756"
  ],
- "removed": 11,
+ "removed": 3,
  "jobs": [
   {
    "id": "96034193",
@@ -349,6 +341,32 @@
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/96014951",
    "first_seen": "2026-11-20T08:01Z"
+  },
+  {
+   "id": "96012756",
+   "title": "Senior Network Engineer",
+   "company": "Datacom",
+   "location": "Wellington Central, Wellington",
+   "work_type": "Full time",
+   "arrangement": "Hybrid",
+   "salary": "",
+   "listed": "2026-11-20T02:46:38Z",
+   "teaser": "Lead cutting-edge network solutions. Develop your career with latest Cisco tech and collaborative team in Wellington or Auckland.",
+   "classification": "Information & Communication Technology / Networks & Systems Administration",
+   "bullets": [
+    "Flexible Work Arrangements and Work From Home",
+    "Make your mark at one of ANZ's largest and most complex technology businesses",
+    "Grow in a flexible, people-first culture with real career development"
+   ],
+   "categories": [
+    "server"
+   ],
+   "inz": "accredited",
+   "inz_name": "DATACOM NEW ZEALAND LIMITED (+4 other Datacom entities)",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/96012756",
+   "first_seen": "2026-11-21T12:01Z"
   },
   {
    "id": "96012335",
@@ -3091,6 +3109,32 @@
    "first_seen": "2026-11-13T08:41Z"
   },
   {
+   "id": "95233082",
+   "title": "Senior Developer .NET C#",
+   "company": "Datacom",
+   "location": "Tauranga Central, Bay of Plenty",
+   "work_type": "Full time",
+   "arrangement": "Hybrid",
+   "salary": "",
+   "listed": "2026-11-11T22:00:25Z",
+   "teaser": "Lead software innovation with AI tools. Grow your skills, impact, and career with Australasia's tech leader.",
+   "classification": "Information & Communication Technology / Engineering - Software",
+   "bullets": [
+    "Flexible Work Arrangements and Work From Home",
+    "Make your mark at one of ANZ's largest and most complex technology businesses",
+    "Grow in a flexible, people-first culture with real career development"
+   ],
+   "categories": [
+    "server"
+   ],
+   "inz": "accredited",
+   "inz_name": "DATACOM NEW ZEALAND LIMITED (+4 other Datacom entities)",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95233082",
+   "first_seen": "2026-11-21T12:01Z"
+  },
+  {
    "id": "95840276",
    "title": "Senior .Net Developer | to $165k + Benefits",
    "company": "Enterprise Technology Recruitment",
@@ -4432,8 +4476,7 @@
     "Career growth with training and development support"
    ],
    "categories": [
-    "mobile",
-    "server"
+    "mobile"
    ],
    "inz": "unchecked",
    "inz_name": "",
@@ -7350,81 +7393,6 @@
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95446370",
    "first_seen": "2026-11-13T08:49Z"
-  },
-  {
-   "id": "95438491",
-   "title": "Software & AI Engineer Specialist",
-   "company": "AIA",
-   "location": "Takapuna, Auckland",
-   "work_type": "Full time",
-   "arrangement": "",
-   "salary": "",
-   "listed": "2026-10-22T08:52:21Z",
-   "teaser": "Design, build and optimise secure, AI-powered technology solutions, using modern engineering and automation to enhance business performance.",
-   "classification": "Information & Communication Technology / Engineering - Software",
-   "bullets": [
-    "A strong culture of innovation with health and wellbeing at its heart",
-    "Join a high performing team that feels like a family",
-    "We celebrate the diversity of our people and champion diverse thinking"
-   ],
-   "categories": [
-    "mobile"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95438491",
-   "first_seen": "2026-11-13T08:41Z"
-  },
-  {
-   "id": "95430077",
-   "title": "Software Developer IoT",
-   "company": "Robotron New Zealand Limited",
-   "location": "Christchurch Central, Canterbury",
-   "work_type": "Full time",
-   "arrangement": "",
-   "salary": "$75,000 – $100,000 per year",
-   "listed": "2026-10-22T04:56:08Z",
-   "teaser": "Your development skills and fantastic attitude will help us bring EV charging, Solar Panel, Battery management, power monitoring technologies together",
-   "classification": "Information & Communication Technology / Developers/Programmers",
-   "bullets": [
-    "Six weeks of annual leave",
-    "Health Insurance: Southern Cross - Wellbeing One",
-    "2-days work from home and a flat organisational hierarchy"
-   ],
-   "categories": [
-    "fintech"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": true,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95430077",
-   "first_seen": "2026-11-13T08:41Z"
-  },
-  {
-   "id": "95429233",
-   "title": "Software Engineer (PHP/Laravel)",
-   "company": "Global payments",
-   "location": "Auckland CBD, Auckland",
-   "work_type": "Full time",
-   "arrangement": "Hybrid",
-   "salary": "$105,000 – $115,000 per year + KiwiSaver",
-   "listed": "2026-10-22T04:21:24Z",
-   "teaser": "Join a global company and progress your careers as a software engineer.",
-   "classification": "Information & Communication Technology / Engineering - Software",
-   "bullets": [],
-   "categories": [
-    "fintech",
-    "mobile"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95429233",
-   "first_seen": "2026-11-13T08:41Z"
   }
  ]
 }
