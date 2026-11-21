@@ -1,10 +1,12 @@
 {
- "updated": "2026-11-21T19:14Z",
- "count": 289,
+ "updated": "2026-11-21T23:50Z",
+ "count": 290,
  "added": [
-  "95704135",
-  "95732593",
-  "95736499"
+  "95563949",
+  "95676519",
+  "95790023",
+  "95815612",
+  "95825207"
  ],
  "removed": 4,
  "jobs": [
@@ -434,7 +436,6 @@
    "classification": "Information & Communication Technology / Consultants",
    "bullets": [],
    "categories": [
-    "fintech",
     "server"
    ],
    "inz": "unchecked",
@@ -2208,32 +2209,6 @@
    "first_seen": "2026-11-17T03:51Z"
   },
   {
-   "id": "95930283",
-   "title": "SailPoint ISC Engineer",
-   "company": "Socialite Recruitment",
-   "location": "Auckland",
-   "work_type": "Contract/Temp",
-   "arrangement": "Hybrid",
-   "salary": "",
-   "listed": "2026-11-16T22:20:25Z",
-   "teaser": "Experienced SailPoint Identity Security Cloud Engineer - large scale enterprise application migration program.  Can be based anywhere in New Zealand.",
-   "classification": "Information & Communication Technology / Security",
-   "bullets": [
-    "Modern cloud-first IAM stack with minimal legacy tech debt",
-    "Flexible hybrid working model paired with a competitive hourly rate",
-    "High-impact transformation project"
-   ],
-   "categories": [
-    "server"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95930283",
-   "first_seen": "2026-11-20T00:49Z"
-  },
-  {
    "id": "95929826",
    "title": "Tech Lead",
    "company": "BrightSpark Recruitment",
@@ -3073,6 +3048,7 @@
     "Work across MuleSoft Anypoint Platform and SAP Integration Suite"
    ],
    "categories": [
+    "fintech",
     "mobile",
     "server"
    ],
@@ -3253,6 +3229,32 @@
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95832692",
    "first_seen": "2026-11-13T08:41Z"
+  },
+  {
+   "id": "95825207",
+   "title": "Solution Architect - D365",
+   "company": "Datacom",
+   "location": "New Zealand",
+   "work_type": "Full time",
+   "arrangement": "Hybrid",
+   "salary": "",
+   "listed": "2026-11-11T04:24:37Z",
+   "teaser": "Shape enterprise D365 solutions. Lead discovery & design for Finance and Supply Chain modernisation. Drive real business impact.",
+   "classification": "Information & Communication Technology / Consultants",
+   "bullets": [
+    "Flexible Work Arrangements and Work From Home",
+    "Make your mark at one of ANZ's largest and most complex technology businesses",
+    "Grow in a flexible, people-first culture with real career development"
+   ],
+   "categories": [
+    "fintech"
+   ],
+   "inz": "accredited",
+   "inz_name": "DATACOM NEW ZEALAND LIMITED (+4 other Datacom entities)",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95825207",
+   "first_seen": "2026-11-21T23:50Z"
   },
   {
    "id": "95824559",
@@ -3564,6 +3566,28 @@
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95817365",
    "first_seen": "2026-11-13T08:41Z"
+  },
+  {
+   "id": "95815612",
+   "title": "Technical Product Owner - Corporate Serv",
+   "company": "New Zealand Police",
+   "location": "Wellington",
+   "work_type": "Full time",
+   "arrangement": "",
+   "salary": "",
+   "listed": "2026-11-10T22:35:27Z",
+   "teaser": "Join NZ Police and help create safer futures for our communities.",
+   "classification": "Information & Communication Technology / Product Management & Development",
+   "bullets": [],
+   "categories": [
+    "product"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95815612",
+   "first_seen": "2026-11-21T23:50Z"
   },
   {
    "id": "95815226",
@@ -3897,6 +3921,28 @@
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95790542",
    "first_seen": "2026-11-13T08:41Z"
+  },
+  {
+   "id": "95790023",
+   "title": "Squarespace Web Designer",
+   "company": "Hosper",
+   "location": "Newmarket, Auckland",
+   "work_type": "Part time",
+   "arrangement": "Hybrid",
+   "salary": "$32 – $40 per hour",
+   "listed": "2026-11-10T00:29:14Z",
+   "teaser": "Build standout Squarespace sites for Auckland restaurants, bars and cafés. 2 days a week, with a path to full-time.",
+   "classification": "Information & Communication Technology / Web Development & Production",
+   "bullets": [],
+   "categories": [
+    "mobile"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95790023",
+   "first_seen": "2026-11-21T23:50Z"
   },
   {
    "id": "95788683",
@@ -5450,6 +5496,32 @@
    "first_seen": "2026-11-19T09:23Z"
   },
   {
+   "id": "95676519",
+   "title": "Programme Lead",
+   "company": "Magnetic Recruitment",
+   "location": "Manukau & East Auckland, Auckland",
+   "work_type": "Contract/Temp",
+   "arrangement": "",
+   "salary": "",
+   "listed": "2026-11-04T00:43:05Z",
+   "teaser": "Lead a major business transformation across payroll, billing, CRM and entity consolidation, driving delivery through to go-live and beyond.",
+   "classification": "Information & Communication Technology / Programme & Project Management",
+   "bullets": [
+    "Own a complex, business-critical transformation from planning through to go-live",
+    "Lead systems and entity consolidation across multiple workstreams",
+    "High-impact fixed-term role with direct exposure to senior leaders and vendors"
+   ],
+   "categories": [
+    "server"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95676519",
+   "first_seen": "2026-11-21T23:50Z"
+  },
+  {
    "id": "95675242",
    "title": "Data Engineer",
    "company": "Potentia",
@@ -6622,32 +6694,6 @@
    "first_seen": "2026-11-15T19:48Z"
   },
   {
-   "id": "95575291",
-   "title": "Tech Lead - MuleSoft / Integration | Contract",
-   "company": "Younity",
-   "location": "Auckland",
-   "work_type": "Contract/Temp",
-   "arrangement": "Hybrid",
-   "salary": "",
-   "listed": "2026-10-29T05:43:04Z",
-   "teaser": "Lead enterprise integration engineering, shape technical standards and mentor engineers across a complex, large-scale technology environment.",
-   "classification": "Information & Communication Technology / Engineering - Software",
-   "bullets": [
-    "Lead MuleSoft, API and enterprise integration standards across a complex environ",
-    "Generous leave, wellbeing and development benefits",
-    "Hybrid working and 80+ employee discounts"
-   ],
-   "categories": [
-    "server"
-   ],
-   "inz": "not found",
-   "inz_name": "No results",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95575291",
-   "first_seen": "2026-11-16T11:16Z"
-  },
-  {
    "id": "95573619",
    "title": "Software Engineer",
    "company": "You & Me Consulting Service Limited",
@@ -6791,6 +6837,32 @@
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95565881",
    "first_seen": "2026-11-13T16:46Z"
+  },
+  {
+   "id": "95563949",
+   "title": "Engineering, Technical and Operations - Principal Recruitment Consultant",
+   "company": "Beyond Recruitment",
+   "location": "Auckland CBD, Auckland",
+   "work_type": "Full time",
+   "arrangement": "",
+   "salary": "",
+   "listed": "2026-10-28T23:32:32Z",
+   "teaser": "Experienced agency recruiter for Engineering, Technical & Operations team in Auckland CBD.",
+   "classification": "Manufacturing, Transport & Logistics / Other",
+   "bullets": [
+    "CBD",
+    "Parking",
+    "Salary + uncapped commission"
+   ],
+   "categories": [
+    "fintech"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95563949",
+   "first_seen": "2026-11-21T23:50Z"
   },
   {
    "id": "95563557",
@@ -6996,32 +7068,6 @@
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95533507",
    "first_seen": "2026-11-14T02:36Z"
-  },
-  {
-   "id": "95533455",
-   "title": "AI Engineering Lead",
-   "company": "Advanced Management Systems Ltd",
-   "location": "Rosedale, Auckland",
-   "work_type": "Full time",
-   "arrangement": "Hybrid",
-   "salary": "",
-   "listed": "2026-10-27T22:12:52Z",
-   "teaser": "Lead AI-first software delivery. Shape engineering direction, introduce practical AI capability and develop an experienced team.",
-   "classification": "Information & Communication Technology / Engineering - Software",
-   "bullets": [
-    "Lead the move to AI-first software engineering",
-    "Shape architecture, engineering standards and team capability",
-    "Hybrid role with genuine influence and long-term growth opportunities"
-   ],
-   "categories": [
-    "server"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95533455",
-   "first_seen": "2026-11-14T09:26Z"
   },
   {
    "id": "95532759",
@@ -7340,32 +7386,6 @@
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95449149",
    "first_seen": "2026-11-13T08:41Z"
-  },
-  {
-   "id": "95446370",
-   "title": "Product Owner / Project Manager - Geospatial",
-   "company": "Expert360",
-   "location": "Wellington Central, Wellington",
-   "work_type": "Contract/Temp",
-   "arrangement": "Hybrid",
-   "salary": "",
-   "listed": "2026-10-22T22:47:10Z",
-   "teaser": "Lead Agile delivery of geospatial products in a SAFe environment for a large public sector organisation",
-   "classification": "Information & Communication Technology / Programme & Project Management",
-   "bullets": [
-    "Contract role starting ASAP",
-    "Hybrid working in Wellington CBD",
-    "TSV security clearance required"
-   ],
-   "categories": [
-    "product"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95446370",
-   "first_seen": "2026-11-13T08:49Z"
   }
  ]
 }
