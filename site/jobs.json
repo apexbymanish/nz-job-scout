@@ -1,10 +1,9 @@
 {
- "updated": "2026-11-22T04:48Z",
- "count": 288,
+ "updated": "2026-11-22T13:02Z",
+ "count": 285,
  "added": [
-  "95678106",
-  "95705820",
-  "95706689"
+  "95659144",
+  "95710695"
  ],
  "removed": 5,
  "jobs": [
@@ -434,6 +433,7 @@
    "classification": "Information & Communication Technology / Consultants",
    "bullets": [],
    "categories": [
+    "fintech",
     "server"
    ],
    "inz": "unchecked",
@@ -2958,32 +2958,6 @@
    "first_seen": "2026-11-13T08:49Z"
   },
   {
-   "id": "95845047",
-   "title": "Solution Architect",
-   "company": "ANZ",
-   "location": "Wellington",
-   "work_type": "Full time",
-   "arrangement": "Hybrid",
-   "salary": "",
-   "listed": "2026-11-12T01:35:23Z",
-   "teaser": "Drive enterprise strategy into action, guiding complex programmes with clear architecture, strong governance and adaptable delivery.",
-   "classification": "Information & Communication Technology / Architects",
-   "bullets": [
-    "Develop innovative solutions to enhance banking",
-    "Be at the forefront of pioneering new ideas and solutions",
-    "Enjoy comprehensive employee benefits, including banking discounts"
-   ],
-   "categories": [
-    "fintech"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95845047",
-   "first_seen": "2026-11-13T08:41Z"
-  },
-  {
    "id": "95843599",
    "title": "Senior Front-End Engineer",
    "company": "Biomatters",
@@ -3028,34 +3002,6 @@
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95843051",
    "first_seen": "2026-11-13T08:49Z"
-  },
-  {
-   "id": "95842008",
-   "title": "Senior Integration Developer",
-   "company": "Auckland Council",
-   "location": "Auckland",
-   "work_type": "Full time",
-   "arrangement": "",
-   "salary": "",
-   "listed": "2026-11-11T23:25:09Z",
-   "teaser": "Auckland Council Technology Services",
-   "classification": "Information & Communication Technology / Developers/Programmers",
-   "bullets": [
-    "Solve complex integration challenges across a diverse technology environment",
-    "Contribute to the modernisation of Auckland Council's integration landscape",
-    "Work across MuleSoft Anypoint Platform and SAP Integration Suite"
-   ],
-   "categories": [
-    "fintech",
-    "mobile",
-    "server"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95842008",
-   "first_seen": "2026-11-13T08:41Z"
   },
   {
    "id": "95841275",
@@ -3683,6 +3629,7 @@
    ],
    "categories": [
     "fintech",
+    "mobile",
     "server"
    ],
    "inz": "unchecked",
@@ -4098,32 +4045,6 @@
    "first_seen": "2026-11-21T03:46Z"
   },
   {
-   "id": "95773709",
-   "title": "Contract - Java / MuleSoft Developer | 6 Month Contract",
-   "company": "Datacom",
-   "location": "Wellington Central, Wellington",
-   "work_type": "Full time",
-   "arrangement": "",
-   "salary": "",
-   "listed": "2026-11-09T03:44:59Z",
-   "teaser": "Expert Java/MuleSoft developer needed. 6-month contract, flexible NZ locations, competitive rate.",
-   "classification": "Information & Communication Technology / Engineering - Software",
-   "bullets": [
-    "Flexible Work Arrangements and Work From Home",
-    "Make your mark at one of ANZ's largest and most complex technology businesses",
-    "Grow in a flexible, people-first culture with real career development"
-   ],
-   "categories": [
-    "server"
-   ],
-   "inz": "accredited",
-   "inz_name": "DATACOM NEW ZEALAND LIMITED (+4 other Datacom entities)",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95773709",
-   "first_seen": "2026-11-21T03:46Z"
-  },
-  {
    "id": "95773470",
    "title": "Engineering Lead",
    "company": "Spark New Zealand",
@@ -4443,7 +4364,8 @@
     "Hybrid working"
    ],
    "categories": [
-    "fintech"
+    "fintech",
+    "mobile"
    ],
    "inz": "unchecked",
    "inz_name": "",
@@ -4930,7 +4852,8 @@
     "Make an impact and contribute to industry-leading tech"
    ],
    "categories": [
-    "mobile"
+    "mobile",
+    "server"
    ],
    "inz": "unchecked",
    "inz_name": "",
@@ -4990,6 +4913,28 @@
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95717591",
    "first_seen": "2026-11-13T08:41Z"
+  },
+  {
+   "id": "95710695",
+   "title": "Senior Data Engineer",
+   "company": "Starfish Consulting",
+   "location": "Wellington",
+   "work_type": "Full time",
+   "arrangement": "",
+   "salary": "",
+   "listed": "2026-11-05T03:34:51Z",
+   "teaser": "Senior Data Engineer",
+   "classification": "Information & Communication Technology / Database Development & Administration",
+   "bullets": [],
+   "categories": [
+    "server"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95710695",
+   "first_seen": "2026-11-22T13:02Z"
   },
   {
    "id": "95709953",
@@ -5798,6 +5743,33 @@
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95672697",
    "first_seen": "2026-11-20T16:55Z"
+  },
+  {
+   "id": "95659144",
+   "title": "Senior Cloud & Infrastructure Engineer",
+   "company": "Southern Cross Health Society",
+   "location": "Auckland CBD, Auckland",
+   "work_type": "Full time",
+   "arrangement": "Hybrid",
+   "salary": "",
+   "listed": "2026-11-03T05:00:53Z",
+   "teaser": "Lead Azure cloud engineering, automation & reliability as a Senior Engineer while helping shape secure, scalable infrastructure at Southern Cross.",
+   "classification": "Information & Communication Technology / Networks & Systems Administration",
+   "bullets": [
+    "Auckland based, 2 days WFH, flexible working, defined career pathway",
+    "Azure, IaC, CI/CD, influence practices, AI 1st mindset, develop other engineers",
+    "Full health insurance, 5 days additional wellbeing leaves, life insurance + more"
+   ],
+   "categories": [
+    "fintech",
+    "server"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95659144",
+   "first_seen": "2026-11-22T13:02Z"
   },
   {
    "id": "95658293",
@@ -7064,32 +7036,6 @@
    "first_seen": "2026-11-13T08:49Z"
   },
   {
-   "id": "95533529",
-   "title": "Senior Data Engineer",
-   "company": "Basis NZ Limited",
-   "location": "Takapuna, Auckland",
-   "work_type": "Full time",
-   "arrangement": "Hybrid",
-   "salary": "Salary + ESOP",
-   "listed": "2026-10-27T22:16:38Z",
-   "teaser": "Come play a critical role and join Basis on our mission to make clean energy effortless and affordable for everybody!",
-   "classification": "Information & Communication Technology / Engineering - Software",
-   "bullets": [
-    "Flexible working hours and hybrid work arrangement",
-    "Unlimited annual leave",
-    "Play a critical role in the next phase of Basis' plans"
-   ],
-   "categories": [
-    "server"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95533529",
-   "first_seen": "2026-11-13T08:49Z"
-  },
-  {
    "id": "95532759",
    "title": "Intermediate / senior software developer",
    "company": "Evnex",
@@ -7305,32 +7251,6 @@
    "visa_mention": false,
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95506122",
-   "first_seen": "2026-11-13T08:41Z"
-  },
-  {
-   "id": "95458179",
-   "title": "Software Development Manager",
-   "company": "MediMap NZ Limited",
-   "location": "Middleton, Canterbury",
-   "work_type": "Full time",
-   "arrangement": "Hybrid",
-   "salary": "",
-   "listed": "2026-10-23T05:18:31Z",
-   "teaser": "Join MediMap to lead an established engineering team building and supporting healthcare technology used across New Zealand and Australia.",
-   "classification": "Information & Communication Technology / Engineering - Software",
-   "bullets": [
-    "Lead, mentor and grow a talented software engineering team",
-    "Guide technical decisions and shape the evolution of our healthcare platform",
-    "Champion engineering excellence, innovation and responsible AI adoption"
-   ],
-   "categories": [
-    "mobile"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95458179",
    "first_seen": "2026-11-13T08:41Z"
   }
  ]
