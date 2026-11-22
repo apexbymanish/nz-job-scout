@@ -1,14 +1,12 @@
 {
- "updated": "2026-11-21T23:50Z",
- "count": 290,
+ "updated": "2026-11-22T04:48Z",
+ "count": 288,
  "added": [
-  "95563949",
-  "95676519",
-  "95790023",
-  "95815612",
-  "95825207"
+  "95678106",
+  "95705820",
+  "95706689"
  ],
- "removed": 4,
+ "removed": 5,
  "jobs": [
   {
    "id": "96034193",
@@ -5038,30 +5036,52 @@
    "first_seen": "2026-11-13T08:41Z"
   },
   {
-   "id": "95704897",
-   "title": "Product Owner - Web and Digital",
-   "company": "Talent Corp",
+   "id": "95706689",
+   "title": "AI Engineer | Contract",
+   "company": "Robert Half",
    "location": "Auckland CBD, Auckland",
-   "work_type": "Full time",
-   "arrangement": "Hybrid",
-   "salary": "",
-   "listed": "2026-11-05T01:00:26Z",
-   "teaser": "We're partnering with an established Auckland organisation with a diverse portfolio of well-known brands.",
-   "classification": "Information & Communication Technology / Product Management & Development",
-   "bullets": [
-    "Permanent opportunity with long-term product ownership.",
-    "Flexible working with two days onsite",
-    "Explore how AI can improve user journeys and discoverability."
-   ],
+   "work_type": "Contract/Temp",
+   "arrangement": "",
+   "salary": "$110.00 - $125.00 p.h.",
+   "listed": "2026-11-05T01:56:30Z",
+   "teaser": "Dive into this leading project building AI agents within the healthcare sector",
+   "classification": "Information & Communication Technology / Developers/Programmers",
+   "bullets": [],
    "categories": [
-    "product"
+    "mobile"
    ],
    "inz": "unchecked",
    "inz_name": "",
    "visa_mention": false,
    "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95704897",
-   "first_seen": "2026-11-19T01:30Z"
+   "url": "https://www.seek.co.nz/job/95706689",
+   "first_seen": "2026-11-22T04:48Z"
+  },
+  {
+   "id": "95705820",
+   "title": "AI Technical Lead",
+   "company": "Hays Recruitment",
+   "location": "Wellington",
+   "work_type": "Full time",
+   "arrangement": "",
+   "salary": "",
+   "listed": "2026-11-05T01:30:38Z",
+   "teaser": "Lead enterprise AI delivery using Microsoft Copilot, Power Platform, Azure AI Foundry, and Databricks.",
+   "classification": "Information & Communication Technology / Engineering - Software",
+   "bullets": [
+    "6 months contract, Welly based",
+    "Deliver impactful solutions with the latest AI and data technologies.",
+    "Own the technical vision, leading AI solution design and delivery from concept"
+   ],
+   "categories": [
+    "mobile"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95705820",
+   "first_seen": "2026-11-22T04:48Z"
   },
   {
    "id": "95704135",
@@ -5494,6 +5514,32 @@
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95678146",
    "first_seen": "2026-11-19T09:23Z"
+  },
+  {
+   "id": "95678106",
+   "title": "AI Enablement Lead",
+   "company": "Evolve Recruitment Group",
+   "location": "Auckland",
+   "work_type": "Contract/Temp",
+   "arrangement": "Hybrid",
+   "salary": "",
+   "listed": "2026-11-04T01:34:09Z",
+   "teaser": "Drive enterprise-wide AI strategy, adoption and governance, partnering with senior leaders to turn AI opportunities into measurable business value.",
+   "classification": "Information & Communication Technology / Other",
+   "bullets": [
+    "Initial 6-month contract with potential to extend",
+    "Lead enterprise-wide AI strategy, adoption and value realisation",
+    "Influence senior leaders and drive meaningful organisational transformation"
+   ],
+   "categories": [
+    "fintech"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95678106",
+   "first_seen": "2026-11-22T04:48Z"
   },
   {
    "id": "95676519",
@@ -7044,32 +7090,6 @@
    "first_seen": "2026-11-13T08:49Z"
   },
   {
-   "id": "95533507",
-   "title": "Senior Platform Engineer",
-   "company": "Basis NZ Limited",
-   "location": "Christchurch Central, Canterbury",
-   "work_type": "Full time",
-   "arrangement": "Hybrid",
-   "salary": "",
-   "listed": "2026-10-27T22:14:45Z",
-   "teaser": "Own the infrastructure, reliability and metering platform behind Basis’s home energy panels. Christchurch or Auckland locations.",
-   "classification": "Information & Communication Technology / Engineering - Software",
-   "bullets": [
-    "Unlimited annual leave and hybrid work environment",
-    "Help make clean energy effortless and affordable for everyone",
-    "Have a huge impact on the future of Basis!"
-   ],
-   "categories": [
-    "server"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95533507",
-   "first_seen": "2026-11-14T02:36Z"
-  },
-  {
    "id": "95532759",
    "title": "Intermediate / senior software developer",
    "company": "Evnex",
@@ -7311,80 +7331,6 @@
    "visa_mention": false,
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95458179",
-   "first_seen": "2026-11-13T08:41Z"
-  },
-  {
-   "id": "95456614",
-   "title": "Pega Principal Architect",
-   "company": "Younity",
-   "location": "Auckland",
-   "work_type": "Full time",
-   "arrangement": "Hybrid",
-   "salary": "Competitive Salary",
-   "listed": "2026-10-23T04:26:39Z",
-   "teaser": "Pega Principal Architect role in Auckland with a leading NZ bank, shaping architecture, workflow automation and AI-driven solutions.",
-   "classification": "Information & Communication Technology / Architects",
-   "bullets": [
-    "Real influence over Pega standards, patterns and roadmap.",
-    "Cutting-edge work in workflow automation and AI-driven self-service.",
-    "Agile, supportive culture with flexible working and career growth."
-   ],
-   "categories": [
-    "fintech"
-   ],
-   "inz": "not found",
-   "inz_name": "No results",
-   "visa_mention": true,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95456614",
-   "first_seen": "2026-11-13T08:41Z"
-  },
-  {
-   "id": "95451426",
-   "title": "Senior UX/UI designer",
-   "company": "The mSupply Foundation",
-   "location": "Auckland CBD, Auckland",
-   "work_type": "Part time",
-   "arrangement": "",
-   "salary": "$53 – $60 per hour",
-   "listed": "2026-10-23T02:11:15Z",
-   "teaser": "Senior UX/UI designer: Help get medicines to patients by making healthcare workers’ days run smoothly",
-   "classification": "Design & Architecture / Web & Interaction Design",
-   "bullets": [],
-   "categories": [
-    "uiux"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95451426",
-   "first_seen": "2026-11-13T08:49Z"
-  },
-  {
-   "id": "95449149",
-   "title": ".NET Developer",
-   "company": "Potentia",
-   "location": "Wellington",
-   "work_type": "Full time",
-   "arrangement": "Hybrid",
-   "salary": "$80k–$90k + extra leave, flexible hybrid working",
-   "listed": "2026-10-23T00:57:11Z",
-   "teaser": "Grow your skills, learn new technologies and accelerate your career while building innovative SaaS products in a flexible Agile environment",
-   "classification": "Information & Communication Technology / Developers/Programmers",
-   "bullets": [
-    "Apply your .NET skills to exciting projects and help shape NZ’s tech future",
-    "Develop and enhance SaaS products in an Agile environment",
-    "Enjoy flexible hybrid working with work-from-home options"
-   ],
-   "categories": [
-    "server"
-   ],
-   "inz": "not matched",
-   "inz_name": "INNATE POTENTIAL LIMITED",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95449149",
    "first_seen": "2026-11-13T08:41Z"
   }
  ]
