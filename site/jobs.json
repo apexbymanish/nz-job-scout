@@ -1,38 +1,38 @@
 {
- "updated": "2026-11-22T13:02Z",
- "count": 285,
+ "updated": "2026-11-22T20:21Z",
+ "count": 281,
  "added": [
-  "95659144",
-  "95710695"
+  "95703482",
+  "95732074",
+  "96041899"
  ],
- "removed": 5,
+ "removed": 7,
  "jobs": [
   {
-   "id": "96034193",
-   "title": "CONTRACT - Senior MuleSoft Developer",
-   "company": "Datacom",
-   "location": "Auckland CBD, Auckland",
-   "work_type": "Contract/Temp",
+   "id": "96041899",
+   "title": "Senior Industrial & Product Designer",
+   "company": "Metalform (Dannevirke) LTD",
+   "location": "Dannevirke, Manawatu",
+   "work_type": "Full time",
    "arrangement": "",
    "salary": "",
-   "listed": "2026-11-21T02:58:38Z",
-   "teaser": "Enterprise integration expert? Join us for 6-month contract role designing & deploying MuleSoft solutions across ANZ",
-   "classification": "Information & Communication Technology / Developers/Programmers",
+   "listed": "2026-11-22T18:46:25Z",
+   "teaser": "Lead industrial design of next-generation power wheelchairs from concept to production.",
+   "classification": "Engineering / Mechanical Engineering",
    "bullets": [
-    "Flexible Work Arrangements and Work From Home",
-    "Make your mark at one of ANZ's largest and most complex technology businesses",
-    "Grow in a flexible, people-first culture with real career development"
+    "Design products that improve people’s lives",
+    "Shape products from concept to production",
+    "Blend industrial design, engineering & UX"
    ],
    "categories": [
-    "mobile",
-    "server"
+    "uiux"
    ],
-   "inz": "accredited",
-   "inz_name": "DATACOM NEW ZEALAND LIMITED (+4 other Datacom entities)",
+   "inz": "unchecked",
+   "inz_name": "",
    "visa_mention": false,
    "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/96034193",
-   "first_seen": "2026-11-21T03:46Z"
+   "url": "https://www.seek.co.nz/job/96041899",
+   "first_seen": "2026-11-22T20:21Z"
   },
   {
    "id": "96034135",
@@ -571,32 +571,6 @@
    "visa_mention": false,
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/96008761",
-   "first_seen": "2026-11-20T00:49Z"
-  },
-  {
-   "id": "96008698",
-   "title": "CONTRACT - MuleSoft Technical Lead",
-   "company": "Datacom",
-   "location": "Auckland CBD, Auckland",
-   "work_type": "Full time",
-   "arrangement": "",
-   "salary": "",
-   "listed": "2026-11-20T00:27:44Z",
-   "teaser": "Lead MuleSoft integrations on a large-scale enterprise programme. Hands-on technical leadership role starting January 2027.",
-   "classification": "Information & Communication Technology / Team Leaders",
-   "bullets": [
-    "Flexible Work Arrangements and Work From Home",
-    "Make your mark at one of ANZ's largest and most complex technology businesses",
-    "Grow in a flexible, people-first culture with real career development"
-   ],
-   "categories": [
-    "server"
-   ],
-   "inz": "accredited",
-   "inz_name": "DATACOM NEW ZEALAND LIMITED (+4 other Datacom entities)",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/96008698",
    "first_seen": "2026-11-20T00:49Z"
   },
   {
@@ -2223,7 +2197,8 @@
     "Growth opportunities, supportive leadership, social team"
    ],
    "categories": [
-    "fintech"
+    "fintech",
+    "server"
    ],
    "inz": "unchecked",
    "inz_name": "",
@@ -4019,32 +3994,6 @@
    "first_seen": "2026-11-13T08:41Z"
   },
   {
-   "id": "95773712",
-   "title": "Contract - Java / MuleSoft Developer | 6 Month Contract",
-   "company": "Datacom",
-   "location": "Christchurch Central, Canterbury",
-   "work_type": "Full time",
-   "arrangement": "",
-   "salary": "",
-   "listed": "2026-11-09T03:45:01Z",
-   "teaser": "Expert Java/MuleSoft developer needed. 6-month contract, flexible NZ locations, competitive rate.",
-   "classification": "Information & Communication Technology / Engineering - Software",
-   "bullets": [
-    "Flexible Work Arrangements and Work From Home",
-    "Make your mark at one of ANZ's largest and most complex technology businesses",
-    "Grow in a flexible, people-first culture with real career development"
-   ],
-   "categories": [
-    "server"
-   ],
-   "inz": "accredited",
-   "inz_name": "DATACOM NEW ZEALAND LIMITED (+4 other Datacom entities)",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95773712",
-   "first_seen": "2026-11-21T03:46Z"
-  },
-  {
    "id": "95773470",
    "title": "Engineering Lead",
    "company": "Spark New Zealand",
@@ -4650,6 +4599,32 @@
    "first_seen": "2026-11-21T19:14Z"
   },
   {
+   "id": "95732074",
+   "title": "Data Engineer",
+   "company": "Gallagher Group",
+   "location": "Hamilton Lake, Waikato",
+   "work_type": "Full time",
+   "arrangement": "Hybrid",
+   "salary": "Be A part of a Global Growing Organisation",
+   "listed": "2026-11-06T01:07:50Z",
+   "teaser": "Build modern data pipelines for a major Salesforce transformation, working with Databricks, dbt and Azure on a high-impact migration project.",
+   "classification": "Information & Communication Technology / Engineering - Software",
+   "bullets": [
+    "12-month opportunity with flexibility to work remotely anywhere in New Zealand",
+    "Work on a major Salesforce data migration using a modern cloud data stack",
+    "Hands-on engineering role with senior support"
+   ],
+   "categories": [
+    "server"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95732074",
+   "first_seen": "2026-11-22T20:21Z"
+  },
+  {
    "id": "95731461",
    "title": "Technical Strategist (Solution Architect)",
    "company": "Propellerhead",
@@ -5081,6 +5056,32 @@
    "first_seen": "2026-11-13T08:41Z"
   },
   {
+   "id": "95703482",
+   "title": "Product Owner Practice Lead",
+   "company": "TOWER Insurance",
+   "location": "Auckland CBD, Auckland",
+   "work_type": "Full time",
+   "arrangement": "",
+   "salary": "Competitive Salary, Annual Review and Benefits",
+   "listed": "2026-11-05T00:03:16Z",
+   "teaser": "Shape Tower’s Product Owner Practice, connecting strategy, delivery and people to drive better customer and business outcomes.",
+   "classification": "Information & Communication Technology / Programme & Project Management",
+   "bullets": [
+    "Join an award winning proud Kiwi organization in the heart of Auckland",
+    "Flexible working options to support your work/life balance",
+    "Collaborative and innovative work environment"
+   ],
+   "categories": [
+    "product"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95703482",
+   "first_seen": "2026-11-22T20:21Z"
+  },
+  {
    "id": "95702489",
    "title": "Product Owner",
    "company": "Randstad",
@@ -5154,58 +5155,6 @@
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95701159",
    "first_seen": "2026-11-13T08:41Z"
-  },
-  {
-   "id": "95701218",
-   "title": "Lead Engineer - Integrations",
-   "company": "Kiwibank",
-   "location": "Wellington Central, Wellington",
-   "work_type": "Full time",
-   "arrangement": "Hybrid",
-   "salary": "",
-   "listed": "2026-11-04T21:18:45Z",
-   "teaser": "Be the technical leader who brings clarity, alignment and accountability to complex integration delivery.",
-   "classification": "Information & Communication Technology / Engineering - Software",
-   "bullets": [
-    "Lead the technical direction and assurance of complex integration delivery",
-    "Partner with vendors and engineering teams to deliver high-quality solutions",
-    "18-month fixed term contract based in Auckland or Wellington"
-   ],
-   "categories": [
-    "mobile"
-   ],
-   "inz": "accredited",
-   "inz_name": "KIWIBANK LIMITED",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95701218",
-   "first_seen": "2026-11-20T08:01Z"
-  },
-  {
-   "id": "95701201",
-   "title": "Lead Engineer - Development - 2x Roles",
-   "company": "Kiwibank",
-   "location": "Auckland CBD, Auckland",
-   "work_type": "Full time",
-   "arrangement": "Hybrid",
-   "salary": "",
-   "listed": "2026-11-04T21:15:24Z",
-   "teaser": "Bring your technical leadership to a role where your expertise can make a meaningful difference.",
-   "classification": "Information & Communication Technology / Developers/Programmers",
-   "bullets": [
-    "Lead the engineering direction for development and integration platforms",
-    "Combine hands-on C#/.NET expertise with technical and people leadership",
-    "18-month fixed-term opportunity based in Auckland or Wellington"
-   ],
-   "categories": [
-    "server"
-   ],
-   "inz": "accredited",
-   "inz_name": "KIWIBANK LIMITED",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95701201",
-   "first_seen": "2026-11-15T14:14Z"
   },
   {
    "id": "95692329",
@@ -5537,33 +5486,6 @@
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95675242",
    "first_seen": "2026-11-13T08:41Z"
-  },
-  {
-   "id": "95674428",
-   "title": "Senior Product Lead - 2x Roles",
-   "company": "Kiwibank",
-   "location": "Wellington Central, Wellington",
-   "work_type": "Full time",
-   "arrangement": "Hybrid",
-   "salary": "",
-   "listed": "2026-11-03T23:00:53Z",
-   "teaser": "Step into a Senior Product Lead role where your experience can help deliver better outcomes for Kiwibank customers.",
-   "classification": "Information & Communication Technology / Product Management & Development",
-   "bullets": [
-    "Fixed term opportunity through December 2027 in Auckland or Wellington",
-    "Grow your product leadership while shaping customer centred outcomes",
-    "Flexibility and wellbeing support to help you thrive at work and beyond"
-   ],
-   "categories": [
-    "fintech",
-    "product"
-   ],
-   "inz": "accredited",
-   "inz_name": "KIWIBANK LIMITED",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95674428",
-   "first_seen": "2026-11-13T08:49Z"
   },
   {
    "id": "95674331",
@@ -6931,32 +6853,6 @@
    "first_seen": "2026-11-14T15:56Z"
   },
   {
-   "id": "95555386",
-   "title": "Senior Firmware Engineer",
-   "company": "Halter",
-   "location": "Auckland CBD, Auckland",
-   "work_type": "Full time",
-   "arrangement": "",
-   "salary": "",
-   "listed": "2026-10-28T11:12:17Z",
-   "teaser": "Design and implement embedded C/C++ firmware for resource-constrained devices running FreeRTOS.",
-   "classification": "Information & Communication Technology / Engineering - Software",
-   "bullets": [
-    "Real ownership, real scale, real stakes.",
-    "You work on the whole system, not just your corner of it.",
-    "A mission-driven company that’s well backed and invests in its people."
-   ],
-   "categories": [
-    "fintech"
-   ],
-   "inz": "accredited",
-   "inz_name": "HALTER LIMITED",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95555386",
-   "first_seen": "2026-11-14T15:56Z"
-  },
-  {
    "id": "95534304",
    "title": "Machine Learning Lead",
    "company": "Momentum Consulting",
@@ -7025,8 +6921,7 @@
     "5 extra AL days I $2k Training Budget I Additional Paid Parental Leave I Hybrid"
    ],
    "categories": [
-    "fintech",
-    "server"
+    "fintech"
    ],
    "inz": "unchecked",
    "inz_name": "",
