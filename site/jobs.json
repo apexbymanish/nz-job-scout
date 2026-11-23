@@ -1,13 +1,176 @@
 {
- "updated": "2026-11-22T20:21Z",
- "count": 281,
+ "updated": "2026-11-23T01:02Z",
+ "count": 287,
  "added": [
-  "95703482",
-  "95732074",
-  "96041899"
+  "95555386",
+  "96008698",
+  "96033011",
+  "96034193",
+  "96042394",
+  "96042482",
+  "96044093",
+  "96044135",
+  "96044137",
+  "96045572"
  ],
- "removed": 7,
+ "removed": 4,
  "jobs": [
+  {
+   "id": "96045572",
+   "title": "Data Engineer",
+   "company": "CORDE Ltd",
+   "location": "Rolleston, Canterbury",
+   "work_type": "Contract/Temp",
+   "arrangement": "",
+   "salary": "",
+   "listed": "2026-11-23T00:57:58Z",
+   "teaser": "Join CORDE and help shape our business in 2027. We have an exciting 12 month fixed-term role as part of CORDE’s Enterprise Architecture programme.",
+   "classification": "Information & Communication Technology / Database Development & Administration",
+   "bullets": [
+    "Greenfield data project, building our platform from the ground up",
+    "Modern Microsoft stack, laying the groundwork for AI and automation",
+    "Rolleston based, with flexibility to work from home"
+   ],
+   "categories": [
+    "server"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/96045572",
+   "first_seen": "2026-11-23T01:02Z"
+  },
+  {
+   "id": "96044137",
+   "title": "Group IT Practice Lead - Data Engineering",
+   "company": "Fulton Hogan",
+   "location": "Auckland",
+   "work_type": "Full time",
+   "arrangement": "Hybrid",
+   "salary": "",
+   "listed": "2026-11-22T23:46:13Z",
+   "teaser": "We're looking for a Practice Lead - Data Engineering to lead and grow a capable team of Data Engineers across a matrix-based environment.",
+   "classification": "Information & Communication Technology / Database Development & Administration",
+   "bullets": [
+    "Permenant, full-time role",
+    "Lead a high-performing Data Engineering practice.",
+    "Shape modern data and AI delivery across Databricks, Python and SQL."
+   ],
+   "categories": [
+    "server"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/96044137",
+   "first_seen": "2026-11-23T01:02Z"
+  },
+  {
+   "id": "96044135",
+   "title": "Senior DevOps Engineer",
+   "company": "Potentia",
+   "location": "Queenstown, Otago",
+   "work_type": "Full time",
+   "arrangement": "",
+   "salary": "Base salary + Kiwsaver",
+   "listed": "2026-11-22T23:46:06Z",
+   "teaser": "Work closely with technical teams and clients to improve deployment practices, strengthen systems and support scalable infrastructure",
+   "classification": "Information & Communication Technology / Networks & Systems Administration",
+   "bullets": [
+    "Auckland, Christchurch, Queenstown, or by agreement",
+    "Shape CI/CD, automation and infrastructure practice",
+    "Client-facing role with practical problem solving"
+   ],
+   "categories": [
+    "server"
+   ],
+   "inz": "not matched",
+   "inz_name": "INNATE POTENTIAL LIMITED",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/96044135",
+   "first_seen": "2026-11-23T01:02Z"
+  },
+  {
+   "id": "96044093",
+   "title": "Senior DevOps Engineer",
+   "company": "Potentia",
+   "location": "Christchurch, Canterbury",
+   "work_type": "Full time",
+   "arrangement": "",
+   "salary": "Base salary + Kiwsaver",
+   "listed": "2026-11-22T23:43:05Z",
+   "teaser": "Work closely with technical teams and clients to improve deployment practices, strengthen systems and support scalable infrastructure",
+   "classification": "Information & Communication Technology / Networks & Systems Administration",
+   "bullets": [
+    "Auckland, Christchurch, Queenstown, or by agreement",
+    "Shape CI/CD, automation and infrastructure practice",
+    "Client-facing role with practical problem solving"
+   ],
+   "categories": [
+    "server"
+   ],
+   "inz": "not matched",
+   "inz_name": "INNATE POTENTIAL LIMITED",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/96044093",
+   "first_seen": "2026-11-23T01:02Z"
+  },
+  {
+   "id": "96042482",
+   "title": "Frontend Developer",
+   "company": "Bupa",
+   "location": "Newmarket, Auckland",
+   "work_type": "Contract/Temp",
+   "arrangement": "Hybrid",
+   "salary": "",
+   "listed": "2026-11-22T21:06:13Z",
+   "teaser": "Work in cross-functional Agile teams building maintainable, scalable applications using .NET, JavaScript, HTML, CSS and Azure",
+   "classification": "Information & Communication Technology / Developers/Programmers",
+   "bullets": [
+    "Fixed-term role through to June 2028",
+    "Hybrid working arrangements",
+    "Work collaboratively with third-party development teams"
+   ],
+   "categories": [
+    "server"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/96042482",
+   "first_seen": "2026-11-23T01:02Z"
+  },
+  {
+   "id": "96042394",
+   "title": "Senior Cybersecurity Engineer",
+   "company": "Datacom",
+   "location": "Auckland CBD, Auckland",
+   "work_type": "Full time",
+   "arrangement": "Hybrid",
+   "salary": "",
+   "listed": "2026-11-22T20:50:19Z",
+   "teaser": "Lead critical cybersecurity operations. Drive threat defence. Shape security strategy. Competitive benefits & career growth.",
+   "classification": "Information & Communication Technology / Security",
+   "bullets": [
+    "Flexible Work Arrangements and Work From Home",
+    "Make your mark at one of ANZ's largest and most complex technology businesses",
+    "Grow in a flexible, people-first culture with real career development"
+   ],
+   "categories": [
+    "server"
+   ],
+   "inz": "accredited",
+   "inz_name": "DATACOM NEW ZEALAND LIMITED (+4 other Datacom entities)",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/96042394",
+   "first_seen": "2026-11-23T01:02Z"
+  },
   {
    "id": "96041899",
    "title": "Senior Industrial & Product Designer",
@@ -33,6 +196,32 @@
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/96041899",
    "first_seen": "2026-11-22T20:21Z"
+  },
+  {
+   "id": "96034193",
+   "title": "CONTRACT - Senior MuleSoft Developer",
+   "company": "Datacom",
+   "location": "Auckland CBD, Auckland",
+   "work_type": "Contract/Temp",
+   "arrangement": "",
+   "salary": "",
+   "listed": "2026-11-21T02:58:38Z",
+   "teaser": "Enterprise MuleSoft expert needed. 6-month contract, Auckland/Melbourne. Lead end-to-end API integration solutions.",
+   "classification": "Information & Communication Technology / Developers/Programmers",
+   "bullets": [
+    "Flexible Work Arrangements and Work From Home",
+    "Make your mark at one of ANZ's largest and most complex technology businesses",
+    "Grow in a flexible, people-first culture with real career development"
+   ],
+   "categories": [
+    "server"
+   ],
+   "inz": "accredited",
+   "inz_name": "DATACOM NEW ZEALAND LIMITED (+4 other Datacom entities)",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/96034193",
+   "first_seen": "2026-11-23T01:02Z"
   },
   {
    "id": "96034135",
@@ -113,6 +302,29 @@
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/96034087",
    "first_seen": "2026-11-21T03:46Z"
+  },
+  {
+   "id": "96033011",
+   "title": "Service Desk Engineer",
+   "company": "Foundation Partners",
+   "location": "Auckland CBD, Auckland",
+   "work_type": "Contract/Temp",
+   "arrangement": "",
+   "salary": "$80,000 – $90,000 per year",
+   "listed": "2026-11-20T23:03:00Z",
+   "teaser": "Frontline service desk role at an established Auckland MSP. Fixed term to April 2027, Microsoft 365 focus, documented runbooks and automation.",
+   "classification": "Information & Communication Technology / Help Desk & IT Support",
+   "bullets": [],
+   "categories": [
+    "mobile",
+    "server"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/96033011",
+   "first_seen": "2026-11-23T01:02Z"
   },
   {
    "id": "96032644",
@@ -572,6 +784,32 @@
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/96008761",
    "first_seen": "2026-11-20T00:49Z"
+  },
+  {
+   "id": "96008698",
+   "title": "CONTRACT - MuleSoft Technical Lead",
+   "company": "Datacom",
+   "location": "Auckland CBD, Auckland",
+   "work_type": "Full time",
+   "arrangement": "",
+   "salary": "",
+   "listed": "2026-11-20T00:27:44Z",
+   "teaser": "Lead MuleSoft integrations on a large-scale enterprise programme. Hands-on technical leadership role starting January 2027.",
+   "classification": "Information & Communication Technology / Team Leaders",
+   "bullets": [
+    "Flexible Work Arrangements and Work From Home",
+    "Make your mark at one of ANZ's largest and most complex technology businesses",
+    "Grow in a flexible, people-first culture with real career development"
+   ],
+   "categories": [
+    "server"
+   ],
+   "inz": "accredited",
+   "inz_name": "DATACOM NEW ZEALAND LIMITED (+4 other Datacom entities)",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/96008698",
+   "first_seen": "2026-11-23T01:02Z"
   },
   {
    "id": "96008543",
@@ -1513,32 +1751,6 @@
    "first_seen": "2026-11-18T03:02Z"
   },
   {
-   "id": "95961438",
-   "title": "Senior Systems Security Engineer - Health Information",
-   "company": "University of Auckland",
-   "location": "Auckland CBD, Auckland",
-   "work_type": "Full time",
-   "arrangement": "Hybrid",
-   "salary": "$110,700 - $149,800 dependent on experience",
-   "listed": "2026-11-18T02:26:52Z",
-   "teaser": "Shape health information security across a complex enterprise environment",
-   "classification": "Information & Communication Technology / Security",
-   "bullets": [
-    "Establish security controls for critical health systems",
-    "5 weeks' annual leave + flexible working",
-    "Up to 6.75% super + 37.5hr/ week"
-   ],
-   "categories": [
-    "server"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95961438",
-   "first_seen": "2026-11-18T03:02Z"
-  },
-  {
    "id": "95960846",
    "title": "Senior Frontend Software Engineer",
    "company": "First Focus IT",
@@ -1635,32 +1847,6 @@
    "visa_mention": false,
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95959769",
-   "first_seen": "2026-11-18T03:02Z"
-  },
-  {
-   "id": "95955696",
-   "title": "Product Manager",
-   "company": "Kiwicare",
-   "location": "Bromley, Canterbury",
-   "work_type": "Full time",
-   "arrangement": "",
-   "salary": "Competitive Salary + Annual Progress Review",
-   "listed": "2026-11-17T21:54:08Z",
-   "teaser": "Take ownership of product performance, identify commercial opportunities & influence key decisions in a role offering real responsibility and growth.",
-   "classification": "Marketing & Communications / Product Management & Development",
-   "bullets": [
-    "Lead innovative product initiatives and shape portfolio growth across ANZ",
-    "Shape products from concept to shelf in a fast-paced FMCG team",
-    "Choice of location – Christchurch or Auckland based"
-   ],
-   "categories": [
-    "product"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95955696",
    "first_seen": "2026-11-18T03:02Z"
   },
   {
@@ -5135,28 +5321,6 @@
    "first_seen": "2026-11-20T00:49Z"
   },
   {
-   "id": "95701159",
-   "title": "Website Developer",
-   "company": "iDigital",
-   "location": "Auckland CBD, Auckland",
-   "work_type": "Full time",
-   "arrangement": "",
-   "salary": "",
-   "listed": "2026-11-04T21:39:18Z",
-   "teaser": "Experienced Web Developer to build and launch high-performing client websites on WordPress, Shopify and other platforms.",
-   "classification": "Information & Communication Technology / Web Development & Production",
-   "bullets": [],
-   "categories": [
-    "mobile"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95701159",
-   "first_seen": "2026-11-13T08:41Z"
-  },
-  {
    "id": "95692329",
    "title": "Full Stack Engineer (Angular/.NET) – Global Cricket Platform",
    "company": "NV Play",
@@ -6104,36 +6268,9 @@
    ],
    "inz": "accredited",
    "inz_name": "WINDCAVE",
-   "visa_mention": true,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95626422",
-   "first_seen": "2026-11-13T08:49Z"
-  },
-  {
-   "id": "95625245",
-   "title": "Technical Lead",
-   "company": "Tribe Group",
-   "location": "Auckland CBD, Auckland",
-   "work_type": "Full time",
-   "arrangement": "",
-   "salary": "From $150k + benefits. Lead people, ship code",
-   "listed": "2026-11-01T23:07:25Z",
-   "teaser": "Lead a team of 5 engineers, own delivery from design to production and ship a global B2B SaaS platform on AWS, React & Node.",
-   "classification": "Information & Communication Technology / Engineering - Software",
-   "bullets": [
-    "Lead a team of 5 engineers and stay hands-on with the code",
-    "Get real mentoring from an Engineering Manager who’s done this role before",
-    "Modern stack: AWS, React, TypeScript & Node in a high-trust, cloud-first team"
-   ],
-   "categories": [
-    "mobile",
-    "server"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
    "visa_mention": false,
    "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95625245",
+   "url": "https://www.seek.co.nz/job/95626422",
    "first_seen": "2026-11-13T08:49Z"
   },
   {
@@ -6853,6 +6990,32 @@
    "first_seen": "2026-11-14T15:56Z"
   },
   {
+   "id": "95555386",
+   "title": "Senior Firmware Engineer",
+   "company": "Halter",
+   "location": "Auckland CBD, Auckland",
+   "work_type": "Full time",
+   "arrangement": "",
+   "salary": "",
+   "listed": "2026-10-28T11:12:17Z",
+   "teaser": "Design and implement embedded C/C++ firmware for resource-constrained devices running FreeRTOS.",
+   "classification": "Information & Communication Technology / Engineering - Software",
+   "bullets": [
+    "Real ownership, real scale, real stakes.",
+    "You work on the whole system, not just your corner of it.",
+    "A mission-driven company that’s well backed and invests in its people."
+   ],
+   "categories": [
+    "fintech"
+   ],
+   "inz": "accredited",
+   "inz_name": "HALTER LIMITED",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95555386",
+   "first_seen": "2026-11-23T01:02Z"
+  },
+  {
    "id": "95534304",
    "title": "Machine Learning Lead",
    "company": "Momentum Consulting",
@@ -7043,7 +7206,7 @@
    ],
    "inz": "unchecked",
    "inz_name": "",
-   "visa_mention": true,
+   "visa_mention": false,
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95525292",
    "first_seen": "2026-11-13T08:49Z"
