@@ -1,15 +1,592 @@
 {
- "updated": "2026-11-24T16:07Z",
- "count": 275,
+ "updated": "2026-11-25T00:43Z",
+ "count": 284,
  "added": [
-  "95703895",
-  "95709450",
-  "96089196",
-  "96094695",
-  "96095218"
+  "95769355",
+  "96099083",
+  "96099091",
+  "96099492",
+  "96099576",
+  "96099835",
+  "96099977",
+  "96101233",
+  "96101304",
+  "96101536",
+  "96101583",
+  "96101592",
+  "96101605",
+  "96101631",
+  "96101675",
+  "96101732",
+  "96101743",
+  "96101745",
+  "96102863",
+  "96104500",
+  "96104639",
+  "96104640",
+  "96104732"
  ],
- "removed": 9,
+ "removed": 14,
  "jobs": [
+  {
+   "id": "96104732",
+   "title": "React Developer",
+   "company": "Green Light",
+   "location": "Wellington",
+   "work_type": "Contract/Temp",
+   "arrangement": "",
+   "salary": "Competitive",
+   "listed": "2026-11-25T00:35:07Z",
+   "teaser": "Role: React Developer   Location:  Wellington or Auckland, New Zealand   Engagement:  Initial Contract   Start Date:  Immediate      About the",
+   "classification": "Information & Communication Technology / Developers/Programmers",
+   "bullets": [],
+   "categories": [
+    "mobile",
+    "server"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/96104732",
+   "first_seen": "2026-11-25T00:43Z"
+  },
+  {
+   "id": "96104640",
+   "title": "Field Engineer",
+   "company": "Private Advertiser",
+   "location": "Lower Hutt, Wellington",
+   "work_type": "Full time",
+   "arrangement": "Hybrid",
+   "salary": "",
+   "listed": "2026-11-25T00:29:56Z",
+   "teaser": "implementation of IT infrastructure and other related technology projects, including the ongoing support of IT infrastructure.",
+   "classification": "Information & Communication Technology / Help Desk & IT Support",
+   "bullets": [],
+   "categories": [
+    "mobile",
+    "server"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/96104640",
+   "first_seen": "2026-11-25T00:43Z"
+  },
+  {
+   "id": "96104639",
+   "title": "Senior Platform Engineer",
+   "company": "Foodstuffs North Island",
+   "location": "Mangere, Auckland",
+   "work_type": "Full time",
+   "arrangement": "Hybrid",
+   "salary": "",
+   "listed": "2026-11-25T00:29:52Z",
+   "teaser": "Join Foodies as a Senior Platform Engineer and lead the engineering, reliability and evolution of our business-critical Salesforce ecosystem.",
+   "classification": "Information & Communication Technology / Engineering - Software",
+   "bullets": [
+    "Work across Sales Cloud, Service Cloud, Marketing Cloud and Data Cloud",
+    "Solve complex platform challenges and lead major technical initiatives",
+    "Champion security, reliability, automation and operational excellence"
+   ],
+   "categories": [
+    "server"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/96104639",
+   "first_seen": "2026-11-25T00:43Z"
+  },
+  {
+   "id": "96104500",
+   "title": "Associate Platform Engineer",
+   "company": "Foodstuffs North Island",
+   "location": "Mangere, Auckland",
+   "work_type": "Full time",
+   "arrangement": "Hybrid",
+   "salary": "",
+   "listed": "2026-11-25T00:22:14Z",
+   "teaser": "Join our Customer CRM, Customer Engagement and Loyalty team as an Associate Platform Engineer building your technical capability while supporting.",
+   "classification": "Information & Communication Technology / Engineering - Software",
+   "bullets": [
+    "Develop from a Salesforce specialist into a broader Platform Engineer",
+    "Work on enterprise-scale Salesforce platforms."
+   ],
+   "categories": [
+    "server"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/96104500",
+   "first_seen": "2026-11-25T00:43Z"
+  },
+  {
+   "id": "96102863",
+   "title": "Full Stack Developer",
+   "company": "Ostitech Limited",
+   "location": "Auckland CBD, Auckland",
+   "work_type": "Full time",
+   "arrangement": "Remote",
+   "salary": "",
+   "listed": "2026-11-24T22:55:01Z",
+   "teaser": "Build and shape Maxtel's modern software platform through large-scale migration and agentic development.",
+   "classification": "Information & Communication Technology / Developers/Programmers",
+   "bullets": [],
+   "categories": [
+    "server"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/96102863",
+   "first_seen": "2026-11-25T00:43Z"
+  },
+  {
+   "id": "96101745",
+   "title": "Expression of Interest - System Engineers!",
+   "company": "Government Communications Security Bureau NZ",
+   "location": "Auckland CBD, Auckland",
+   "work_type": "Full time",
+   "arrangement": "",
+   "salary": "",
+   "listed": "2026-11-24T22:32:34Z",
+   "teaser": "We are looking for System Engineers across all experience levels to join our Technology and Data team!",
+   "classification": "Information & Communication Technology / Engineering - Network",
+   "bullets": [
+    "Join a collaborative, people first team where your contribution is valued",
+    "Passionate Systems Engineers needed to secure & sustain GCSB/NZSIS",
+    "Provide operational support for Windows & Linux"
+   ],
+   "categories": [
+    "server"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/96101745",
+   "first_seen": "2026-11-25T00:43Z"
+  },
+  {
+   "id": "96101743",
+   "title": "Expression of Interest - System Engineers!",
+   "company": "Government Communications Security Bureau NZ",
+   "location": "Wellington Central, Wellington",
+   "work_type": "Full time",
+   "arrangement": "",
+   "salary": "",
+   "listed": "2026-11-24T22:32:32Z",
+   "teaser": "We are looking for System Engineers across all experience levels to join our Technology and Data team!",
+   "classification": "Information & Communication Technology / Engineering - Network",
+   "bullets": [
+    "Join a collaborative, people first team where your contribution is valued",
+    "Passionate Systems Engineers needed to secure & sustain GCSB/NZSIS",
+    "Provide operational support for Windows & Linux"
+   ],
+   "categories": [
+    "server"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/96101743",
+   "first_seen": "2026-11-25T00:43Z"
+  },
+  {
+   "id": "96101732",
+   "title": "Engineering Manager",
+   "company": "Alexander James",
+   "location": "Auckland CBD, Auckland",
+   "work_type": "Full time",
+   "arrangement": "Hybrid",
+   "salary": "",
+   "listed": "2026-11-24T22:32:19Z",
+   "teaser": "Strong Databricks expertise? Enjoy leading people while staying hands-on technically? This could be for you.",
+   "classification": "Information & Communication Technology / Database Development & Administration",
+   "bullets": [
+    "Auckland Based | Hybrid Working | Permanent Opportunity",
+    "Tech Stack: Databricks, Snowflake, SQL & Python",
+    "Consulting or Managed Services Background Highly Regarded"
+   ],
+   "categories": [
+    "server"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/96101732",
+   "first_seen": "2026-11-25T00:43Z"
+  },
+  {
+   "id": "96101675",
+   "title": "Field Engineer - CONTRACT",
+   "company": "Robert Half",
+   "location": "Wellington",
+   "work_type": "Contract/Temp",
+   "arrangement": "",
+   "salary": "$50.00 - $55.00 p.h.",
+   "listed": "2026-11-24T22:27:48Z",
+   "teaser": "Immediate contract assignment with a reputable transport provider",
+   "classification": "Information & Communication Technology / Help Desk & IT Support",
+   "bullets": [],
+   "categories": [
+    "mobile",
+    "server"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/96101675",
+   "first_seen": "2026-11-25T00:43Z"
+  },
+  {
+   "id": "96101631",
+   "title": "Senior Systems Engineer, Infrastructure",
+   "company": "Medical Assurance Society NZ",
+   "location": "Auckland CBD, Auckland",
+   "work_type": "Full time",
+   "arrangement": "",
+   "salary": "",
+   "listed": "2026-11-24T22:24:06Z",
+   "teaser": "We're looking for a Senior Systems Engineer - Infrastructure to join our Operations team at MAS, based in Auckland or Wellington, 12 months fixed term",
+   "classification": "Information & Communication Technology / Engineering - Software",
+   "bullets": [],
+   "categories": [
+    "server"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/96101631",
+   "first_seen": "2026-11-25T00:43Z"
+  },
+  {
+   "id": "96101605",
+   "title": "Digital Audio Product Manager",
+   "company": "NZME",
+   "location": "Auckland CBD, Auckland",
+   "work_type": "Contract/Temp",
+   "arrangement": "",
+   "salary": "",
+   "listed": "2026-11-24T22:22:01Z",
+   "teaser": "Ready to shape the products that power digital audio in Aotearoa? This is your moment to make your mark at iHeartRadio.",
+   "classification": "Advertising, Arts & Media / Media Strategy, Planning & Buying",
+   "bullets": [
+    "Own the product and pricing framework for NZ’s most dynamic media companies",
+    "Collaborate across iHeartRadio, NZ Herald, and NZME's powerhouse of brands",
+    "Join a social company culture with access to wellbeing support"
+   ],
+   "categories": [
+    "product"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/96101605",
+   "first_seen": "2026-11-25T00:43Z"
+  },
+  {
+   "id": "96101592",
+   "title": "Senior Solution Architect",
+   "company": "Taska360",
+   "location": "Wellington",
+   "work_type": "Full time",
+   "arrangement": "",
+   "salary": "",
+   "listed": "2026-11-24T22:21:13Z",
+   "teaser": "A rare permanent opportunity for a senior architect to shape mission-critical technology capability in Wellington.",
+   "classification": "Information & Communication Technology / Architects",
+   "bullets": [
+    "Permanent, full-time role based onsite in Upper Hutt & Wellington CBD",
+    "Excellent benefits & bonus package",
+    "Strong skills in translating technical complexity into clear language for divers"
+   ],
+   "categories": [
+    "server"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/96101592",
+   "first_seen": "2026-11-25T00:43Z"
+  },
+  {
+   "id": "96101583",
+   "title": "Software Developer",
+   "company": "iPayroll",
+   "location": "Christchurch Central, Canterbury",
+   "work_type": "Full time",
+   "arrangement": "",
+   "salary": "Competitive Salary + Medical Insurance",
+   "listed": "2026-11-24T22:20:38Z",
+   "teaser": "We are looking for proven experience with Java programming, Spring framework, RESTFul APIs, Agile development environments, AWS",
+   "classification": "Information & Communication Technology / Developers/Programmers",
+   "bullets": [
+    "Immediate Start",
+    "Handy Location",
+    "Supportive inclusive leadership culture based on respect and collaboration"
+   ],
+   "categories": [
+    "server"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/96101583",
+   "first_seen": "2026-11-25T00:43Z"
+  },
+  {
+   "id": "96101536",
+   "title": "Software Developer",
+   "company": "iPayroll",
+   "location": "Wellington Central, Wellington",
+   "work_type": "Full time",
+   "arrangement": "",
+   "salary": "Competitive Salary + Medical Insurance",
+   "listed": "2026-11-24T22:18:15Z",
+   "teaser": "We are looking for proven experience with Java programming, Spring framework, RESTFul APIs, Agile development environments, AWS",
+   "classification": "Information & Communication Technology / Developers/Programmers",
+   "bullets": [
+    "Immediate Start",
+    "Handy CBD Location",
+    "Supportive inclusive leadership culture based on respect and collaboration"
+   ],
+   "categories": [
+    "server"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/96101536",
+   "first_seen": "2026-11-25T00:43Z"
+  },
+  {
+   "id": "96101304",
+   "title": "Senior Backend Engineer",
+   "company": "Humankind",
+   "location": "Auckland CBD, Auckland",
+   "work_type": "Full time",
+   "arrangement": "Hybrid",
+   "salary": "",
+   "listed": "2026-11-24T21:59:39Z",
+   "teaser": "Own backend services for real-time financial products in an AI-forward New Zealand fintech scale-up.",
+   "classification": "Information & Communication Technology / Engineering - Software",
+   "bullets": [
+    "Join a fast-growing fintech scale-up",
+    "Own correctness, performance and production quality",
+    "Build Kotlin, Spring Boot, PostgreSQL and AWS services"
+   ],
+   "categories": [
+    "fintech",
+    "mobile",
+    "server"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/96101304",
+   "first_seen": "2026-11-25T00:43Z"
+  },
+  {
+   "id": "96101233",
+   "title": "Product Designer",
+   "company": "MTF Finance",
+   "location": "Dunedin Central, Otago",
+   "work_type": "Full time",
+   "arrangement": "",
+   "salary": "",
+   "listed": "2026-11-24T21:49:01Z",
+   "teaser": "Are you ready to join a team where your design will make a real difference?",
+   "classification": "Design & Architecture / Web & Interaction Design",
+   "bullets": [
+    "Work with a supportive team that celebrates wins together",
+    "Medical insurance, birthday leave, and wellbeing initiatives",
+    "Contribute to meaningful projects and help shape the future of MTF"
+   ],
+   "categories": [
+    "fintech",
+    "uiux"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/96101233",
+   "first_seen": "2026-11-25T00:43Z"
+  },
+  {
+   "id": "96099977",
+   "title": "Pega Lead System Architect",
+   "company": "Heartland Bank",
+   "location": "Auckland CBD, Auckland",
+   "work_type": "Full time",
+   "arrangement": "",
+   "salary": "",
+   "listed": "2026-11-24T20:35:02Z",
+   "teaser": "Become a trusted technical leader who can both deliver solutions and help others deliver them.",
+   "classification": "Information & Communication Technology / Architects",
+   "bullets": [
+    "Be actively involved in development!",
+    "Supportive leadership",
+    "Make your mark in a growing company"
+   ],
+   "categories": [
+    "fintech",
+    "server"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": true,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/96099977",
+   "first_seen": "2026-11-25T00:43Z"
+  },
+  {
+   "id": "96099835",
+   "title": "Team Lead - External Applications (AI-First)",
+   "company": "Talent Army",
+   "location": "Wellington",
+   "work_type": "Full time",
+   "arrangement": "Hybrid",
+   "salary": "",
+   "listed": "2026-11-24T19:58:27Z",
+   "teaser": "Lead a talented dev team into AI-first delivery. Build faster, smarter and safer, and be the change-maker this department is looking for.",
+   "classification": "Information & Communication Technology / Team Leaders",
+   "bullets": [
+    "Lead the shift to AI-built applications",
+    "Hands-on leadership of a team of five developers and sysadmins",
+    "Purpose-driven department, real impact for New Zealand"
+   ],
+   "categories": [
+    "server"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/96099835",
+   "first_seen": "2026-11-25T00:43Z"
+  },
+  {
+   "id": "96099576",
+   "title": "Technical Lead - Network",
+   "company": "Livestock Improvement Corporation",
+   "location": "Newstead, Waikato",
+   "work_type": "Full time",
+   "arrangement": "",
+   "salary": "",
+   "listed": "2026-11-24T19:30:08Z",
+   "teaser": "Lead LIC's network strategy & security. Drive Zero Trust, SASE and cloud-first change as senior technical authority in our Enterprise Technology Group",
+   "classification": "Information & Communication Technology / Engineering - Network",
+   "bullets": [
+    "Drive LIC's enterprise network strategy end to end",
+    "Lead Zero Trust, SASE and SD-WAN transformation",
+    "Guide MSPs across AWS, Azure and hybrid cloud"
+   ],
+   "categories": [
+    "server"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/96099576",
+   "first_seen": "2026-11-25T00:43Z"
+  },
+  {
+   "id": "96099492",
+   "title": "Data Engineer - Fixed Term, Auckland",
+   "company": "New Zealand Blood Service",
+   "location": "Auckland CBD, Auckland",
+   "work_type": "Contract/Temp",
+   "arrangement": "",
+   "salary": "",
+   "listed": "2026-11-24T19:08:38Z",
+   "teaser": "Shape NZBS's finance future by building trusted data pipelines, migration solutions and reporting on a major transformation programme.",
+   "classification": "Information & Communication Technology / Database Development & Administration",
+   "bullets": [
+    "Use your expertise in a values-driven healthcare organization",
+    "Expand your experience across modern data platforms",
+    "Build lasting data solutions for NZBS’s future"
+   ],
+   "categories": [
+    "fintech",
+    "server"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/96099492",
+   "first_seen": "2026-11-25T00:43Z"
+  },
+  {
+   "id": "96099091",
+   "title": "Senior AI Software Engineer",
+   "company": "Sunstone Talent",
+   "location": "Christchurch Central, Canterbury",
+   "work_type": "Full time",
+   "arrangement": "Hybrid",
+   "salary": "$140k-$180k+ModOffices+Flexible/2daysWFH+Park",
+   "listed": "2026-11-24T17:10:28Z",
+   "teaser": "An interesting client seeks a Senior AI Software Engineer to work on applying modern AI tooling to enhance software features & functionality :-)",
+   "classification": "Information & Communication Technology / Engineering - Software",
+   "bullets": [
+    "Do you enjoy tackling 3D & spatial simulation problems? Vectors?",
+    "Love working with maths to solve complex problems building a product?",
+    "Join a friendly, supportive team working on an epic software product?"
+   ],
+   "categories": [
+    "server"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/96099091",
+   "first_seen": "2026-11-25T00:43Z"
+  },
+  {
+   "id": "96099083",
+   "title": "Full Stack Web Developer (TypeScript / Node / AWS)",
+   "company": "Sunstone Talent",
+   "location": "Christchurch, Canterbury",
+   "work_type": "Full time",
+   "arrangement": "",
+   "salary": "$90k-$120k",
+   "listed": "2026-11-24T17:09:27Z",
+   "teaser": "Full Stack Developer? Passion for modern software engineering & want to help continue to scale a modern SaaS / Cloud based product? Get in touch :-)",
+   "classification": "Information & Communication Technology / Developers/Programmers",
+   "bullets": [
+    "A unique role for a web developer to join a software team in an OpenSource stack",
+    "Help build new features & functionality on a modern SaaS / Cloud based platform",
+    "Come work with a good team innovating using AI tooling :-)"
+   ],
+   "categories": [
+    "server"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/96099083",
+   "first_seen": "2026-11-25T00:43Z"
+  },
   {
    "id": "96095218",
    "title": "Software Developer (Digital Marketing & Analytics)",
@@ -199,7 +776,7 @@
    "arrangement": "",
    "salary": "",
    "listed": "2026-11-24T03:44:22Z",
-   "teaser": "Grow your IT career with hands-on support, flexible work, and professional development opportunities.",
+   "teaser": "Grow your IT career with hands-on support. Great team culture, flexibility, and continuous learning opportunities.",
    "classification": "Information & Communication Technology / Help Desk & IT Support",
    "bullets": [
     "Flexible Work Arrangements and Work From Home",
@@ -943,28 +1520,6 @@
    "first_seen": "2026-11-23T09:00Z"
   },
   {
-   "id": "96049973",
-   "title": "Product Owner - Contract opportunity wth ASAP start!",
-   "company": "H2R Consulting",
-   "location": "Auckland",
-   "work_type": "Contract/Temp",
-   "arrangement": "Hybrid",
-   "salary": "Competitive hourly rate + hybrid working",
-   "listed": "2026-11-23T03:04:38Z",
-   "teaser": "Fantastic opportunity for an experienced Product Owner to join a meaningful healthcare programme",
-   "classification": "Information & Communication Technology / Product Management & Development",
-   "bullets": [],
-   "categories": [
-    "product"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/96049973",
-   "first_seen": "2026-11-23T09:00Z"
-  },
-  {
    "id": "96049221",
    "title": "DevOps Lead",
    "company": "Randstad",
@@ -1174,32 +1729,6 @@
    "first_seen": "2026-11-23T01:02Z"
   },
   {
-   "id": "96042394",
-   "title": "Senior Cybersecurity Engineer",
-   "company": "Datacom",
-   "location": "Auckland CBD, Auckland",
-   "work_type": "Full time",
-   "arrangement": "Hybrid",
-   "salary": "",
-   "listed": "2026-11-22T20:50:19Z",
-   "teaser": "Lead critical cybersecurity operations. Drive threat defence. Shape security strategy. Competitive benefits & career growth.",
-   "classification": "Information & Communication Technology / Security",
-   "bullets": [
-    "Flexible Work Arrangements and Work From Home",
-    "Make your mark at one of ANZ's largest and most complex technology businesses",
-    "Grow in a flexible, people-first culture with real career development"
-   ],
-   "categories": [
-    "server"
-   ],
-   "inz": "accredited",
-   "inz_name": "DATACOM NEW ZEALAND LIMITED (+4 other Datacom entities)",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/96042394",
-   "first_seen": "2026-11-23T01:02Z"
-  },
-  {
    "id": "96041899",
    "title": "Senior Industrial & Product Designer",
    "company": "Metalform (Dannevirke) LTD",
@@ -1306,7 +1835,7 @@
   },
   {
    "id": "96034087",
-   "title": "Teach Lead - Software Development",
+   "title": "Tech Lead - Software Development",
    "company": "Halter",
    "location": "Auckland CBD, Auckland",
    "work_type": "Full time",
@@ -1314,7 +1843,7 @@
    "salary": "",
    "listed": "2026-11-21T02:45:42Z",
    "teaser": "You’ll take on our toughest engineering problems, make the call on complex design trade-offs, and ship work that sets the standard for everyone else.",
-   "classification": "Information & Communication Technology / Engineering - Software",
+   "classification": "Information & Communication Technology / Developers/Programmers",
    "bullets": [
     "Mission Tech: Tackle top-tier, real-world tech challenges that transform farming",
     "Kiwi-founded, fast-growing and scaling across the globe",
@@ -1344,8 +1873,7 @@
    "classification": "Information & Communication Technology / Help Desk & IT Support",
    "bullets": [],
    "categories": [
-    "mobile",
-    "server"
+    "mobile"
    ],
    "inz": "unchecked",
    "inz_name": "",
@@ -1377,32 +1905,6 @@
    "first_seen": "2026-11-20T22:57Z"
   },
   {
-   "id": "96023018",
-   "title": "Senior Product Manager",
-   "company": "moshtix",
-   "location": "Auckland CBD, Auckland",
-   "work_type": "Contract/Temp",
-   "arrangement": "Hybrid",
-   "salary": "",
-   "listed": "2026-11-20T08:25:07Z",
-   "teaser": "Lead end-to-end product discovery, delivery and growth for the Universe platform across global markets.",
-   "classification": "Information & Communication Technology / Product Management & Development",
-   "bullets": [
-    "Exciting contract opportunity working within a dynamic & rewarding team!",
-    "Part of Ticketmaster the world's leading & innovative ticketing company!",
-    "Exciting industry with a fun and inclusive work environment!"
-   ],
-   "categories": [
-    "product"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/96023018",
-   "first_seen": "2026-11-20T16:55Z"
-  },
-  {
    "id": "96018569",
    "title": "Senior Reporting & Automation Lead",
    "company": "Health New Zealand - Te Whatu Ora",
@@ -1429,32 +1931,6 @@
    "first_seen": "2026-11-20T08:01Z"
   },
   {
-   "id": "96018193",
-   "title": "Product Manager (Wastewater)",
-   "company": "Filtec Water",
-   "location": "Mount Wellington, Auckland",
-   "work_type": "Full time",
-   "arrangement": "Hybrid",
-   "salary": "90-150k + Bonus (depending on experience)",
-   "listed": "2026-11-20T05:25:28Z",
-   "teaser": "A technically astute, commercially savy role combing engineering and procurement for equipment sales, service (maintenance) and EPC Projects",
-   "classification": "Engineering / Water & Waste Engineering",
-   "bullets": [
-    "Thriving privately owned NZ business",
-    "Superb culture",
-    "Career progression"
-   ],
-   "categories": [
-    "product"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/96018193",
-   "first_seen": "2026-11-20T08:01Z"
-  },
-  {
    "id": "96017554",
    "title": "HMC Engineer",
    "company": "Health New Zealand - Te Whatu Ora",
@@ -1471,8 +1947,7 @@
     "Work from your local Health New Zealand office"
    ],
    "categories": [
-    "mobile",
-    "server"
+    "mobile"
    ],
    "inz": "unchecked",
    "inz_name": "",
@@ -1583,32 +2058,6 @@
    "first_seen": "2026-11-20T08:01Z"
   },
   {
-   "id": "96012756",
-   "title": "Senior Network Engineer",
-   "company": "Datacom",
-   "location": "Wellington Central, Wellington",
-   "work_type": "Full time",
-   "arrangement": "Hybrid",
-   "salary": "",
-   "listed": "2026-11-20T02:46:38Z",
-   "teaser": "Lead networks with latest tech. Grow with mentorship. Flexible work. Senior role, NZ-based.",
-   "classification": "Information & Communication Technology / Networks & Systems Administration",
-   "bullets": [
-    "Flexible Work Arrangements and Work From Home",
-    "Make your mark at one of ANZ's largest and most complex technology businesses",
-    "Grow in a flexible, people-first culture with real career development"
-   ],
-   "categories": [
-    "server"
-   ],
-   "inz": "accredited",
-   "inz_name": "DATACOM NEW ZEALAND LIMITED (+4 other Datacom entities)",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/96012756",
-   "first_seen": "2026-11-21T12:01Z"
-  },
-  {
    "id": "96012335",
    "title": "Senior Data Engineer",
    "company": "Westpac Bank",
@@ -1632,32 +2081,6 @@
    "visa_mention": false,
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/96012335",
-   "first_seen": "2026-11-20T08:01Z"
-  },
-  {
-   "id": "96012210",
-   "title": "Lead Geospatial Advisor",
-   "company": "Robert Walters",
-   "location": "Wellington Central, Wellington",
-   "work_type": "Contract/Temp",
-   "arrangement": "Hybrid",
-   "salary": "Competitive",
-   "listed": "2026-11-20T02:30:49Z",
-   "teaser": "A leading organisation in Wellington is seeking a highly knowledgeable Lead Geospatial Advisor",
-   "classification": "Information & Communication Technology / Database Development & Administration",
-   "bullets": [
-    "Play a pivotal role in shaping the technical direction",
-    "Enjoy flexible working arrangements",
-    "6 month hourly rate contract"
-   ],
-   "categories": [
-    "server"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/96012210",
    "first_seen": "2026-11-20T08:01Z"
   },
   {
@@ -1940,32 +2363,6 @@
    "first_seen": "2026-11-19T09:23Z"
   },
   {
-   "id": "95982183",
-   "title": "Data Engineer",
-   "company": "Evolve Recruitment Group",
-   "location": "Auckland",
-   "work_type": "Contract/Temp",
-   "arrangement": "Remote",
-   "salary": "",
-   "listed": "2026-11-19T01:03:21Z",
-   "teaser": "Build Databricks data pipelines and deliver trusted reporting data for a major financial services product launch.",
-   "classification": "Information & Communication Technology / Engineering - Software",
-   "bullets": [
-    "Play a key role delivering data capability for a major new product launch",
-    "Hands-on Databricks engineering in a modern cloud data environment",
-    "3-month contract with immediate start, Auckland-based financial services organi"
-   ],
-   "categories": [
-    "fintech"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95982183",
-   "first_seen": "2026-11-19T01:30Z"
-  },
-  {
    "id": "95981419",
    "title": "Senior Software Engineer",
    "company": "Precision Farming",
@@ -2014,32 +2411,6 @@
    "first_seen": "2026-11-19T01:30Z"
   },
   {
-   "id": "95979358",
-   "title": "Digital Engineer",
-   "company": "Vitruvius",
-   "location": "Auckland CBD, Auckland",
-   "work_type": "Full time",
-   "arrangement": "Hybrid",
-   "salary": "",
-   "listed": "2026-11-18T22:42:48Z",
-   "teaser": "Passionate about engineering and digital innovation? Help shape smarter project delivery and drive digital excellence at Vitruvius.",
-   "classification": "Information & Communication Technology / Engineering - Software",
-   "bullets": [
-    "Shape the future of digital engineering at Vitruvius",
-    "Enjoy flexible working and professional development opportunities",
-    "Drive innovation through automation, AI and digital tools"
-   ],
-   "categories": [
-    "server"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95979358",
-   "first_seen": "2026-11-19T01:30Z"
-  },
-  {
    "id": "95979190",
    "title": "ICT Systems Engineer",
    "company": "Whangarei District Council",
@@ -2063,32 +2434,6 @@
    "visa_mention": false,
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95979190",
-   "first_seen": "2026-11-19T01:30Z"
-  },
-  {
-   "id": "95978872",
-   "title": "Senior Data Engineer",
-   "company": "Hays Recruitment",
-   "location": "Wellington",
-   "work_type": "Contract/Temp",
-   "arrangement": "",
-   "salary": "",
-   "listed": "2026-11-18T21:56:02Z",
-   "teaser": "2x Senior level Data Engineer positions - 12-month contract - Wellington based",
-   "classification": "Information & Communication Technology / Database Development & Administration",
-   "bullets": [
-    "12 month contract role",
-    "Wellington based",
-    "Weekly payment"
-   ],
-   "categories": [
-    "fintech"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95978872",
    "first_seen": "2026-11-19T01:30Z"
   },
   {
@@ -3483,8 +3828,7 @@
    "classification": "Information & Communication Technology / Engineering - Software",
    "bullets": [],
    "categories": [
-    "mobile",
-    "server"
+    "mobile"
    ],
    "inz": "unchecked",
    "inz_name": "",
@@ -3861,8 +4205,7 @@
     "Collaborative team with real influence on technology decisions"
    ],
    "categories": [
-    "fintech",
-    "mobile"
+    "fintech"
    ],
    "inz": "unchecked",
    "inz_name": "",
@@ -4301,52 +4644,30 @@
    "first_seen": "2026-11-13T08:41Z"
   },
   {
-   "id": "95770590",
-   "title": "Senior Product Manager",
-   "company": "Narrative",
-   "location": "Auckland CBD, Auckland",
-   "work_type": "Full time",
-   "arrangement": "Hybrid",
-   "salary": "",
-   "listed": "2026-11-09T02:19:07Z",
-   "teaser": "Build and ship high-quality features for Narrative’s core products, collaborating across teams while growing autonomy, technical depth, and impact.",
-   "classification": "Information & Communication Technology / Product Management & Development",
-   "bullets": [],
-   "categories": [
-    "product"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95770590",
-   "first_seen": "2026-11-20T16:55Z"
-  },
-  {
-   "id": "95765396",
-   "title": "Lead Cloud Engineer",
-   "company": "Walker Smith",
-   "location": "Christchurch Central, Canterbury",
+   "id": "95769355",
+   "title": "Infrastructure Engineer",
+   "company": "Toi Ohomai",
+   "location": "Tauranga Central, Bay of Plenty",
    "work_type": "Full time",
    "arrangement": "",
    "salary": "",
-   "listed": "2026-11-08T23:22:17Z",
-   "teaser": "Lead a small team at Herd-i building computer vision and cloud systems for dairy. Hands-on Python, AWS and React, with Claude Code at the core.",
-   "classification": "Information & Communication Technology / Engineering - Software",
+   "listed": "2026-11-09T01:35:13Z",
+   "teaser": "Infrastructure Engineer",
+   "classification": "Information & Communication Technology / Engineering - Network",
    "bullets": [
-    "Shape the architecture of a growing dairy-tech platform",
-    "Work with ML, IoT and operations teams to ship real systems",
-    "Own the technical direction of a small, ambitious team"
+    "Lead modern cloud & device management",
+    "Make a real impact across campuses",
+    "Work with cutting-edge Microsoft tools"
    ],
    "categories": [
-    "server"
+    "mobile"
    ],
    "inz": "unchecked",
    "inz_name": "",
    "visa_mention": false,
    "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95765396",
-   "first_seen": "2026-11-13T08:41Z"
+   "url": "https://www.seek.co.nz/job/95769355",
+   "first_seen": "2026-11-25T00:43Z"
   },
   {
    "id": "95765251",
@@ -4548,8 +4869,7 @@
     "Exciting digital transformation, collaborative team"
    ],
    "categories": [
-    "mobile",
-    "server"
+    "mobile"
    ],
    "inz": "unchecked",
    "inz_name": "",
@@ -4722,8 +5042,7 @@
     "Join an innovative company built on trust, learning and making meaningful impact"
    ],
    "categories": [
-    "mobile",
-    "server"
+    "mobile"
    ],
    "inz": "accredited",
    "inz_name": "PROPELLERHEAD LIMITED",
@@ -4989,28 +5308,6 @@
    "first_seen": "2026-11-13T08:41Z"
   },
   {
-   "id": "95709450",
-   "title": "Systems Engineer",
-   "company": "Bell Computer Systems",
-   "location": "Nelson Central, Tasman",
-   "work_type": "Full time",
-   "arrangement": "",
-   "salary": "$70,000 – $90,000 per year",
-   "listed": "2026-11-05T03:05:42Z",
-   "teaser": "Join a close-knit team, develop your skills, and make a real difference for clients in a varied and rewarding role.",
-   "classification": "Information & Communication Technology / Help Desk & IT Support",
-   "bullets": [],
-   "categories": [
-    "mobile"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95709450",
-   "first_seen": "2026-11-24T16:07Z"
-  },
-  {
    "id": "95706689",
    "title": "AI Engineer | Contract",
    "company": "Robert Half",
@@ -5109,32 +5406,6 @@
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95704135",
    "first_seen": "2026-11-21T19:14Z"
-  },
-  {
-   "id": "95703895",
-   "title": "Network Engineer",
-   "company": "Alexander James",
-   "location": "Auckland CBD, Auckland",
-   "work_type": "Full time",
-   "arrangement": "Hybrid",
-   "salary": "",
-   "listed": "2026-11-05T00:21:04Z",
-   "teaser": "Join an established NZ organisation as a Network Engineer, working across network projects, infrastructure upgrades and BAU in multiple sites.",
-   "classification": "Information & Communication Technology / Engineering - Network",
-   "bullets": [
-    "Opportunity to work across a diverse, multi-site network environment",
-    "Permantent Opportunity | Auckland Location",
-    "Hybrid working|  Paid on-call | Ongoing Development"
-   ],
-   "categories": [
-    "mobile"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95703895",
-   "first_seen": "2026-11-24T16:07Z"
   },
   {
    "id": "95703482",
@@ -6323,32 +6594,6 @@
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95596128",
    "first_seen": "2026-11-13T08:49Z"
-  },
-  {
-   "id": "95595927",
-   "title": "Senior Software Developer",
-   "company": "RWA People",
-   "location": "Auckland CBD, Auckland",
-   "work_type": "Contract/Temp",
-   "arrangement": "Hybrid",
-   "salary": "",
-   "listed": "2026-10-30T02:53:54Z",
-   "teaser": "Two contract .NET/SQL Developers needed for a well-established tech business. 6-month initial term, strong extension likelihood. January start.",
-   "classification": "Information & Communication Technology / Engineering - Software",
-   "bullets": [
-    "6-month contract, likely extension to 12 months",
-    "Start 11 January 2027 - interviewing now",
-    "Competitive rate"
-   ],
-   "categories": [
-    "server"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95595927",
-   "first_seen": "2026-11-15T14:14Z"
   },
   {
    "id": "95595411",
