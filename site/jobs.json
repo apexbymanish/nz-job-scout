@@ -1,30 +1,66 @@
 {
- "updated": "2026-11-25T09:13Z",
- "count": 295,
+ "updated": "2026-11-25T19:18Z",
+ "count": 294,
  "added": [
-  "95732074",
-  "95732621",
-  "95733080",
-  "95733743",
-  "96105415",
-  "96105454",
-  "96105619",
-  "96106195",
-  "96106231",
-  "96106992",
-  "96107215",
-  "96108250",
-  "96112355",
-  "96113187",
-  "96113875",
-  "96115494",
-  "96115996",
-  "96116003",
-  "96116660",
-  "96117103"
+  "96122550",
+  "96126960"
  ],
- "removed": 9,
+ "removed": 3,
  "jobs": [
+  {
+   "id": "96126960",
+   "title": "Product Engineer - Customer Platforms",
+   "company": "Heartland Bank",
+   "location": "Auckland CBD, Auckland",
+   "work_type": "Full time",
+   "arrangement": "",
+   "salary": "",
+   "listed": "2026-11-25T19:03:05Z",
+   "teaser": "At Heartland, we are looking for a Product Engineer who is as comfortable talking with people about a hard problem as they are building the solution",
+   "classification": "Information & Communication Technology / Engineering - Software",
+   "bullets": [
+    "Career progression",
+    "Great leaders!",
+    "Fast paced environment"
+   ],
+   "categories": [
+    "fintech",
+    "mobile",
+    "server"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": true,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/96126960",
+   "first_seen": "2026-11-25T19:18Z"
+  },
+  {
+   "id": "96122550",
+   "title": "Product Owner Genesys Cloud",
+   "company": "Ministry of Business, Innovation and Employment NZ",
+   "location": "Wellington",
+   "work_type": "Full time",
+   "arrangement": "",
+   "salary": "$118,390-$143,639 + KiwiSaver + Wellness Benefits",
+   "listed": "2026-11-25T10:15:04Z",
+   "teaser": "Play a key role in shaping MBIE's customer experience through the vision, roadmap and growth of the Genesys Cloud platform",
+   "classification": "Information & Communication Technology / Product Management & Development",
+   "bullets": [
+    "Join a collaborative team driving continuous technology improvement.",
+    "Bring your product expertise to a platform with organisation-wide impact",
+    "Partner across teams to deliver innovative, customer-focused outcomes."
+   ],
+   "categories": [
+    "product"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/96122550",
+   "first_seen": "2026-11-25T19:18Z"
+  },
   {
    "id": "96117103",
    "title": "Platform Engineer - Operational Technology",
@@ -885,6 +921,7 @@
     "Purpose-driven department, real impact for New Zealand"
    ],
    "categories": [
+    "fintech",
     "server"
    ],
    "inz": "unchecked",
@@ -5400,7 +5437,8 @@
     "Join an innovative company built on trust, learning and making meaningful impact"
    ],
    "categories": [
-    "mobile"
+    "mobile",
+    "server"
    ],
    "inz": "accredited",
    "inz_name": "PROPELLERHEAD LIMITED",
@@ -7058,54 +7096,6 @@
    "first_seen": "2026-11-14T15:56Z"
   },
   {
-   "id": "95572151",
-   "title": "Senior AI Software Engineer | Salary $200k neg + equity",
-   "company": "Enterprise Technology Recruitment",
-   "location": "Auckland CBD, Auckland",
-   "work_type": "Full time",
-   "arrangement": "",
-   "salary": "$180,000 – $200,000 per year",
-   "listed": "2026-10-29T03:53:51Z",
-   "teaser": "Build a next-generation data platform from the ground up. Combine enterprise software engineering with AI in this exciting greenfield opportunity.",
-   "classification": "Information & Communication Technology / Developers/Programmers",
-   "bullets": [],
-   "categories": [
-    "server"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95572151",
-   "first_seen": "2026-11-16T03:12Z"
-  },
-  {
-   "id": "95569178",
-   "title": "Test Engineer",
-   "company": "FindIT Recruitment",
-   "location": "Wellington Central, Wellington",
-   "work_type": "Contract/Temp",
-   "arrangement": "Hybrid",
-   "salary": "",
-   "listed": "2026-10-29T02:41:18Z",
-   "teaser": "Join a collaborative technology team delivering quality solutions through automation, API and end-to-end testing.",
-   "classification": "Information & Communication Technology / Testing & Quality Assurance",
-   "bullets": [
-    "Hands-on automation testing across complex applications and integrations",
-    "Strong focus on API, E2E testing and building automation frameworks",
-    "- Wellington-based contract opportunity in a collaborative technical team"
-   ],
-   "categories": [
-    "server"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95569178",
-   "first_seen": "2026-11-14T02:36Z"
-  },
-  {
    "id": "95566263",
    "title": "Lead iOS Engineer",
    "company": "Halter",
@@ -7499,32 +7489,6 @@
    "visa_mention": false,
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95506655",
-   "first_seen": "2026-11-13T08:41Z"
-  },
-  {
-   "id": "95506122",
-   "title": "Senior Front End Developer",
-   "company": "Ticketure New Zealand Limited",
-   "location": "Wellington Central, Wellington",
-   "work_type": "Full time",
-   "arrangement": "Remote",
-   "salary": "",
-   "listed": "2026-10-26T18:07:56Z",
-   "teaser": "Senior TypeScript/Vue engineer in NZ who owns problems, communicates clearly, makes smart trade-offs, and is curious about AI-assisted development.",
-   "classification": "Information & Communication Technology / Engineering - Software",
-   "bullets": [
-    "Your code reaches tens of millions of people the same day you ship it.",
-    "Own problems end to end, shaping the product with Product and Design.",
-    "Shape how a modern engineering team builds with AI, from anywhere in NZ."
-   ],
-   "categories": [
-    "mobile"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95506122",
    "first_seen": "2026-11-13T08:41Z"
   }
  ]
