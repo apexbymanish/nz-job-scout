@@ -1,16 +1,14 @@
 {
- "updated": "2026-11-26T11:16Z",
- "count": 280,
+ "updated": "2026-11-26T20:22Z",
+ "count": 282,
  "added": [
-  "94904572",
-  "96135613",
-  "96137500",
-  "96138014",
-  "96138615",
-  "96138896",
-  "96139092"
+  "95651665",
+  "95732621",
+  "95763580",
+  "95763952",
+  "95795349"
  ],
- "removed": 20,
+ "removed": 3,
  "jobs": [
   {
    "id": "94904572",
@@ -2997,7 +2995,6 @@
     "Diverse and Challenging work"
    ],
    "categories": [
-    "fintech",
     "server"
    ],
    "inz": "unchecked",
@@ -4607,6 +4604,32 @@
    "first_seen": "2026-11-13T08:41Z"
   },
   {
+   "id": "95795349",
+   "title": "Product Manager",
+   "company": "Platinum Recruitment",
+   "location": "Dunedin Central, Otago",
+   "work_type": "Full time",
+   "arrangement": "",
+   "salary": "",
+   "listed": "2026-11-10T02:56:02Z",
+   "teaser": "Drive product innovation, shape customer-focused solutions, and bridge business strategy with technical delivery",
+   "classification": "Information & Communication Technology / Product Management & Development",
+   "bullets": [
+    "Flexible, collaborative environment that values your time and wellbeing",
+    "Competitive salary recognising expertise, leadership, and strategic contribution",
+    "Join a globally connected team and work with senior leaders to drive innovation"
+   ],
+   "categories": [
+    "product"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95795349",
+   "first_seen": "2026-11-26T20:22Z"
+  },
+  {
    "id": "95794218",
    "title": "Technical Product Manager, Core + Integrations",
    "company": "APLY Limited",
@@ -4994,6 +5017,32 @@
    "first_seen": "2026-11-13T08:41Z"
   },
   {
+   "id": "95763952",
+   "title": "System Test Engineer",
+   "company": "Younity",
+   "location": "Wellington",
+   "work_type": "Contract/Temp",
+   "arrangement": "Hybrid",
+   "salary": "",
+   "listed": "2026-11-08T21:00:44Z",
+   "teaser": "We are on a hunt for a System Test Engineer with strong Python development skills",
+   "classification": "Information & Communication Technology / Testing & Quality Assurance",
+   "bullets": [
+    "12 months Fixed Term role - with potential to be converted to perm role",
+    "Based in Lower Hutt, Wellington",
+    "Flexible work environment"
+   ],
+   "categories": [
+    "server"
+   ],
+   "inz": "not found",
+   "inz_name": "No results",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95763952",
+   "first_seen": "2026-11-26T20:22Z"
+  },
+  {
    "id": "95763615",
    "title": "Solutions Design Engineer - Clinical Applications",
    "company": "Convergence Partners",
@@ -5018,6 +5067,32 @@
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95763615",
    "first_seen": "2026-11-13T08:49Z"
+  },
+  {
+   "id": "95763580",
+   "title": "Senior Business Platforms & AI Specialist",
+   "company": "Placemakers",
+   "location": "Penrose, Auckland",
+   "work_type": "Full time",
+   "arrangement": "",
+   "salary": "",
+   "listed": "2026-11-08T18:50:54Z",
+   "teaser": "Shape how Distribution works, not just how its systems run. Own key platforms and turn AI and automation into practical business improvements.",
+   "classification": "Information & Communication Technology / Business/Systems Analysts",
+   "bullets": [
+    "Attractive Remuneration + Work Life Balance + Benefits for you & your Family",
+    "Great Career Progression Opportunities + Ongoing Training+ Inclusive Environment",
+    "Employee Education Fund + Discounted Goods & Services + EAP"
+   ],
+   "categories": [
+    "fintech"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95763580",
+   "first_seen": "2026-11-26T20:22Z"
   },
   {
    "id": "95760924",
@@ -5274,6 +5349,32 @@
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95733080",
    "first_seen": "2026-11-25T09:13Z"
+  },
+  {
+   "id": "95732621",
+   "title": "Data Engineer",
+   "company": "Amplifon",
+   "location": "Takapuna, Auckland",
+   "work_type": "Full time",
+   "arrangement": "",
+   "salary": "",
+   "listed": "2026-11-06T01:25:18Z",
+   "teaser": "Develop your data engineering skills in a global organisation that helps people reconnect with sound.",
+   "classification": "Information & Communication Technology / Engineering - Software",
+   "bullets": [
+    "12-month opportunity to grow your data engineering expertise.",
+    "Gain hands-on experience across reporting, integrations and analytics.",
+    "Join a supportive team within a purpose-driven global organisation."
+   ],
+   "categories": [
+    "mobile"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95732621",
+   "first_seen": "2026-11-26T20:22Z"
   },
   {
    "id": "95732593",
@@ -6198,6 +6299,33 @@
    "first_seen": "2026-11-19T01:30Z"
   },
   {
+   "id": "95651665",
+   "title": "Platform Lead - Enterprise",
+   "company": "Evolve Recruitment Group",
+   "location": "Auckland",
+   "work_type": "Full time",
+   "arrangement": "Hybrid",
+   "salary": "",
+   "listed": "2026-11-03T01:21:17Z",
+   "teaser": "Own the enterprise platforms for the NZ Super Fund - named the world's best-performing sovereign wealth fund over 20 years",
+   "classification": "Information & Communication Technology / Other",
+   "bullets": [
+    "Platform ownership role across investment tools, enterprise business application",
+    "Excellent team and culture; brand new Auckland CBD office",
+    "Set direction and lead a team of Platform Engineers"
+   ],
+   "categories": [
+    "fintech",
+    "server"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95651665",
+   "first_seen": "2026-11-26T20:22Z"
+  },
+  {
    "id": "95648747",
    "title": "Software Engineer",
    "company": "Hays Recruitment",
@@ -6341,7 +6469,6 @@
    "classification": "Information & Communication Technology / Database Development & Administration",
    "bullets": [],
    "categories": [
-    "mobile",
     "server"
    ],
    "inz": "unchecked",
@@ -6531,32 +6658,6 @@
    "visa_mention": false,
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95619532",
-   "first_seen": "2026-11-15T14:14Z"
-  },
-  {
-   "id": "95612890",
-   "title": "Senior AI Software Engineer",
-   "company": "Sunstone Talent",
-   "location": "Christchurch Central, Canterbury",
-   "work_type": "Full time",
-   "arrangement": "Hybrid",
-   "salary": "$140k-$180k+ModOffices+Flexible/2daysWFH+Park",
-   "listed": "2026-10-30T15:16:09Z",
-   "teaser": "An interesting client seeks a Senior AI Software Engineer to work on applying modern AI tooling to enhance software features & functionality :-)",
-   "classification": "Information & Communication Technology / Engineering - Software",
-   "bullets": [
-    "Do you enjoy tackling 3D & spatial simulation problems? Vectors?",
-    "Love working with maths to solve complex problems building a product?",
-    "Join a friendly, supportive team working on an epic software product?"
-   ],
-   "categories": [
-    "server"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95612890",
    "first_seen": "2026-11-15T14:14Z"
   },
   {
@@ -7093,54 +7194,6 @@
    "visa_mention": false,
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95532206",
-   "first_seen": "2026-11-13T08:41Z"
-  },
-  {
-   "id": "95532182",
-   "title": "Product Designer",
-   "company": "Seequent",
-   "location": "Christchurch, Canterbury",
-   "work_type": "Full time",
-   "arrangement": "Hybrid",
-   "salary": "",
-   "listed": "2026-10-27T20:18:00Z",
-   "teaser": "As a Product Designer II, you will be an integral part of a team directly connected to our customers",
-   "classification": "Design & Architecture / Web & Interaction Design",
-   "bullets": [],
-   "categories": [
-    "uiux"
-   ],
-   "inz": "accredited",
-   "inz_name": "SEEQUENT ULC",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95532182",
-   "first_seen": "2026-11-13T08:49Z"
-  },
-  {
-   "id": "95531578",
-   "title": "Senior Fullstack Engineer (React/Typescript for AI company)",
-   "company": "Sunstone Talent",
-   "location": "Christchurch Central, Canterbury",
-   "work_type": "Full time",
-   "arrangement": "Hybrid",
-   "salary": "$200k-$220k+ModernOffices+Flexible+Shares",
-   "listed": "2026-10-27T17:14:57Z",
-   "teaser": "An exciting growing SaaS / AI company is looking for a Senior Fullstack Engineer to join their modern, growing scale-up company contact Paul today :-)",
-   "classification": "Information & Communication Technology / Engineering - Software",
-   "bullets": [
-    "Love working in React, TypeScript, JavaScript? Develop SaaS / AI products?",
-    "You'll love front end web development but also like backend challenges",
-    "Work on building leading edge SaaS / AI products that help people :-)"
-   ],
-   "categories": [
-    "server"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95531578",
    "first_seen": "2026-11-13T08:41Z"
   }
  ]
