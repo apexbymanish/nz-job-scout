@@ -1,18 +1,41 @@
 {
- "updated": "2026-11-28T03:26Z",
- "count": 279,
+ "updated": "2026-11-28T12:07Z",
+ "count": 283,
  "added": [
-  "95652049",
-  "95776109",
-  "95787335",
-  "95814238",
-  "95843227",
-  "95942278",
-  "95962836",
-  "96178288"
+  "95770590",
+  "95788683",
+  "95793647",
+  "96008698",
+  "96180591"
  ],
- "removed": 9,
+ "removed": 1,
  "jobs": [
+  {
+   "id": "96180591",
+   "title": "Unity Developer (C#) | 3D Leadership Simulation - Hybrid",
+   "company": "Bright Teams",
+   "location": "Auckland CBD, Auckland",
+   "work_type": "Contract/Temp",
+   "arrangement": "Hybrid",
+   "salary": "$45 – $50 per hour",
+   "listed": "2026-11-28T05:01:29Z",
+   "teaser": "Scaling start up.  Unity developer with complex .Net coding. Work directly with our technical co-founder on Cognaflex our 3D leadership simulation",
+   "classification": "Information & Communication Technology / Developers/Programmers",
+   "bullets": [
+    "Work with exciting Ai tooling - text to speech and video",
+    "Well established family business that supports leaders in the workplace",
+    "Enjoyable collaboration environment"
+   ],
+   "categories": [
+    "server"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/96180591",
+   "first_seen": "2026-11-28T12:07Z"
+  },
   {
    "id": "96178288",
    "title": "DevOps Engineer / Azure / Fully Remote",
@@ -2769,6 +2792,32 @@
    "first_seen": "2026-11-20T00:49Z"
   },
   {
+   "id": "96008698",
+   "title": "CONTRACT - MuleSoft Technical Lead",
+   "company": "Datacom",
+   "location": "Auckland CBD, Auckland",
+   "work_type": "Full time",
+   "arrangement": "",
+   "salary": "",
+   "listed": "2026-11-20T00:27:44Z",
+   "teaser": "Lead MuleSoft integrations on a large-scale enterprise programme. Hands-on technical leadership role starting January 2027.",
+   "classification": "Information & Communication Technology / Team Leaders",
+   "bullets": [
+    "Flexible Work Arrangements and Work From Home",
+    "Make your mark at one of ANZ's largest and most complex technology businesses",
+    "Grow in a flexible, people-first culture with real career development"
+   ],
+   "categories": [
+    "server"
+   ],
+   "inz": "accredited",
+   "inz_name": "DATACOM NEW ZEALAND LIMITED (+4 other Datacom entities)",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/96008698",
+   "first_seen": "2026-11-28T12:07Z"
+  },
+  {
    "id": "96008543",
    "title": "AI Enablement Lead",
    "company": "iPayroll",
@@ -4724,6 +4773,32 @@
    "first_seen": "2026-11-13T08:49Z"
   },
   {
+   "id": "95793647",
+   "title": "Data Engineer (Databricks)",
+   "company": "Talent Army",
+   "location": "Auckland",
+   "work_type": "Full time",
+   "arrangement": "Hybrid",
+   "salary": "",
+   "listed": "2026-11-10T02:15:57Z",
+   "teaser": "Modernise a global proptech's data platform on Azure Databricks, building robust pipelines and helping take AI use cases into production.",
+   "classification": "Information & Communication Technology / Developers/Programmers",
+   "bullets": [
+    "Lead key parts of a Databricks Lakehouse modernisation programme",
+    "Prepare the data behind ML models and AI agents heading into production",
+    "Hybrid - Based in Auckland (preferred) or Wellington"
+   ],
+   "categories": [
+    "server"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95793647",
+   "first_seen": "2026-11-28T12:07Z"
+  },
+  {
    "id": "95791684",
    "title": "Senior/Lead Software Engineer (Embedded C++)",
    "company": "Caterpillar",
@@ -4749,6 +4824,32 @@
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95791684",
    "first_seen": "2026-11-13T08:41Z"
+  },
+  {
+   "id": "95788683",
+   "title": "Senior Performance Engineer",
+   "company": "Assurity Consulting",
+   "location": "Wellington Central, Wellington",
+   "work_type": "Full time",
+   "arrangement": "Hybrid",
+   "salary": "",
+   "listed": "2026-11-09T23:21:34Z",
+   "teaser": "The Post Gold Awards - Employer of the Year 2026 Finalist",
+   "classification": "Information & Communication Technology / Testing & Quality Assurance",
+   "bullets": [
+    "We are growing!",
+    "Join us in the new year",
+    "Enjoy a variety of work"
+   ],
+   "categories": [
+    "server"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95788683",
+   "first_seen": "2026-11-28T12:07Z"
   },
   {
    "id": "95787335",
@@ -5039,6 +5140,28 @@
    "first_seen": "2026-11-13T08:41Z"
   },
   {
+   "id": "95770590",
+   "title": "Senior Product Manager",
+   "company": "Narrative",
+   "location": "Auckland CBD, Auckland",
+   "work_type": "Full time",
+   "arrangement": "Hybrid",
+   "salary": "",
+   "listed": "2026-11-09T02:19:07Z",
+   "teaser": "Build and ship high-quality features for Narrative’s core products, collaborating across teams while growing autonomy, technical depth, and impact.",
+   "classification": "Information & Communication Technology / Product Management & Development",
+   "bullets": [],
+   "categories": [
+    "product"
+   ],
+   "inz": "unchecked",
+   "inz_name": "",
+   "visa_mention": false,
+   "visa_negative": false,
+   "url": "https://www.seek.co.nz/job/95770590",
+   "first_seen": "2026-11-28T12:07Z"
+  },
+  {
    "id": "95770592",
    "title": "Data Lead",
    "company": "Absolute IT",
@@ -5107,6 +5230,7 @@
     "Make practical improvements to platform stability, releases and support processe"
    ],
    "categories": [
+    "fintech",
     "mobile"
    ],
    "inz": "unchecked",
@@ -6523,8 +6647,7 @@
     "Competitive Remuneration"
    ],
    "categories": [
-    "mobile",
-    "server"
+    "mobile"
    ],
    "inz": "unchecked",
    "inz_name": "",
@@ -7103,28 +7226,6 @@
    "visa_negative": false,
    "url": "https://www.seek.co.nz/job/95588082",
    "first_seen": "2026-11-15T19:48Z"
-  },
-  {
-   "id": "95573619",
-   "title": "Software Engineer",
-   "company": "You & Me Consulting Service Limited",
-   "location": "Saint Johns, Auckland",
-   "work_type": "Full time",
-   "arrangement": "",
-   "salary": "",
-   "listed": "2026-10-29T04:46:35Z",
-   "teaser": "We are seeking a skilled Software Engineer to join our technical team.",
-   "classification": "Information & Communication Technology / Engineering - Software",
-   "bullets": [],
-   "categories": [
-    "mobile"
-   ],
-   "inz": "unchecked",
-   "inz_name": "",
-   "visa_mention": false,
-   "visa_negative": false,
-   "url": "https://www.seek.co.nz/job/95573619",
-   "first_seen": "2026-11-14T15:56Z"
   }
  ]
 }
